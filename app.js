@@ -481,18 +481,18 @@
   function renderCards(animate = false) {
     const reversed = prefs.wardrobeOrders[wardrobe.id] === 'reverse';
     $('wardrobeOrder').setAttribute('aria-pressed', String(reversed));
-    $('wardrobeOrder').setAttribute('aria-label', `${wardrobe.name}排列：${reversed ? 'Reverse' : 'Forward'}，Click to switch to ${reversed ? 'Forward' : 'Reverse'}`);
-    $('wardrobeOrder').title = `${reversed ? 'Reverse' : 'Forward'}排列 · 点击切换，Unavailable始终置底`;
+    $('wardrobeOrder').setAttribute('aria-label', `${wardrobe.name} order: ${reversed ? 'Reverse' : 'Forward'} · Click to switch to ${reversed ? 'Forward' : 'Reverse'}`);
+    $('wardrobeOrder').title = `${reversed ? 'Reverse' : 'Forward'}order · Click to switch; unavailable outfits stay at the bottom`;
     $('wardrobeOrderLabel').textContent = reversed ? 'Reverse' : 'Forward';
     $('looks').innerHTML = CHAPTERS[page].looks.map(i => {
       const look = LOOKS[i];
       const locked = !isPlayable(i);
       const thumb = `thumb-${look.id}`;
       const companionCover = !locked && look.companion ? '<span class="companion-art" aria-hidden="true"><span class="companion-seal"><svg viewBox="0 0 24 12"><path d="M12 6C9 1 6 1 4 2S1 5 2 8s5 3 8-1l4-3c3-4 7-3 8 0s-1 6-4 6-5-3-6-4Z"/></svg></span><span class="companion-sign">Moving Companion</span></span>' : '';
-      return `<div class="look-card${companionCover ? ' companion-card' : ''}${locked ? ' is-locked' + (look.blurLocked ? ' blur-cover' : '') : ''}" data-look="${i}"><button class="look-select" data-select="${i}" ${companionCover ? 'aria-description="点击后自动开启Moving Companion"' : ''} aria-label="${locked ? look.name + '，Private，Unavailable' : 'Select ' + look.name + '，play entrance'}" ${locked ? 'aria-disabled="true"' : 'aria-pressed="false"'}><div class="look-image"><img src="images/${thumb}.jpg" alt="${look.name}${locked ? 'blurred cover' : 'outfit cover'}" draggable="false"><span class="look-index">${displayNumber(i)}</span>${locked ? '<span class="lock-veil"><svg><use href="#i-lock"/></svg><span>' + 'Unavailable' + '</span></span>' : '<span class="look-check"><svg><use href="#i-check"/></svg></span>'}${companionCover}</div></button><div class="look-bottom"><span class="look-short">${look.short}</span>${locked ? '' : '<button class="favorite-button" data-favorite="' + i + '" aria-label="Favorite' + look.name + '" aria-pressed="false"><svg><use href="#i-heart"/></svg></button>'}</div></div>`;
+      return `<div class="look-card${companionCover ? ' companion-card' : ''}${locked ? ' is-locked' + (look.blurLocked ? ' blur-cover' : '') : ''}" data-look="${i}"><button class="look-select" data-select="${i}" ${companionCover ? 'aria-description="Selecting this automatically enables Moving Companion"' : ''} aria-label="${locked ? look.name + ' · Private · Unavailable' : 'Select ' + look.name + ' · play entrance'}" ${locked ? 'aria-disabled="true"' : 'aria-pressed="false"'}><div class="look-image"><img src="images/${thumb}.jpg" alt="${look.name}${locked ? 'blurred cover' : 'outfit cover'}" draggable="false"><span class="look-index">${displayNumber(i)}</span>${locked ? '<span class="lock-veil"><svg><use href="#i-lock"/></svg><span>' + 'Unavailable' + '</span></span>' : '<span class="look-check"><svg><use href="#i-check"/></svg></span>'}${companionCover}</div></button><div class="look-bottom"><span class="look-short">${look.short}</span>${locked ? '' : '<button class="favorite-button" data-favorite="' + i + '" aria-label="Favorite' + look.name + '" aria-pressed="false"><svg><use href="#i-heart"/></svg></button>'}</div></div>`;
     }).join('');
     $('chapterName').textContent = CHAPTERS[page].name;
-    $('pageTabs').innerHTML = CHAPTERS.map((chapter, i) => `<button data-page="${i}" aria-label="第 ${i + 1} 页，${chapter.name}">${String(i + 1).padStart(2, '0')}</button>`).join('');
+    $('pageTabs').innerHTML = CHAPTERS.map((chapter, i) => `<button data-page="${i}" aria-label="Page ${i + 1}, ${chapter.name}">${String(i + 1).padStart(2, '0')}</button>`).join('');
     document.querySelectorAll('[data-page]').forEach(button => {
       if (Number(button.dataset.page) === page) button.setAttribute('aria-current', 'page');
       else button.removeAttribute('aria-current');
@@ -551,14 +551,14 @@
     const favoritesOnly = randomFavoritesOnly();
     if (!spinning) $('randomText').textContent = favoritesOnly ? 'Choose a Favorite' : 'Surprise Me';
     $('randomHint').textContent = favoritesOnly && count === 1 ? 'Only 1 outfit' : 'Random Outfit';
-    $('randomButton').setAttribute('aria-label', favoritesOnly ? count === 1 ? '本组仅有一套Favorite：' + LOOKS[activeFavorites()[0]].name : `从本组 ${count} 套Favorite中ShuffleSelect ` : '从当前衣橱全部开放穿搭中ShuffleSelect 一套');
-    $('randomScope').textContent = favoritesOnly ? count === 1 ? '本组Only 1 outfitFavorite · 点亮爱心可加入更多' : `仅本组 ${count} 套Favorite · 不连续重复` : `${wardrobe.name} · ${activeAvailable().length} 套穿搭 · 不连续重复`;
+    $('randomButton').setAttribute('aria-label', favoritesOnly ? count === 1 ? 'Only one favorite in this group: ' + LOOKS[activeFavorites()[0]].name : `Shuffle-select from ${count} favorites in this group ` : 'Shuffle-select an available outfit from the current wardrobe');
+    $('randomScope').textContent = favoritesOnly ? count === 1 ? 'Only 1 outfit favorited in this group · Tap hearts to add more' : `Only this group's ${count} favorites · No immediate repeats` : `${wardrobe.name} · ${activeAvailable().length} outfits · No immediate repeats`;
     $('randomFavoriteCount').textContent = count;
     document.querySelectorAll('[data-random-scope]').forEach(button => {
       const favorites = button.dataset.randomScope === 'favorites';
       button.setAttribute('aria-pressed', String(favorites === favoritesOnly));
       button.disabled = favorites && !count;
-      button.title = favorites && !count ? '先点亮本组穿搭旁的爱心' : '';
+      button.title = favorites && !count ? 'Favorite an outfit in this group first' : '';
     });
   }
   function applyPrefs() {
@@ -973,12 +973,12 @@
       : shuffled ? 'No repeats within a round; starts with the next outfit' : 'Follows wardrobe order; starts with the next outfit';
     const localCount = orderFor(wardrobeFor(current)).filter(i => prefs.favorites.includes(i)).length;
     $('favoriteCount').textContent = localCount;
-    $('favoriteModeHint').textContent = localCount ? `${wardrobeFor(current).name} · ${orderText}播放收藏` : 'Favorite an outfit in the currently playing wardrobe first';
+    $('favoriteModeHint').textContent = localCount ? `${wardrobeFor(current).name} · ${orderText}play favorites` : 'Favorite an outfit in the currently playing wardrobe first';
     $('globalFavoriteCount').textContent = prefs.favorites.length;
-    $('globalFavoriteModeHint').textContent = prefs.favorites.length ? `跨越三个衣橱，${orderText}播放收藏` : 'Favorite an outfit in any wardrobe first';
-    $('globalAllModeHint').textContent = `跨越三个衣橱，${orderText}播放开放穿搭`;
+    $('globalFavoriteModeHint').textContent = prefs.favorites.length ? `跨越三个衣橱，${orderText}play favorites` : 'Favorite an outfit in any wardrobe first';
+    $('globalAllModeHint').textContent = `Across all three wardrobes, play available outfits ${orderText}`;
     $('companionModeHint').textContent = companionClip() ? 'Loops the idle animation after the entrance' : 'No looping clip is available for this outfit';
-    $('allModeHint').textContent = `${wardrobeFor(current).name} · ${orderText}完整播放`;
+    $('allModeHint').textContent = `${wardrobeFor(current).name} · play all outfits ${orderText}`;
     document.querySelectorAll('[data-playback]').forEach(option => {
       option.setAttribute('aria-checked', String(option.dataset.playback === prefs.playbackMode));
       option.setAttribute('aria-disabled', String((option.dataset.playback === 'companion' && !companionClip()) || (option.dataset.playback === 'favorites' && !localCount) || (option.dataset.playback === 'global-favorites' && !prefs.favorites.length)));
@@ -1065,7 +1065,7 @@
       else primeLoop();
     }
     if (speak && !LOOKS[current].silent) {
-      const words = {freeze: 'All right, let’s keep this moment you love.', companion: 'I’m right here, keeping you company.', single: 'You like this one that much… then let’s stay with it a little longer.', all: 'Take your time. I’ll show you each outfit, one by one.', favorites: 'I remember every outfit you’ve liked. I’ll show them to you slowly.', 'global-all': 'EnabledCycle All Wardrobes，In Order播放三个衣橱的开放穿搭。', 'global-favorites': 'EnabledFavorites Across All Wardrobes，In Order播放三个衣橱的收藏。'};
+      const words = {freeze: 'All right, let’s keep this moment you love.', companion: 'I’m right here, keeping you company.', single: 'You like this one that much… then let’s stay with it a little longer.', all: 'Take your time. I’ll show you each outfit, one by one.', favorites: 'I remember every outfit you’ve liked. I’ll show them to you slowly.', 'global-all': 'Enabled Cycle All Wardrobes · play available outfits across all three wardrobes in order.', 'global-favorites': 'Enabled Favorites Across All Wardrobes · play favorites across all three wardrobes in order.'};
       const wordsForMode = shuffleCarousel() ? `Enabled${playbackModeLabel()}，No repeats within a round。` : fixedLine(mode, words[mode]);
       toast(wordsForMode, globalMode() || shuffleCarousel() ? 'Playback Mode' : 'She Says');
       if (mode !== 'freeze') setStatus('STAY A LITTLE.', wordsForMode);
@@ -1217,7 +1217,7 @@
       $('curtain').style.backgroundImage = `url("images/${wardrobeFor(current).empty}")`;
       video.muted = !prefs.sound; video.volume = prefs.volume / 100;
       $('still').src = `images/look-${LOOKS[next].id}.jpg`;
-      $('still').alt = LOOKS[next].name + '穿搭推荐Still';
+      $('still').alt = LOOKS[next].name + ' outfit still';
       document.querySelector('.ambient').style.backgroundImage = `url("images/look-${LOOKS[next].id}.jpg")`;
       // Playback updates the selection, never the page a person is browsing.
       updateCards();
@@ -1551,7 +1551,7 @@
   function formatAutoInterval(minutes) {
     if (!minutes) return 'Off';
     const seconds = Math.round(minutes * 60);
-    return seconds % 60 ? `每隔 ${seconds} 秒` : `每隔 ${seconds / 60} 分钟`;
+    return seconds % 60 ? `Every ${seconds} seconds` : `Every ${seconds / 60} minutes`;
   }
   function renderCustomIntervalAction() {
     const value = Number($('customInterval').value);
@@ -1591,11 +1591,11 @@
     $('autoLoopNote').hidden = !disabled;
     const pool = companionMode() ? companionAutoPool() : [];
     $('autoTimingNote').textContent = companionMode()
-      ? !pool.length ? '当前范围没有Moving Companion穿搭，定时换装Paused。可点亮动态款的爱心，或改选「本组全部」。'
-      : pool.length === 1 && pool[0] === current ? '当前范围只有这一套Moving Companion，保持Current Outfit。'
-      : '仅在本组Moving Companion穿搭中换装。Entrance后计时，到点等本轮结束再换；Paused或操作面板时Paused计时。'
-      : hasHeldDeparture() ? '从Still开始计时，停留满所选时长后，先播放离场再换装。'
-      : '从Still开始计时，停留满所选时长再换装。';
+      ? !pool.length ? 'No Moving Companion outfits are available in this range, so timed outfit changes are paused. Favorite a moving outfit or choose “All in this group.”'
+      : pool.length === 1 && pool[0] === current ? 'This is the only Moving Companion outfit in this range, so the current outfit will stay selected.'
+      : 'Changes outfits only among this group’s Moving Companion outfits. The timer starts after the entrance; when it expires, the current cycle finishes before changing. The timer pauses during playback pauses or while the control panel is open.'
+      : hasHeldDeparture() ? 'The timer starts from the still frame. After the selected duration, the exit animation plays before changing outfits.'
+      : 'The timer starts from the still frame and changes outfits after the selected duration.';
     renderCustomIntervalAction();
   }
   function closeCustomInterval() {
@@ -1649,7 +1649,7 @@
     const input = $('customInterval'), value = Number(input.value), max = draftIntervalUnit === 'seconds' ? 3600 : 60;
     if (!Number.isInteger(value) || value < 1 || value > max) {
       input.setAttribute('aria-invalid', 'true');
-      $('autoCustomFeedback').textContent = `请输入 1–${max}  integer${draftIntervalUnit === 'seconds' ? '秒' : '分钟'}。`;
+      $('autoCustomFeedback').textContent = `Enter an integer from 1 to ${max} ${draftIntervalUnit === 'seconds' ? 'seconds' : 'minutes'}.`;
       $('autoCustomFeedback').hidden = false; input.focus(); return;
     }
     setAutoInterval(draftIntervalUnit === 'seconds' ? value / 60 : value, 'custom', draftIntervalUnit);
@@ -1732,7 +1732,7 @@
       $('curtain').style.backgroundImage = `url("images/${wardrobeFor(current).empty}")`;
       video.muted = !prefs.sound; video.volume = prefs.volume / 100;
       $('still').src = `images/look-${LOOKS[next].id}.jpg`;
-      $('still').alt = LOOKS[next].name + '穿搭推荐Still';
+      $('still').alt = LOOKS[next].name + ' outfit still';
       document.querySelector('.ambient').style.backgroundImage = `url("images/look-${LOOKS[next].id}.jpg")`;
       releaseSpare();
       updateCards(); persist(); updateProgress(0);
@@ -1871,7 +1871,7 @@
     phase = 'error';
     video.pause(); video.classList.remove('visible');
     $('still').src = `images/look-${LOOKS[index].id}.jpg`;
-    $('still').alt = LOOKS[index].name + '穿搭推荐Still';
+    $('still').alt = LOOKS[index].name + ' outfit still';
     $('curtain').classList.remove('closed');
     $('loading').hidden = true;
     clearTimeout(loadingTimer);
@@ -1879,7 +1879,7 @@
     setStatus('A LITTLE PAUSE.', 'The video can’t play right now. Click “Retry” below.');
     readyControls(false);
     if (isAutomaticOperation()) scheduleIdleHide();
-    else { toast('视频暂时无法播放，可以点「重试」或Change Outfit。', 'Playback Notice'); activity(true); }
+    else { toast('The video could not be played. Try “Retry” or change the outfit.', 'Playback Notice'); activity(true); }
   }
   async function selectLook(index, { restore = false, entry = 'enter', allowAffection = true, preserveRandom = false, quiet = false, automatic = false, directChoice = false } = {}) {
     if (!isPlayable(index)) { lockedTap(index); return; }
@@ -1916,9 +1916,9 @@
       setStatus(wardrobe.english, LOOKS[index].silent ? '' : companionClip(index) ? LOOKS[index].name : line(index, 'held'));
     }
     if (!globalMode() && changedWardrobe && prefs.wardrobeModes[wardrobe.id] === 'favorites' && !activeFavorites().length) {
-      toast('这个衣橱还没有Favorite，暂用Still Mode。其他衣橱的Playback Mode已保留。', 'Playback Mode');
+      toast('This wardrobe has no favorites, so Still Mode is being used for now. Playback modes in other wardrobes are unchanged.', 'Playback Mode');
     }
-    if (leftGlobalFavorites) toast('这套尚未收藏，已Switch to Still Mode。', 'Playback Mode');
+    if (leftGlobalFavorites) toast('This outfit is not a favorite, so playback has switched to Still Mode.', 'Playback Mode');
     if (page !== pageFor(index)) setPage(pageFor(index), false, !automatic);
     phase = 'loading';
     readyControls(true);
@@ -1939,7 +1939,7 @@
       commitPreparedDeck(incoming, index, task.id);
       releaseSpare();
       $('still').src = `images/look-${LOOKS[index].id}.jpg`;
-      $('still').alt = LOOKS[index].name + '穿搭推荐Still';
+      $('still').alt = LOOKS[index].name + ' outfit still';
       document.querySelector('.ambient').style.backgroundImage = `url("images/look-${LOOKS[index].id}.jpg")`;
       await delay(40);
       if (task.id !== operation) return;
@@ -2000,13 +2000,13 @@
     closeWelcome();
     unlockAudio();
     const pool = randomPool();
-    if (!pool.length) { toast('本组还没有Favorite，点亮穿搭旁的爱心后再来选吧。', 'Shuffle范围'); return; }
+    if (!pool.length) { toast('There are no favorites in this group yet. Tap an outfit’s heart to favorite it, then try again.', 'Shuffle范围'); return; }
     if (pool.length === 1) {
       const selected = pool[0];
       const alreadySelected = selected === current;
       if (!alreadySelected) selectLook(selected, {quiet: true});
       lastChange = Date.now();
-      toast(alreadySelected ? '本组只有这一套Favorite，已经在这里了。点亮其他穿搭的心，就能一起Shuffle。' : '本组只有这一套Favorite，已为你选中。', 'Shuffle范围');
+      toast(alreadySelected ? 'This is the only favorite in this group, and it is already selected. Favorite other outfits to shuffle among them.' : 'This is the only favorite in this group, so it has been selected.', 'Shuffle范围');
       activity(true);
       return;
     }
@@ -2023,7 +2023,7 @@
     }
     if (page !== pageFor(selected)) setPage(pageFor(selected), false);
     $('randomButton').disabled = true;
-    $('randomText').textContent = '心动挑选中';
+    $('randomText').textContent = 'Choosing a favorite';
     body.classList.add('is-spinning'); activity(true); syncTransition();
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const rounds = reduced ? 1 : 12;
@@ -2328,7 +2328,7 @@
         startOperation(); phase = 'playing'; advanceLoop(paused);
       } else primeLoop();
       respond(i, exists ? 'unfavorite' : 'favorite', 'A LITTLE PREFERENCE.');
-      if (emptied) toast(wasGlobal ? '已没有收藏，已回到Still Mode。' : '本组已没有Favorite，已回到Still Mode。', 'Playback Mode');
+      if (emptied) toast(wasGlobal ? 'There are no favorites left, so playback has returned to Still Mode.' : 'This group has no favorites left, so playback has returned to Still Mode.', 'Playback Mode');
   }
   $('looks').addEventListener('click', event => {
     const select = event.target.closest('[data-select]');
@@ -2431,7 +2431,7 @@
   });
   function setSound(enabled) {
     prefs.sound = enabled; applyPrefs(); persist(); unlockAudio(); chime(660, .17);
-    toast(prefs.sound ? (prefs.volume ? 'Sound On。' : 'Sound On，当前音量为 0。') : '声音已Off。', 'Sound Settings');
+    toast(prefs.sound ? (prefs.volume ? 'Sound is on.' : 'Sound is on, but the volume is set to 0.') : 'Sound is off.', 'Sound Settings');
   }
   $('soundButton').addEventListener('click', () => setSound(!prefs.sound));
   $('soundToggle').addEventListener('change', event => setSound(event.target.checked));
@@ -2506,7 +2506,7 @@
   function showRememberedStill() {
     adoptWardrobe(current);
     $('still').src = `images/look-${LOOKS[current].id}.jpg`;
-    $('still').alt = LOOKS[current].name + '穿搭推荐Still';
+    $('still').alt = LOOKS[current].name + ' outfit still';
     document.querySelector('.ambient').style.backgroundImage = `url("images/look-${LOOKS[current].id}.jpg")`;
     renderCards(); updateProgress(freezeTime()); applyPrefs();
     setStatus('MOMENT, KEPT.', companionMode() ? LOOKS[current].name : line(current, 'held'));
@@ -2541,7 +2541,7 @@
   const guide = document.createElement('div');
   guide.className = 'layout-guide'; guide.hidden = true;
   guide.setAttribute('aria-hidden', 'true');
-  guide.innerHTML = '<span>左侧界面对齐线</span>';
+  guide.innerHTML = '<span>Left-side interface alignment guide</span>';
   body.append(guide);
   let savedRatio = 0, draftRatio = 0, offset = 0, editing = false, resizeFrame = 0;
   let savedVertical = 0, draftVertical = 0, verticalOffset = 0;
@@ -2854,14 +2854,14 @@
   status.querySelector('div').append(reply);
   const settingsLayout = element('section', 'layout-preference', '<div class="setting-line"><label>Interface Layout</label><output id="layoutValueLabel">Compact Layout</output></div><div class="setting-options" id="layoutChoices"><button type="button" data-interface="normal">Classic Layout</button><button type="button" data-interface="island">Compact Layout</button></div>');
   $('settingsBody').querySelector('.panel-subtitle').after(settingsLayout);
-  const positionNote = element('p', 'island-position-note', 'Compact Layout固定在右下方，衣橱Up展开。切回Classic Layout后，可继续调整左列与播放栏的位置。');
+  const positionNote = element('p', 'island-position-note', 'Compact Layout is fixed to the bottom-right, with the wardrobe expanded upward. Switch back to Classic Layout to adjust the position of the left column and playback bar.');
   $('layoutControls').after(positionNote);
   // Wallpaper hosts may forward clicks but not wheel/drag gestures. Keep page
   // navigation outside the scrolling content so every setting stays reachable.
   function installPager(container, scrollers, prefix, hint, enabled = () => true) {
     const pager = element('nav', 'overflow-pager', `<button id="${prefix}PageUp" type="button">${svg('chevron')}<span>Up</span></button><span id="${prefix}PageHint">${hint}</span><button id="${prefix}PageDown" type="button"><span>Down</span>${svg('chevron')}</button>`);
     pager.id = prefix + 'Pager'; pager.hidden = true;
-    pager.setAttribute('aria-label', hint + '翻页'); container.append(pager);
+    pager.setAttribute('aria-label', hint + ' · next page'); container.append(pager);
     let frame = 0;
     const active = () => scrollers.find(node => !node.hidden);
     function update() {
