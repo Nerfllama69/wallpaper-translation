@@ -972,7 +972,7 @@ window.PURPLE_LOOKS = Object.freeze([
         "I’m getting hungry. Once I’m dressed, I want to ask you what we should eat."
       ],
       "restored": [
-        "我想在你这儿多待一会儿，晚点再回去。"
+        "I want to stay here with you a little longer and head home later."
       ]
     }
   },
@@ -1728,18 +1728,18 @@ window.PURPLE_LOOKS = Object.freeze([
         "It would be nice to stay home with you today, wouldn’t it?",
         "We could sit close together and talk about whatever comes to mind.",
         "It’s just me, who really wanted to see you. Will you have me?",
-        "后来又觉得，在你面前这样也挺好。"
+        "Then I realized I like being this way in front of you, too."
       ],
       "restored": [
-        "嗯，正适合说点闲话。我现在也没那么勤快。",
-        "陪我坐着就很好啦，不一定要安排什么。",
-        "现在想聊聊小事，认真事就先放一放吧。"
+        "Mm, this is perfect for casual chatting. I’m not feeling very energetic right now.",
+        "Just sit with me. We don’t have to plan anything.",
+        "I feel like talking about little things now. Let’s set serious matters aside for a bit."
       ],
       "random": [
-        "把这件开衫也披上，才是我喜欢的样子。",
-        "开衫也不系上了，这样松松地披着就好。",
-        "这一身不用想太多，怎么搭我都喜欢。",
-        "浅浅的杏色，看着就想坐下来歇歇。"
+        "Throwing this cardigan over it makes it just the way I like.",
+        "I won’t button the cardigan, either. I like it loosely draped like this.",
+        "I don’t have to think too hard about this outfit. I like it however I style it.",
+        "This soft apricot shade makes me want to sit down and rest."
       ]
     },
     "duration": 20.333333333333332,
@@ -1759,115 +1759,115 @@ window.PURPLE_LOOKS = Object.freeze([
 ].map(look => Object.freeze({...look,dialogue:Object.freeze(look.dialogue)})));
 window.PURPLE_REPLIES = Object.freeze({
   "favorite": [
-    "这颗心亮起来的时候，我还以为是自己眼花了。",
-    "我还在犹豫呢，你倒替我先肯定了。",
-    "原来，藏不住心事的人不止我一个。",
-    "这一下，我会悄悄高兴一阵子。",
-    "嗯，记住你的偏心了。",
-    "（忍不住笑了）原来你喜欢这个呀。我记下了。",
-    "（声音渐轻，嘴角却扬起来）被你特意留下来……是会开心的。",
-    "（笑意里有点小得意）嗯，这回选得不错。",
-    "（眼里闪过笑意）原来我们喜欢的是同一套。",
-    "（轻轻抿唇，还是笑了）这下想装作不在意，也装不像了。",
-    "（半开玩笑）那我下次挑衣服，可要参考你的眼光了。"
+    "When that heart lit up, I thought my eyes were playing tricks on me.",
+    "I was still hesitating, and you went ahead and reassured me.",
+    "So I’m not the only one who can’t hide their feelings.",
+    "I’m going to be secretly happy about this for a while.",
+    "Mm, I’ll remember that you favor me.",
+    "(She can’t help laughing) So this is what you like. I’ll remember that.",
+    "(Her voice softens, but her lips curl into a smile) Being chosen by you on purpose… makes me happy.",
+    "(A hint of pride in her smile) Mm, you made a good choice this time.",
+    "(Amusement flickers in her eyes) So we like the same outfit.",
+    "(She presses her lips together, but still smiles) Now I can’t even pretend I don’t care.",
+    "(Half-joking) I’ll have to take your taste into account when I choose clothes next time."
   ],
   "unfavorite": [
-    "看来，你心里还有别的备选。",
-    "嗯，随你今天的心情。",
-    "我也有选好了，又想重新挑的时候。",
-    "（轻轻点头）好，那先放回去。",
-    "（随和地笑笑）也对，还有好多没试过呢。",
-    "（语气轻松）没关系，衣橱又不会跑掉。",
-    "（爽快地点头）换个主意也好呀。",
-    "（语气随和）先看看别的，说不定更合心意。",
-    "（笑着摆摆手）挑衣服嘛，本来就可以反复犹豫。"
+    "Looks like you have another option in mind.",
+    "Mm, whatever suits your mood today.",
+    "Sometimes I choose something, then want to pick all over again, too.",
+    "(She nods gently) All right, let’s put it back for now.",
+    "(She smiles easily) True, there are still lots of things we haven’t tried.",
+    "(Her tone is relaxed) It’s fine. The wardrobe isn’t going anywhere.",
+    "(She nods readily) Changing your mind can be good, too.",
+    "(Her tone is easygoing) Let’s look at something else first. You might like it more.",
+    "(She waves with a smile) Choosing clothes is exactly the sort of thing you can go back and forth on."
   ],
   "replay": [
-    "好，那你再迎接我一次吧。",
-    "好，再走过来陪你一次。",
-    "嗯，这一次也认真给你看。",
-    "你愿意再看，我就愿意再来一次。",
-    "（抿着笑，微微歪头）刚才那遍，不算数呀？",
-    "（轻笑一声）好吧，谁让你还想看呢。",
-    "（有些害羞，又忍不住笑）再来一遍，我反而有点不好意思了。",
-    "（故意一本正经）可以。不过夸奖也要重新来一遍。",
-    "（有点好奇）刚才是不是没看清？这次可别错过了。",
-    "（笑意渐深）你这么捧场，我会忍不住当真的。"
+    "All right, then welcome me one more time.",
+    "Okay, I’ll walk over and keep you company again.",
+    "Mm, I’ll make sure you get a good look this time, too.",
+    "If you want to see me again, I’m happy to come back again.",
+    "(She smiles and tilts her head) The last time didn’t count?",
+    "(She chuckles) All right, since you still want to see me.",
+    "(A little shy, she can’t help smiling) Doing it again is somehow even more embarrassing.",
+    "(She puts on a serious face) Sure. But you have to give me a fresh compliment, too.",
+    "(A little curious) Did you not get a good look just now? Don’t miss it this time.",
+    "(Her smile deepens) If you encourage me this much, I might start believing it."
   ],
   "pause": [
-    "想多看一下这里？那我先不动。",
-    "还没走到你面前呢，就这么着急把我留下呀。",
-    "我先不问，让你把这一眼看完。",
-    "连动作都能被你叫住，我是不是太听话了？",
-    "（轻轻眨了下眼）咦，停在这里了。",
-    "（声音温柔）想慢慢看也可以。",
-    "（带着笑意，稍稍放轻声音）这么会挑时候呀。",
-    "（轻声应着）好，等你。",
-    "（语气里有些好奇）这一秒，有什么特别的吗？",
-    "（声音慢下来）就借这一小会儿，和你待着。"
+    "Want to look at this part a little longer? I’ll stay still.",
+    "I haven’t even reached you yet, and you’re already eager to keep me here.",
+    "I won’t ask anything yet. Take your time looking.",
+    "You can even stop me mid-motion. Am I too obedient?",
+    "(She blinks softly) Oh, we’ve stopped here.",
+    "(Her voice is gentle) It’s okay to take your time looking.",
+    "(She smiles, lowering her voice slightly) You have such good timing.",
+    "(She answers softly) All right, I’ll wait.",
+    "(A little curious) Is there something special about this moment?",
+    "(Her voice slows) Let me spend this little moment with you."
   ],
   "resume": [
-    "刚才还在想，你会不会再多留我一秒。",
-    "呼……刚才差点把呼吸也跟着停住了。",
-    "那你接着看，我不着急。",
-    "（轻快地应了一声）嗯，接着来。",
-    "（笑着打趣）可算轮到我继续了。",
-    "（轻声应下）好，再陪你看一段。",
-    "（轻轻点头）那，我继续咯。",
-    "（笑着提醒）还有后面呢，别错过了。",
-    "（带点俏皮）好了，这回让我好好走完。"
+    "I was just wondering whether you’d keep me here for one more second.",
+    "Phew… I almost stopped breathing just then.",
+    "Go ahead and keep looking. I’m not in a hurry.",
+    "(She answers brightly) Mm, let’s keep going.",
+    "(She teases with a smile) Finally, it’s my turn to continue.",
+    "(She answers softly) All right, I’ll let you watch a little longer.",
+    "(She nods gently) Then I’ll carry on.",
+    "(She reminds you with a smile) There’s more coming, don’t miss it.",
+    "(A little playful) All right, let me finish the walk properly this time."
   ],
   "edit": [
-    "有时候，你挑的比我自己挑的还像我。",
-    "要不要试试，留一个平时容易错过的表情？",
-    "你喜欢的那一眼，我也想记住。",
-    "（语气透着好奇）让我也看看，你会选哪里。",
-    "（含笑点头）这次听你的，我不偷偷改。",
-    "（微微歪头，带点撒娇）可要把我挑得好看一点呀。",
-    "（忍着笑）先说好，奇怪的表情可不许留。",
-    "（语气认真）哪一秒让你想多看一会儿，就留哪一秒。",
-    "（轻轻托着脸）选好再告诉我，我先不出主意。"
+    "Sometimes your choices feel more like me than my own choices do.",
+    "Want to save an expression you might usually miss?",
+    "I want to remember the look you like, too.",
+    "(Her voice is curious) Let me see what you’ll choose.",
+    "(She nods with a smile) I’ll trust your choice this time. I won’t secretly change it.",
+    "(She tilts her head, sounding a little playful) Just make sure you choose a pretty one for me.",
+    "(Holding back a laugh) But no saving any weird expressions, okay?",
+    "(Her tone is sincere) Save whichever moment makes you want to look a little longer.",
+    "(She rests her cheek in her hand) Tell me once you’ve chosen. I won’t give suggestions yet."
   ],
   "saved": [
-    "原来，你想留住的是这一秒。",
-    "好，那就让我这样陪着你。",
-    "被你认真挑过，好像这一刻也特别了一点。",
-    "这一张，就留给你了。",
-    "（满意地笑了）就这一刻了。嗯，我也喜欢。",
-    "（轻声确认）记好了，下次还停在这里。",
-    "（微微一怔，眼神柔和下来）原来，你喜欢这样的我。",
-    "（有些意外，随即笑了）这一刻呀，我自己倒没留意。",
-    "（轻快地应下）收好了，可别又舍不得看。",
-    "（稍稍垂眼）被你这么挑中，忽然有点不敢乱动了。"
+    "So this is the moment you wanted to keep.",
+    "All right, then I’ll stay with you like this.",
+    "Having you choose so carefully makes this moment feel a little more special.",
+    "I’ll leave this one for you.",
+    "(She smiles with satisfaction) This is the moment. Mm, I like it, too.",
+    "(She confirms softly) Remember this one. Stop here again next time.",
+    "(She pauses, her gaze softening) So this is the side of me you like.",
+    "(A little surprised, she then smiles) I hadn’t even noticed this moment myself.",
+    "(She answers brightly) Saved. Don’t be too shy to look at it again.",
+    "(She lowers her eyes slightly) Now that you’ve chosen me like this, I’m suddenly afraid to move."
   ],
   "cancel": [
-    "没挑好也没关系，先陪我待会儿。",
-    "好呀，这次只看看，也不算白来。",
-    "不急，下次有心情再慢慢挑。",
-    "（放松地点点头）好，还是原来那样。",
-    "（随口提议）先不挑了，歇一会儿吧。",
-    "（轻快地笑了笑）那这道难题，留给下次。",
-    "（自然地应声）刚才的选择先留着，没动它。",
-    "（笑着松了口气）你不选，我也不用跟着纠结了。",
-    "（语气柔和）也好，好看的时候又不止一秒。"
+    "It’s okay if you haven’t chosen. Stay with me for a while first.",
+    "Sure. Just looking this time still counts for something.",
+    "No rush. We can take our time choosing when you’re in the mood next time.",
+    "(She nods in relief) All right, let’s keep it as it was.",
+    "(She suggests casually) Let’s stop choosing for now and take a break.",
+    "(She laughs brightly) Let’s leave this difficult decision for next time.",
+    "(She answers naturally) I’ll keep the previous choice as it was.",
+    "(She smiles with relief) If you don’t choose, I don’t have to agonize over it either.",
+    "(Her voice is gentle) That’s fine. There’s more than one beautiful moment."
   ],
   "reset": [
-    "这次让我替你拿一回主意。",
-    "嗯，原来的也留着呢。",
-    "你会给这一眼起个什么名字？我有点好奇。",
-    "（自然地应声）又回到最开始啦。",
-    "（眼里带着一点期待）再看一眼，我挑的也不错吧？",
-    "（轻声笑了）兜了一圈，还是这一刻。",
-    "（轻轻点头）好，按我原先挑的来。",
-    "（带点小得意）选来选去，我们又想到一处了。",
-    "（温柔地解释）我觉得这一刻最自然，就替你先留了下来。"
+    "Let me make the choice for you this time.",
+    "Mm, I kept the original one, too.",
+    "What would you name this look? I’m curious.",
+    "(She answers naturally) We’re back where we started.",
+    "(A little hopeful) Look one more time. I chose well, didn’t I?",
+    "(She laughs softly) After going all the way around, we’re back to this moment.",
+    "(She nods gently) All right, let’s go with my original choice.",
+    "(A little proud) After all that choosing, we ended up agreeing.",
+    "(She explains gently) I thought this moment looked the most natural, so I saved it for you."
   ],
   "wake": [
-    "刚才安安静静的，你一来，倒想说话了。",
-    "你忙你的，想看我的时候，我就在。",
-    "想换个心情，还是就这样待着？",
-    "不用特意找话说，陪着就很好。",
-    "（微微歪头）嗯？要我换一套吗？",
+    "I was sitting quietly just now, but once you arrived, I felt like talking.",
+    "Go ahead with what you need to do. I’ll be here whenever you want to see me.",
+    "Want a change of mood, or should we stay like this?",
+    "You don’t need to find something to say. Just being together is enough.",
+    "(She tilts her head slightly) Hmm? Do you want me to change outfits?",
     "（声音软软的）在呢，你慢慢挑。",
     "（含笑，语气好奇）今天又给我带来什么主意了？",
     "（抬眼，语气亲近）来啦。这次想从哪一件看起？",
@@ -3450,7 +3450,7 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
           "text": "Before leaving, I wondered whether this outfit looked too much like something I’d wear at home.",
           "follow": {
             "id": "sit-loop-27-F04",
-            "text": "后来又觉得，在你面前这样也挺好。"
+            "text": "Then I realized I like being this way in front of you, too."
           }
         }
       ],
@@ -3509,33 +3509,33 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "restored": [
         {
           "id": "sit-loop-27-S01",
-          "text": "嗯，正适合说点闲话。我现在也没那么勤快。"
+          "text": "Mm, this is perfect for casual chatting. I’m not feeling very energetic right now."
         },
         {
           "id": "sit-loop-27-S02",
-          "text": "陪我坐着就很好啦，不一定要安排什么。"
+          "text": "Just sit with me. We don’t have to plan anything."
         },
         {
           "id": "sit-loop-27-S03",
-          "text": "现在想聊聊小事，认真事就先放一放吧。"
+          "text": "I feel like talking about little things now. Let’s set serious matters aside for a bit."
         }
       ],
       "random": [
         {
           "id": "sit-loop-27-R01",
-          "text": "把这件开衫也披上，才是我喜欢的样子。"
+          "text": "Throwing this cardigan over it makes it just the way I like."
         },
         {
           "id": "sit-loop-27-R02",
-          "text": "开衫也不系上了，这样松松地披着就好。"
+          "text": "I won’t button the cardigan, either. I like it loosely draped like this."
         },
         {
           "id": "sit-loop-27-R03",
-          "text": "这一身不用想太多，怎么搭我都喜欢。"
+          "text": "I don’t have to think too hard about this outfit. I like it however I style it."
         },
         {
           "id": "sit-loop-27-R04",
-          "text": "浅浅的杏色，看着就想坐下来歇歇。"
+          "text": "This soft apricot shade makes me want to sit down and rest."
         }
       ],
       "affection": [
