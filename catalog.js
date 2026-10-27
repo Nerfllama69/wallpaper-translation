@@ -348,7 +348,7 @@ window.PURPLE_LOOKS = Object.freeze([
     "name": "A Secret in the Night",
     "short": "A Secret in the Night",
     "english": "A LITTLE SECRET",
-    "locked": true,
+    "locked": false,
     "tag": "X28",
     "dialogue": {
       "locked": [
@@ -367,7 +367,7 @@ window.PURPLE_LOOKS = Object.freeze([
     "name": "An Emerald Letter",
     "short": "An Emerald Letter",
     "english": "AN UNOPENED LETTER",
-    "locked": true,
+    "locked": false,
     "tag": "X12",
     "dialogue": {
       "locked": [
@@ -386,7 +386,7 @@ window.PURPLE_LOOKS = Object.freeze([
     "name": "White Whispers",
     "short": "White Whispers",
     "english": "SOMETHING UNSAID",
-    "locked": true,
+    "locked": false,
     "tag": "X15",
     "dialogue": {
       "locked": [
@@ -651,7 +651,7 @@ window.PURPLE_LOOKS = Object.freeze([
     "freeze": 5.7,
     "duration": 10.056,
     "fps": 59.94005994005994,
-    "locked": true,
+    "locked": false,
     "reserved": false,
     "silent": false,
     "dialogue": {
