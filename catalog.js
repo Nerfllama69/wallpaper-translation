@@ -834,8 +834,8 @@ window.PURPLE_LOOKS = Object.freeze([
   },
   {
     "id": "recline-01",
-    "name": "紫暮长靴",
-    "short": "紫暮长靴",
+    "name": "Violet Dusk Boots",
+    "short": "Violet Dusk Boots",
     "english": "RECLINING / 01",
     "group": "recline",
     "freeze": 11.7,
@@ -846,32 +846,32 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "这条短裤平时我都配运动鞋。",
-        "有点想你，就过来了。",
-        "（有点得意）今天的口红，我试了三个颜色才选好。",
-        "下次有空，陪我去吃顿晚饭吧。"
+        "I usually pair these shorts with sneakers.",
+        "I missed you a little, so I came over.",
+        "(A little proud) I tried three lipstick shades before settling on today’s color.",
+        "When you have time, have dinner with me next time."
       ],
       "held": [
-        "今天换了长靴，还真有点舍不得脱。",
-        "先抱一下吧，别的等会儿再说。",
-        "下次你在旁边帮我挑吧，挑久一点也行。",
-        "店我已经想好了，就差问你了。"
+        "I put on these boots today, and now I’m reluctant to take them off.",
+        "Let’s have a hug first. We can talk about everything else later.",
+        "Help me choose next time. We can take as long as we like.",
+        "I already have a place in mind. I just need to ask you."
       ],
       "random": [
-        "好，今天穿短裤这套。",
-        "这身我早就搭好了，就等想穿的时候。",
-        "嗯，这次可以把长靴穿上了。",
-        "这件紫色上衣很衬脸色，我选它就是看中了这点。"
+        "All right, the shorts outfit today.",
+        "I put this outfit together ages ago, just waiting for the right time to wear it.",
+        "Mm, this time I can wear the tall boots, too.",
+        "This purple top suits my complexion. That’s exactly why I chose it."
       ],
       "restored": [
-        "有什么想跟我说的，慢慢说。我今天有空。"
+        "If there’s anything you want to tell me, take your time. I’m free today."
       ]
     }
   },
   {
     "id": "recline-02",
-    "name": "暖织冬日",
-    "short": "暖织冬日",
+    "name": "Warm Knit Winter",
+    "short": "Warm Knit Winter",
     "english": "RECLINING / 02",
     "group": "recline",
     "freeze": 11.7,
@@ -882,32 +882,32 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "这毛衣的领子刚刚好，不扎脖子。",
-        "（小声）有点想吃热乎的东西了。",
-        "我挺喜欢两个人各忙各的，还能碰到手的那种距离。",
-        "前几天想学着煮粥，水放得多了点。"
+        "The collar of this sweater fits just right. It doesn’t scratch my neck.",
+        "(Quietly) I’m craving something warm to eat.",
+        "I like being close enough that we can each do our own thing and still brush hands.",
+        "A few days ago, I tried learning to make congee, but I added a little too much water."
       ],
       "held": [
-        "我挑了好几件，才找到这种穿着不烦的。",
-        "要是能跟你分一碗汤面，最后连汤都喝掉就好了。",
-        "谁先忙完，谁就先牵一下。",
-        "盛了好大一碗，喝完才发现自己是喝水喝饱的。"
+        "I tried on quite a few before finding one that feels comfortable to wear.",
+        "I’d love to share a bowl of noodle soup with you and drink every last drop of broth.",
+        "Whoever finishes what they’re doing first gets to hold the other’s hand.",
+        "I filled a huge bowl, then realized after finishing it that I’d basically filled up on water."
       ],
       "random": [
-        "啊，这件可以暖暖和和地穿着了。",
-        "灰毛衣我一直留着，跟好多衣服都搭。",
-        "今天让我随便唠叨几句吧。",
-        "正好还有条格子裙可以配，一起穿给你看。"
+        "Ah, now I can wear this and stay nice and warm.",
+        "I’ve kept this gray sweater because it goes with so many outfits.",
+        "Let me ramble a little today.",
+        "I have a plaid skirt that goes with it, too. I’ll wear them together for you."
       ],
       "restored": [
-        "我说话慢一点没关系吧？现在舒服得有点不想用脑子。"
+        "You don’t mind if I speak slowly, do you? I’m so comfortable I don’t feel like thinking."
       ]
     }
   },
   {
     "id": "recline-03",
-    "name": "晴蓝百褶",
-    "short": "晴蓝百褶",
+    "name": "Clear-Sky Blue Pleats",
+    "short": "Clear-Sky Blue Pleats",
     "english": "RECLINING / 03",
     "group": "recline",
     "freeze": 10.32,
@@ -918,32 +918,32 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "（有点不好意思）这身是不是太可爱了？",
-        "我想跟你一起拍张照，随便什么姿势都行。",
-        "我昨天买饮料，选了个没喝过的味道。",
-        "有时候会突然想起，你以前说过的一句话。"
+        "(A little embarrassed) Is this outfit too cute?",
+        "I want to take a picture with you. Any pose is fine.",
+        "Yesterday, I bought a drink in a flavor I’d never tried before.",
+        "Sometimes I suddenly remember something you said a long time ago."
       ],
       "held": [
-        "穿都穿了，那就让我多高兴一会儿。",
-        "拍得不好也别删，我想都留着。",
-        "不好喝。下次还是老老实实买喜欢的吧。",
-        "然后就自己笑一下，你还不知道呢。"
+        "Now that I’ve put it on, let me enjoy it a little longer.",
+        "Even if the pictures don’t turn out well, don’t delete them. I want to keep them all.",
+        "It wasn’t good. Next time, I’ll stick to the flavors I know I like.",
+        "Then I smile to myself, and you don’t even know why."
       ],
       "random": [
-        "今天就蓝色吧，看着心情都亮一点。",
-        "（藏不住高兴）这套被选中了呀，好。",
-        "我把领结也配好了，想一起给你看看。",
-        "这条裙子的褶子，我刚理顺呢。"
+        "Let’s go with blue today. Just looking at it brightens my mood.",
+        "(Unable to hide her happiness) This outfit got picked? Good.",
+        "I matched the bow tie, too. I want to show you the whole look.",
+        "I just finished straightening the pleats on this skirt."
       ],
       "restored": [
-        "我在想，下次见你要不要换个发型。"
+        "I’m wondering whether I should try a different hairstyle next time I see you."
       ]
     }
   },
   {
     "id": "recline-04",
-    "name": "墨色慵懒",
-    "short": "墨色慵懒",
+    "name": "Ink-Black Ease",
+    "short": "Ink-Black Ease",
     "english": "RECLINING / 04",
     "group": "recline",
     "freeze": 11.7,
@@ -954,22 +954,22 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "今天不想客气了，给我留个舒服的位置吧。",
-        "我喜欢跟你瞎逛，没目的地也没关系。",
-        "我每次说只看一集，最后都不太算数。",
-        "你不用每次都想好了再跟我说。"
+        "I don’t feel like being formal today. Save me a comfortable spot.",
+        "I like wandering around with you. It’s fine if we don’t have a destination.",
+        "Whenever I say I’ll watch just one episode, it never quite works out that way.",
+        "You don’t have to figure everything out before talking to me."
       ],
       "held": [
-        "挨着你就行。",
-        "走累了就找家店坐下，慢慢想吃什么。",
-        "下次你陪我看吧，看到想睡的时候再关。",
-        "想到哪儿说到哪儿，我听着呢。"
+        "Just let me sit close to you.",
+        "When we get tired of walking, we can find a place to sit and take our time deciding what to eat.",
+        "Watch with me next time. We can turn it off when we start getting sleepy.",
+        "Say whatever comes to mind. I’m listening."
       ],
       "random": [
-        "嗯，今天不换来换去了。",
-        "黑色这套挺合适，我想就这么陪着你。",
-        "这次不费心搭配了，鞋还是穿那双粉的。",
-        "我有点饿了，穿好这套就想找你商量吃什么。"
+        "Mm, no more changing outfits today.",
+        "This black outfit works well. I’d like to spend time with you just like this.",
+        "I won’t fuss over matching things this time. I’ll still wear those pink shoes.",
+        "I’m getting hungry. Once I’m dressed, I want to ask you what we should eat."
       ],
       "restored": [
         "我想在你这儿多待一会儿，晚点再回去。"
@@ -978,8 +978,8 @@ window.PURPLE_LOOKS = Object.freeze([
   },
   {
     "id": "recline-05",
-    "name": "奶霜花边",
-    "short": "奶霜花边",
+    "name": "Cream Ruffles",
+    "short": "Cream Ruffles",
     "english": "RECLINING / 05",
     "group": "recline",
     "freeze": 11.24,
@@ -990,25 +990,25 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "这身我换了好一会儿，蝴蝶结总打不对称。",
-        "穿成这样来找你，还是有一点不好意思。",
-        "刚才在镜子前，我还试着叫了你一声。",
-        "下次一起做饭，我想站你旁边切菜。"
+        "I spent ages getting dressed because I couldn’t get the bow symmetrical.",
+        "I’m still a little shy about coming to see you dressed like this.",
+        "Just now, in front of the mirror, I even practiced calling your name.",
+        "Next time we cook together, I want to stand beside you and chop vegetables."
       ],
       "held": [
-        "（有点不好意思）你先看看我，别急着看结打得怎么样。",
-        "不过你要是喜欢，我下次还穿。",
-        "（没忍住笑了）不行，太甜了。我自己都不好意思听。",
-        "你尝味道的时候，也喂我一口吧。"
+        "(A little embarrassed) Look at me first. Don’t rush to inspect the bow.",
+        "But if you like it, I’ll wear it again next time.",
+        "(She can’t help laughing) No, that’s too sweet. Even I’m embarrassed to hear it.",
+        "When you taste it, feed me a bite, too."
       ],
       "random": [
-        "这套得认真穿一回，我连小花边都理好了。",
-        "今天打扮得有点特别，你先别笑我呀。",
-        "围裙也穿上了，现在看着才像一整套。",
-        "（有点雀跃）嗯，就是这套。我想给你看好久了。"
+        "I want to wear this outfit properly at least once. I’ve even straightened all the little ruffles.",
+        "I dressed up a little specially today, so don’t laugh at me, okay?",
+        "I’ve put on the apron, too. Now it finally looks like a complete outfit.",
+        "(A little excited) Mm, this is the one. I’ve wanted to show it to you for ages."
       ],
       "restored": [
-        "（轻轻的）你靠近一点说，我想只听见你的声音。"
+        "(Softly) Come a little closer when you speak. I want to hear only your voice."
       ]
     }
   },
