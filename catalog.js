@@ -1014,8 +1014,8 @@ window.PURPLE_LOOKS = Object.freeze([
   },
   {
     "id": "recline-06",
-    "name": "灰格书卷",
-    "short": "灰格书卷",
+    "name": "Gray Plaid and Books",
+    "short": "Gray Plaid and Books",
     "english": "RECLINING / 06",
     "group": "recline",
     "freeze": 11.7,
@@ -1026,32 +1026,32 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "这件外面再套个大衣，就可以跟你出门了。",
-        "我看故事的时候，总想知道两个人后来过得怎么样。",
-        "我有支用了很久的笔，换了好几次笔芯了。",
-        "（有点不好意思）我不太会当面说好听的话。"
+        "With a coat over this, I’ll be ready to go out with you.",
+        "When I read stories, I always want to know how the two people’s lives turn out afterward.",
+        "I have a pen I’ve used for ages. I’ve replaced its refill several times.",
+        "(A little embarrassed) I’m not very good at saying sweet things face-to-face."
       ],
       "held": [
-        "等会儿要是想去走走，叫我就好。",
-        "在一起之后的那些小事，我也想看。",
-        "不是多贵的东西，就是拿着顺手。",
-        "要是能写下来，可能一页都不够。"
+        "If you feel like going for a walk later, just ask me.",
+        "I want to see all those little things that happen after two people get together, too.",
+        "It isn’t expensive; it just feels right in my hand.",
+        "If I wrote it all down, one page probably wouldn’t be enough."
       ],
       "random": [
-        "这套看着干干净净的，好，就穿它。",
-        "今天想穿得简单点，灰色正好。",
-        "这件针织衫我很喜欢，买的时候还犹豫了一下呢。",
-        "白领子配这个灰，我第一次试就觉得合适。"
+        "This outfit looks neat and simple. Good, I’ll wear it.",
+        "I wanted something simple today. Gray is perfect.",
+        "I really like this knit top, though I hesitated a little before buying it.",
+        "The white collar works with this gray. I thought so the first time I tried it on."
       ],
       "restored": [
-        "有空的时候，陪我去一趟书店吧。"
+        "When you have time, come to a bookstore with me."
       ]
     }
   },
   {
     "id": "recline-07",
-    "name": "豹纹不羁",
-    "short": "豹纹不羁",
+    "name": "Wild Leopard Print",
+    "short": "Wild Leopard Print",
     "english": "RECLINING / 07",
     "group": "recline",
     "freeze": 11.7,
@@ -1062,32 +1062,32 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "这条豹纹裙，我买的时候就没打算低调。",
-        "（笑）想逗逗你。",
-        "我点菜的时候总说够了，甜点上来又想加一个。",
-        "今天想见你，没别的事。"
+        "I never intended to be subtle when I bought this leopard-print skirt.",
+        "(She laughs) I wanted to tease you a little.",
+        "When ordering, I always say that’s enough, then want another dessert when it arrives.",
+        "I wanted to see you today. That’s all."
       ],
       "held": [
-        "今天不换素的了，就这么穿。",
-        "真把你逗得不好意思了，我可能比你还先脸红。",
-        "下次你拦我一下……或者跟我一起吃也行。",
-        "见到了再想聊什么，也来得及。"
+        "No switching to something plain today. I’m wearing this as it is.",
+        "If I really make you blush, I might turn red before you do.",
+        "Stop me next time… or just eat with me, that works too.",
+        "We can decide what to talk about once we meet. There’s time."
       ],
       "random": [
-        "行，今天就穿这条豹纹的。",
-        "（带点笑）这套得配那双带铆钉的鞋，才是我想要的样子。",
-        "好不容易挑了件花的，当然得穿出来。",
-        "今天不扎头发了，配这身正好。"
+        "All right, I’ll wear this leopard-print skirt today.",
+        "(She smiles a little) This outfit needs those studded shoes to look the way I want.",
+        "I finally picked something with a bold pattern, so of course I have to wear it out.",
+        "I won’t tie my hair up today. It suits this outfit just right."
       ],
       "restored": [
-        "想问什么就问呀，我今天还挺愿意跟你聊的。"
+        "Ask me whatever you like. I’m in the mood to talk today."
       ]
     }
   },
   {
     "id": "classic-20",
-    "name": "暮蓝潮汐",
-    "short": "暮蓝潮汐",
+    "name": "Dusk-Blue Tides",
+    "short": "Dusk-Blue Tides",
     "english": "BLUE AT DUSK",
     "group": "classic",
     "freeze": 11.3,
@@ -1097,33 +1097,33 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "我出门总要带件开衫，店里冷也不怕。",
-        "我挺想和你找个地方喝点东西，能坐很久的那种。",
-        "（自己笑了）以前买条纹衣服，我还会担心显胖。",
-        "我刚才路过花店，差点买一大束回来。"
+        "I always bring a cardigan when I go out, so I won’t get cold in shops.",
+        "I’d love to find somewhere to get a drink with you, the kind of place where we can sit for ages.",
+        "(She laughs at herself) I used to worry that striped clothes made me look heavier.",
+        "I passed a flower shop just now and nearly bought a huge bouquet."
       ],
       "held": [
-        "热了就这样搭着，我也觉得挺好看。",
-        "喝完也不急着走，再要一杯就好了。",
-        "这件试完就不想脱了，自己喜欢嘛。",
-        "下次带一枝给你，放你桌上就好。"
+        "If I get warm, I can just drape it like this. I think it looks nice, too.",
+        "We don’t have to leave as soon as we finish. We can just order another drink.",
+        "Once I tried this on, I didn’t want to take it off. I like it, after all.",
+        "I’ll bring you a flower next time. You can just put it on your desk."
       ],
       "random": [
-        "就这条条纹裙吧，开衫我也搭好了。",
-        "穿上这身，我就有点想给自己放半天假。",
-        "我还想穿这双红底鞋，就这么搭吧。",
-        "这套搭好就没舍得换，你正好能看看。"
+        "Let’s go with this striped skirt. I’ve already matched it with the cardigan.",
+        "Wearing this makes me want to give myself half a day off.",
+        "I want to wear these red-soled shoes, too. Let’s pair them like this.",
+        "I liked this combination too much to change out of it, so you can see it now."
       ],
       "restored": [
-        "我这会儿挺放松的，想跟你聊点没什么要紧的小事。"
+        "I’m feeling pretty relaxed right now. I want to chat with you about little things that don’t really matter."
       ]
     },
     "hostValue": 34
   },
   {
     "id": "classic-24",
-    "name": "晴海微风",
-    "short": "晴海微风",
+    "name": "Breeze over a Clear Sea",
+    "short": "Breeze over a Clear Sea",
     "english": "A SEA BREEZE",
     "group": "classic",
     "freeze": 10.5,
@@ -1133,33 +1133,33 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "这条短裤，我想拿来配好几件上衣。",
-        "下次一起坐车，我想坐靠窗那边。",
-        "（有点不好意思）这双鞋的带子，我刚才扣错了一个眼。",
-        "我看到长得很奇怪的云，总想拍下来。"
+        "I want to pair these shorts with several different tops.",
+        "Next time we ride together, I want the window seat.",
+        "(A little embarrassed) I fastened one of the holes on these shoe straps incorrectly just now.",
+        "Whenever I see a strangely shaped cloud, I want to take a picture."
       ],
       "held": [
-        "试到这件就不想换了，蓝白看着真舒服。",
-        "看到好玩的就叫你，不让你错过。",
-        "难怪两边松紧不一样，我还以为是脚的问题。",
-        "下次拍给你看，你陪我猜猜像什么。"
+        "Once I tried this on, I didn’t want to change. The blue and white look so soothing.",
+        "If I see something fun, I’ll call you over so you don’t miss it.",
+        "No wonder the straps felt different on each side. I thought something was wrong with my foot.",
+        "I’ll show you pictures next time, and you can help me guess what they look like."
       ],
       "random": [
-        "蓝白条纹这件，我还想再多穿几次。",
-        "这身穿着就想出门，随便逛逛也好。",
-        "（有点开心）这回可以戴那条小项链了，我觉得很配。",
-        "粉鞋也一起穿吧，我喜欢这几个颜色搭着。"
+        "I want to wear this blue-and-white striped outfit a few more times.",
+        "Wearing this makes me want to go out, even if we just wander around.",
+        "(A little happy) I can wear that little necklace this time. I think it matches well.",
+        "I’ll wear the pink shoes, too. I like these colors together."
       ],
       "restored": [
-        "我还没决定下次去哪儿玩，你想到什么都可以跟我说。"
+        "I haven’t decided where to go next time. Tell me any ideas you have."
       ]
     },
     "hostValue": 35
   },
   {
     "id": "sit-loop-01",
-    "name": "初雪绒绒",
-    "short": "初雪绒绒",
+    "name": "First-Snow Fluff",
+    "short": "First-Snow Fluff",
     "english": "SEATED / COMPANION",
     "group": "sit",
     "hostValue": 36,
@@ -1176,33 +1176,33 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "这两团毛绒，我挑衣服的时候就看中了。",
-        "我刚才给自己列了张清单，头一项是休息。",
-        "我刚才看见有人捧着一大束花，走路都小心翼翼的。",
-        "我今天没什么正经事想讲。"
+        "I spotted these two fluffy details while choosing my clothes.",
+        "I made myself a checklist just now. The first item is rest.",
+        "I just saw someone carrying a huge bouquet, walking so carefully.",
+        "I don’t have anything serious to talk about today."
       ],
       "held": [
-        "本来还想再挑挑，结果试完就穿着去结账了。",
-        "嗯，这一项我准备认真完成。",
-        "看得我也跟着高兴，好像有人正等着那束花呢。",
-        "就想把脑子里那些小念头，随便跟你说说。"
+        "I meant to keep looking, but after trying it on, I wore it straight to the checkout.",
+        "Mm, I intend to complete this item properly.",
+        "Seeing that made me happy, too. It was as if someone was waiting for those flowers.",
+        "I just want to share the little thoughts in my head with you."
       ],
       "restored": [
-        "嗯，我这会儿也没急事，能慢慢聊。",
-        "现在有点想撒娇，又觉得这样坐着也挺满足的。"
+        "Mm, I’m not in a hurry either. We can take our time chatting.",
+        "I feel like being a little affectionate, but just sitting here like this is satisfying, too."
       ],
       "random": [
-        "这回可以穿毛绒袖口这件了，我惦记它好一会儿了。",
-        "就这套吧，今天想软软和和的。",
-        "白鞋也配上了，收拾完可以好好歇一会儿了。",
-        "本来想留着下次穿的，不过现在就想给你看看了。"
+        "I can finally wear the one with the fluffy cuffs. I’ve had my eye on it for a while.",
+        "This outfit it is. I want something soft and cozy today.",
+        "I’ve paired it with white shoes, too. Once I’m ready, I can relax properly.",
+        "I meant to save it for next time, but now I want to show it to you."
       ]
     }
   },
   {
     "id": "sit-loop-02",
-    "name": "雾紫轻纱",
-    "short": "雾紫轻纱",
+    "name": "Misty Purple Sheer Fabric",
+    "short": "Misty Purple Sheer Fabric",
     "english": "SEATED / COMPANION",
     "group": "sit",
     "hostValue": 37,
@@ -1219,27 +1219,27 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "这件纱搭在肩上，总有点挂不住。",
-        "我挺喜欢这件纱的，轻轻薄薄的。",
-        "我想找个不用看时间的下午，和你慢慢待着。",
-        "来之前收拾抽屉，翻到一张很久以前的车票。"
+        "This sheer wrap never quite stays on my shoulders.",
+        "I really like this sheer wrap. It’s so light and delicate.",
+        "I want to spend an afternoon with you without having to watch the time.",
+        "Before coming over, I tidied a drawer and found an old train ticket."
       ],
       "held": [
-        "嗯……滑下来就先这样吧，反正只有你在。",
-        "就算只是在家坐着，也想穿件自己喜欢的。",
-        "话没说完也没关系，下回接着说。",
-        "那次出门前还很犹豫，回来的时候就已经想再去一次了。"
+        "Mm… if it slips down, I’ll just leave it like that. You’re the only one here, anyway.",
+        "Even if I’m just sitting at home, I want to wear something I like.",
+        "It’s okay if we don’t finish the conversation. We can pick it up next time.",
+        "I hesitated before going out that time, but by the time I came back, I already wanted to go again."
       ],
       "restored": [
-        "我想听点生活里的小事，没头没尾的也行。",
-        "嗯，能这么舒舒服服地坐着，我已经挺满意了。",
-        "不用急着聊什么，我想先好好看看你。"
+        "I want to hear about little everyday things, even if the stories have no beginning or end.",
+        "Mm, I’m already quite happy just sitting here comfortably.",
+        "No need to rush into a conversation. I want to take a good look at you first."
       ],
       "random": [
-        "这回就穿淡紫色。",
-        "这套不用配很多东西，穿上就挺舒服。",
-        "嗯，今天想把说话的声音也放轻一点。",
-        "有点想穿得认真些，又不想太费劲。这套刚好。"
+        "I’ll wear light purple this time.",
+        "This outfit doesn’t need many accessories. It’s comfortable as it is.",
+        "Mm, I want to soften my voice a little today, too.",
+        "I want to make a little effort without doing too much. This outfit is just right."
       ]
     }
   },
@@ -2211,39 +2211,39 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
   },
   "looks": {
     "sit-loop-01": {
-      "name": "初雪绒绒",
+      "name": "First-Snow Fluff",
       "settledAt": 9.0,
       "enter": [
         {
           "id": "sit-loop-01-E05",
-          "text": "这两团毛绒，我挑衣服的时候就看中了。",
+          "text": "I spotted these two fluffy details while choosing my clothes.",
           "follow": {
             "id": "sit-loop-01-F05",
-            "text": "本来还想再挑挑，结果试完就穿着去结账了。"
+            "text": "I meant to keep looking, but after trying it on, I wore it straight to the checkout."
           }
         },
         {
           "id": "sit-loop-01-E02",
-          "text": "我刚才给自己列了张清单，头一项是休息。",
+          "text": "I made myself a checklist just now. The first item is rest.",
           "follow": {
             "id": "sit-loop-01-F02",
-            "text": "嗯，这一项我准备认真完成。"
+            "text": "Mm, I intend to complete this item properly."
           }
         },
         {
           "id": "sit-loop-01-E06",
-          "text": "我刚才看见有人捧着一大束花，走路都小心翼翼的。",
+          "text": "I just saw someone carrying a huge bouquet, walking so carefully.",
           "follow": {
             "id": "sit-loop-01-F06",
-            "text": "看得我也跟着高兴，好像有人正等着那束花呢。"
+            "text": "Seeing that made me happy, too. It was as if someone was waiting for those flowers."
           }
         },
         {
           "id": "sit-loop-01-E04",
-          "text": "我今天没什么正经事想讲。",
+          "text": "I don’t have anything serious to talk about today.",
           "follow": {
             "id": "sit-loop-01-F04",
-            "text": "就想把脑子里那些小念头，随便跟你说说。"
+            "text": "I just want to share the little thoughts in my head with you."
           }
         }
       ],
@@ -2342,29 +2342,29 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "restored": [
         {
           "id": "sit-loop-01-S01",
-          "text": "嗯，我这会儿也没急事，能慢慢聊。"
+          "text": "Mm, I’m not in a hurry either. We can take our time chatting."
         },
         {
           "id": "sit-loop-01-S04",
-          "text": "现在有点想撒娇，又觉得这样坐着也挺满足的。"
+          "text": "I feel like being a little affectionate, but just sitting here like this is satisfying, too."
         }
       ],
       "random": [
         {
           "id": "sit-loop-01-R01",
-          "text": "这回可以穿毛绒袖口这件了，我惦记它好一会儿了。"
+          "text": "I can finally wear the one with the fluffy cuffs. I’ve had my eye on it for a while."
         },
         {
           "id": "sit-loop-01-R03",
-          "text": "就这套吧，今天想软软和和的。"
+          "text": "This outfit it is. I want something soft and cozy today."
         },
         {
           "id": "sit-loop-01-R04",
-          "text": "白鞋也配上了，收拾完可以好好歇一会儿了。"
+          "text": "I’ve paired it with white shoes, too. Once I’m ready, I can relax properly."
         },
         {
           "id": "sit-loop-01-R05",
-          "text": "本来想留着下次穿的，不过现在就想给你看看了。"
+          "text": "I meant to save it for next time, but now I want to show it to you."
         }
       ],
       "affection": [
@@ -2387,39 +2387,39 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       ]
     },
     "sit-loop-02": {
-      "name": "雾紫轻纱",
+      "name": "Misty Purple Sheer Fabric",
       "settledAt": 8.733333333333333,
       "enter": [
         {
           "id": "sit-loop-02-E01",
-          "text": "这件纱搭在肩上，总有点挂不住。",
+          "text": "This sheer wrap never quite stays on my shoulders.",
           "follow": {
             "id": "sit-loop-02-F01",
-            "text": "嗯……滑下来就先这样吧，反正只有你在。"
+            "text": "Mm… if it slips down, I’ll just leave it like that. You’re the only one here, anyway."
           }
         },
         {
           "id": "sit-loop-02-E02",
-          "text": "我挺喜欢这件纱的，轻轻薄薄的。",
+          "text": "I really like this sheer wrap. It’s so light and delicate.",
           "follow": {
             "id": "sit-loop-02-F02",
-            "text": "就算只是在家坐着，也想穿件自己喜欢的。"
+            "text": "Even if I’m just sitting at home, I want to wear something I like."
           }
         },
         {
           "id": "sit-loop-02-E03",
-          "text": "我想找个不用看时间的下午，和你慢慢待着。",
+          "text": "I want to spend an afternoon with you without having to watch the time.",
           "follow": {
             "id": "sit-loop-02-F03",
-            "text": "话没说完也没关系，下回接着说。"
+            "text": "It’s okay if we don’t finish the conversation. We can pick it up next time."
           }
         },
         {
           "id": "sit-loop-02-E05",
-          "text": "来之前收拾抽屉，翻到一张很久以前的车票。",
+          "text": "Before coming over, I tidied a drawer and found an old train ticket.",
           "follow": {
             "id": "sit-loop-02-F05",
-            "text": "那次出门前还很犹豫，回来的时候就已经想再去一次了。"
+            "text": "I hesitated before going out that time, but by the time I came back, I already wanted to go again."
           }
         }
       ],
@@ -2483,33 +2483,33 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "restored": [
         {
           "id": "sit-loop-02-S01",
-          "text": "我想听点生活里的小事，没头没尾的也行。"
+          "text": "I want to hear about little everyday things, even if the stories have no beginning or end."
         },
         {
           "id": "sit-loop-02-S04",
-          "text": "嗯，能这么舒舒服服地坐着，我已经挺满意了。"
+          "text": "Mm, I’m already quite happy just sitting here comfortably."
         },
         {
           "id": "sit-loop-02-S05",
-          "text": "不用急着聊什么，我想先好好看看你。"
+          "text": "No need to rush into a conversation. I want to take a good look at you first."
         }
       ],
       "random": [
         {
           "id": "sit-loop-02-R01",
-          "text": "这回就穿淡紫色。"
+          "text": "I’ll wear light purple this time."
         },
         {
           "id": "sit-loop-02-R02",
-          "text": "这套不用配很多东西，穿上就挺舒服。"
+          "text": "This outfit doesn’t need many accessories. It’s comfortable as it is."
         },
         {
           "id": "sit-loop-02-R03",
-          "text": "嗯，今天想把说话的声音也放轻一点。"
+          "text": "Mm, I want to soften my voice a little today, too."
         },
         {
           "id": "sit-loop-02-R04",
-          "text": "有点想穿得认真些，又不想太费劲。这套刚好。"
+          "text": "I want to make a little effort without doing too much. This outfit is just right."
         }
       ],
       "affection": [
