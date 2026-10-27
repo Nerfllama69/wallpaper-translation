@@ -307,8 +307,8 @@ window.PURPLE_LOOKS = Object.freeze([
   },
   {
     "id": "09",
-    "name": "薄纱晚风",
-    "short": "薄纱晚风",
+    "name": "Sheer Skirt, Evening Breeze",
+    "short": "Sheer Skirt, Evening Breeze",
     "english": "NO OCCASION NEEDED",
     "freeze": 11.23,
     "duration": 12.033333,
@@ -316,94 +316,94 @@ window.PURPLE_LOOKS = Object.freeze([
     "locked": false,
     "dialogue": {
       "enter": [
-        "这条纱裙上镜应该很好看，有点想和你留张合照。",
-        "浅色纱裙配这件黑上衣，我在镜子前看了好一会儿。",
-        "（声音轻快起来）这条裙子走起来很轻，穿上就想出去散散步。",
-        "（笑意轻盈）裙摆晃起来的时候，我才发现自己也有这么爱漂亮。"
+        "This sheer skirt should look lovely in photos. I’d like to take a picture with you.",
+        "I spent quite a while in front of the mirror looking at this light skirt with the black top.",
+        "(Her voice brightens) This skirt feels so light when I walk in it. It makes me want to go for a stroll.",
+        "(She smiles lightly) Seeing the skirt sway made me realize how much I like looking pretty, too."
       ],
       "held": [
-        "不用摆得多端正，靠近一点，笑得自然就好。",
-        "现在更想知道，你会不会也多看一会儿。",
-        "（温柔地笑了笑）先陪你一会儿。散步的事，晚一点也没关系。",
-        "（有点难为情地笑）这条纱裙还挺让人舍不得坐下的，想多走给你看看。"
+        "We don’t need to pose perfectly. Just come a little closer and smile naturally.",
+        "Now I’m more curious whether you’ll keep looking a little longer, too.",
+        "(She smiles warmly) I’ll spend some time with you first. We can go for that walk a little later.",
+        "(She smiles bashfully) This sheer skirt makes me reluctant to sit down. I want to walk around a little more so you can see it."
       ],
       "restored": [
-        "纱裙安安静静地垂着，不走动的时候，也有它的好看。"
+        "The sheer skirt falls quietly into place; it’s lovely even when I’m standing still."
       ],
       "random": [
-        "要是现在放一首歌，你会选哪一首？",
-        "这次，想留给你一个温柔一点的印象。",
-        "还没想好去哪里。先走到你身边吧。",
-        "这么巧，我也有点舍不得把这一套收起来。",
-        "今天的小心思，好像被你提前发现了。",
-        "（声音里有了雀跃）正好，让这条裙子也出来透透气。",
-        "（轻轻笑着，放慢语速）忽然觉得，今天会过得很慢。",
-        "（眼神亮起来）我正愁找不到理由穿它呢，你来得刚好。",
-        "（轻声笑）不用等什么特别的日子。想穿，就穿给你看。"
+        "If we played a song right now, which one would you choose?",
+        "This time, I want to leave you with a gentler impression.",
+        "I haven’t decided where to go yet. I’ll just come stand beside you first.",
+        "What a coincidence. I’m reluctant to put this outfit away, too.",
+        "It seems you discovered my little plan for today ahead of time.",
+        "(Her voice turns excited) Perfect timing. This skirt could use a little outing, too.",
+        "(She laughs softly, speaking more slowly) I suddenly feel like today will pass at an unhurried pace.",
+        "(Her eyes light up) I was trying to find an excuse to wear this. You arrived at just the right time.",
+        "(She laughs softly) We don’t need to wait for a special occasion. If I want to wear it, I’ll wear it for you."
       ]
     }
   },
   {
     "id": "10",
-    "name": "夜色私藏",
-    "short": "夜色私藏",
+    "name": "A Secret in the Night",
+    "short": "A Secret in the Night",
     "english": "A LITTLE SECRET",
     "locked": true,
     "tag": "X28",
     "dialogue": {
       "locked": [
-        "这一页，今天先留在衣橱里吧。",
-        "知道你有点好奇，不过这套暂时不开放。",
-        "先替我收好。旁边还有想穿给你看的呢。",
-        "这次先挑别的，好不好？我陪你慢慢选。"
+        "Let’s leave this page in the closet for today.",
+        "I know you’re curious, but this outfit isn’t available just yet.",
+        "Put this one away for me for now. There are others I want to wear for you.",
+        "Let’s pick something else this time, okay? I’ll take my time choosing with you."
       ],
       "aside": [
-        "想见我的时候，B站 FRAC_LAB 那边也给你留了位置。"
+        "When you want to see me, there’s a place saved for you on Bilibili at FRAC_LAB, too."
       ]
     }
   },
   {
     "id": "11",
-    "name": "翡翠来信",
-    "short": "翡翠来信",
+    "name": "An Emerald Letter",
+    "short": "An Emerald Letter",
     "english": "AN UNOPENED LETTER",
     "locked": true,
     "tag": "X12",
     "dialogue": {
       "locked": [
-        "这封信，先让我自己收着。",
-        "你停在这一页，我就知道你有点好奇。",
-        "先不拆啦。陪我挑一套能穿给你看的。",
-        "这点小心思，今天想留给自己。"
+        "Let me keep this letter to myself for now.",
+        "I can tell you’re curious from the way you’ve lingered on this page.",
+        "Let’s leave it unopened for now. Help me choose something I can wear for you.",
+        "I’d like to keep this little secret to myself today."
       ],
       "aside": [
-        "B站 FRAC_LAB 那边，也想见到你。"
+        "I’d love to see you over on Bilibili at FRAC_LAB, too."
       ]
     }
   },
   {
     "id": "12",
-    "name": "白色私语",
-    "short": "白色私语",
+    "name": "White Whispers",
+    "short": "White Whispers",
     "english": "SOMETHING UNSAID",
     "locked": true,
     "tag": "X15",
     "dialogue": {
       "locked": [
-        "有些话，先轻轻放在这里。",
-        "这页先藏着。给我留一点不好意思嘛。",
-        "嗯，还是想保留这一点小秘密。",
-        "这套不打开。旁边还有想给你看的呢。"
+        "Some words can rest here quietly for now.",
+        "Let’s keep this page hidden for now. Let me be a little shy.",
+        "Mm, I still want to keep this little secret.",
+        "This outfit stays closed. There are others I want to show you."
       ],
       "aside": [
-        "想起来的时候，来B站 FRAC_LAB 看看我吧。"
+        "When you think of me, come visit me on Bilibili at FRAC_LAB."
       ]
     }
   },
   {
     "id": "sit-01",
-    "name": "夜幕丝绒",
-    "short": "夜幕丝绒",
+    "name": "Midnight Velvet",
+    "short": "Midnight Velvet",
     "english": "SEATED / 01",
     "group": "sit",
     "freeze": 6.8,
@@ -414,32 +414,32 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "穿上这身，我胆子会大一点。",
-        "这套有点招摇。",
-        "今天想听你说说，最喜欢我哪一点。",
-        "今天这身，我想留着下次约会穿。"
+        "Wearing this makes me a little bolder.",
+        "This outfit is a little flashy.",
+        "Today, I want to hear what you like most about me.",
+        "I want to save this outfit for our next date."
       ],
       "held": [
-        "（声音轻了些）我想先亲你一下。",
-        "嗯，我今天就想这样。",
-        "（带点笑）衣服也算，不过……我更想听别的。",
-        "地方你挑，穿什么我来。"
+        "(Her voice softens) I want to kiss you first.",
+        "Mm, this is just how I feel today.",
+        "(She smiles a little) The outfit counts, too, but… I’d rather hear something else.",
+        "You pick the place; I’ll pick what to wear."
       ],
       "random": [
-        "这次是这一身啊。嗯，我喜欢。",
-        "（带点笑）好，那就让我来挑今天聊什么。",
-        "这一套放了好一阵，今天想穿出来了。",
-        "这身能让我高兴一整天，就它吧。"
+        "So it’s this outfit this time. Mm, I like it.",
+        "(She smiles a little) All right, then let me choose what we talk about today.",
+        "I’ve kept this outfit for a while, and today I felt like wearing it.",
+        "This outfit can keep me happy all day, so let’s go with it."
       ],
       "restored": [
-        "（带点笑）想看就大大方方地看，我又不会躲。"
+        "(She smiles a little) If you want to look, go ahead. I’m not going to hide."
       ]
     }
   },
   {
     "id": "sit-02",
-    "name": "黑衫轻语",
-    "short": "黑衫轻语",
+    "name": "Black Shirt, Soft Words",
+    "short": "Black Shirt, Soft Words",
     "english": "SEATED / 02",
     "group": "sit",
     "freeze": 5.7,
@@ -450,32 +450,32 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "这双鞋好看是好看，就是穿着它得走慢一点。",
-        "来的时候还想着，今天要大大方方地看着你。",
-        "出门前总要再检查一遍，手机和钥匙带了没。",
-        "今天头发有一点不听话，我弄了好一会儿。"
+        "These shoes are pretty, but I have to walk a little slower in them.",
+        "On the way here, I told myself I’d look you right in the eye today.",
+        "I always double-check that I’ve brought my phone and keys before leaving.",
+        "My hair wasn’t cooperating today, and I spent ages fixing it."
       ],
       "held": [
-        "（带点笑）下次让我拉着你的手吧……这样就不怕跟不上你了。",
-        "（有点不好意思地笑了）怎么一坐下来，又有点想躲了……你让我缓缓。",
-        "（自己笑了）检查完走到门口，还想再看一遍。",
-        "下次要是有一小撮翘着，你就当没看见吧。"
+        "(She smiles a little) Let me hold your hand next time… then I won’t have to worry about keeping up.",
+        "(She smiles a little shyly) Now that I’ve sat down, I suddenly want to hide again… give me a moment.",
+        "(She laughs at herself) I checked everything, got to the door, and still wanted to check again.",
+        "If a little bit sticks up next time, just pretend you didn’t notice."
       ],
       "random": [
-        "啊，是这一套。那我就这样来啦。",
-        "黑衣服配粉鞋，我挺喜欢这么穿的。",
-        "（轻轻笑了）这次不用纠结了，就穿这身。",
-        "看着挺简单的，穿上还挺好看。"
+        "Ah, this outfit. Then this is how I’ll come see you.",
+        "I quite like pairing black clothes with pink shoes.",
+        "(She laughs softly) No need to agonize over it this time. I’ll wear this.",
+        "It looks simple, but it’s quite pretty when I put it on."
       ],
       "restored": [
-        "今天想听你说点小事，午饭吃了什么也行。"
+        "I want to hear about little things today—even what you had for lunch."
       ]
     }
   },
   {
     "id": "sit-03",
-    "name": "杏纱柔光",
-    "short": "杏纱柔光",
+    "name": "Apricot Gauze, Soft Glow",
+    "short": "Apricot Gauze, Soft Glow",
     "english": "SEATED / 03",
     "group": "sit",
     "freeze": 6.8,
@@ -500,8 +500,8 @@ window.PURPLE_LOOKS = Object.freeze([
   },
   {
     "id": "sit-04",
-    "name": "白衫偷懒",
-    "short": "白衫偷懒",
+    "name": "White Shirt, Taking It Easy",
+    "short": "White Shirt, Taking It Easy",
     "english": "SEATED / 04",
     "group": "sit",
     "freeze": 6.8,
@@ -512,32 +512,32 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "（把手缩进袖口里）穿这件，连手都想偷懒。",
-        "本来就想过来坐一下的。穿着这件，坐下来就更不想动了。",
-        "这件洗好了，我总是先拿来穿。",
-        "本来想着今天早点起来的。"
+        "(She tucks her hands into the sleeves) Wearing this makes even my hands want to be lazy.",
+        "I only meant to come sit for a bit. Wearing this, I’m even less inclined to get up.",
+        "Whenever this one’s clean, it’s always the first thing I put on.",
+        "I meant to get up earlier today."
       ],
       "held": [
-        "牵你的时候再伸出来。别的时候……就先藏着吧。",
-        "（声音软下来）也不一定要做什么，就让我陪你待一会儿吧。",
-        "（懒懒地笑了）其他衣服叠得整整齐齐，就它老在外面。",
-        "（有点不好意思）闹钟一响，又跟自己商量了五分钟。"
+        "I’ll bring my hands out when I hold yours. Otherwise… I’ll keep them tucked away.",
+        "(Her voice softens) We don’t have to do anything in particular. Just let me stay with you for a while.",
+        "(She smiles lazily) All my other clothes are folded neatly, but this one is always left out.",
+        "(A little embarrassed) When the alarm rang, I negotiated with myself for another five minutes."
       ],
       "random": [
-        "正好，今天连搭衣服都想省了。",
-        "（笑了笑）穿这件见你，我最自在。",
-        "这次就穿宽宽松松的，想想都舒服。",
-        "我就穿这身过来啦，不特地收拾了。"
+        "Perfect. Today I even want to skip the effort of matching clothes.",
+        "(She smiles) I feel most at ease seeing you in this.",
+        "I’ll wear something loose and comfy this time. Just thinking about it feels nice.",
+        "I came over in this outfit without making a special effort to dress up."
       ],
       "restored": [
-        "（声音有点懒）今天就想这么随便待着，头发乱一点也没事。"
+        "(Her voice sounds a little sleepy) I just want to lounge around casually today. It’s fine if my hair’s a little messy."
       ]
     }
   },
   {
     "id": "sit-05",
-    "name": "墨格从容",
-    "short": "墨格从容",
+    "name": "Black Plaid, Composed",
+    "short": "Black Plaid, Composed",
     "english": "SEATED / 05",
     "group": "sit",
     "freeze": 6.8,
@@ -548,25 +548,25 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "这双丝袜上的格子，我穿的时候老怕它歪。",
-        "刚才还想着，穿这身是不是该坐得规矩一点。",
-        "我买衣服的时候，总说这次要试试别的颜色。",
-        "有时候想把事情安排好，再慢慢休息。"
+        "I’m always afraid the plaid on these stockings will end up crooked when I put them on.",
+        "I was just wondering whether I should sit up properly in this outfit.",
+        "Whenever I shop for clothes, I tell myself I’ll try a different color this time.",
+        "Sometimes I want to get everything organized before I relax."
       ],
       "held": [
-        "（有点不好意思地笑了）两边来回弄了好一会儿……今天还是想穿好看一点。",
-        "（没忍住，笑了）可一见到你，就只想跟你随便聊聊天了。",
-        "（自己笑了）挑来挑去，又拎了件黑的回来。",
-        "（声音轻了些）不过来见你这件事，我不想总留到最后。"
+        "(She smiles a little shyly) I fussed with both sides for ages… I still wanted to look nice today.",
+        "(She can’t help laughing) But as soon as I see you, I just want to chat casually.",
+        "(She laughs at herself) After all that choosing, I came back with another black one.",
+        "(Her voice softens) But I don’t want seeing you to always be the last thing on my list."
       ],
       "random": [
-        "这回是黑格子啊，挺好。",
-        "还真有点想穿这身，来得正好。",
-        "不用再配来配去了，这样就很好。",
-        "今天想收拾得利落一点，就这一套吧。"
+        "Black plaid this time. Nice.",
+        "I really was in the mood to wear this outfit. Your timing is perfect.",
+        "No need to keep matching things. This is just right.",
+        "I wanted to look neat and put-together today, so let’s go with this."
       ],
       "restored": [
-        "今天不聊正经事也行，我有点想听你讲个笑话。"
+        "We don’t have to talk about serious things today. I’d like to hear a joke from you."
       ]
     }
   },
@@ -1544,8 +1544,8 @@ window.PURPLE_LOOKS = Object.freeze([
   },
   {
     "id": "sit-loop-17",
-    "name": "杏纱柔光",
-    "short": "杏纱柔光",
+    "name": "Apricot Gauze, Soft Glow",
+    "short": "Apricot Gauze, Soft Glow",
     "english": "SEATED / COMPANION",
     "group": "sit",
     "hostValue": 46,
@@ -3138,7 +3138,7 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       ]
     },
     "sit-loop-17": {
-      "name": "杏纱柔光",
+      "name": "Apricot Gauze, Soft Glow",
       "settledAt": 8.0,
       "enter": [
         {
