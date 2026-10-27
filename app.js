@@ -2006,7 +2006,7 @@
       const alreadySelected = selected === current;
       if (!alreadySelected) selectLook(selected, {quiet: true});
       lastChange = Date.now();
-      toast(alreadySelected ? 'This is the only favorite in this group, and it is already selected. Favorite other outfits to shuffle among them.' : 'This is the only favorite in this group, so it has been selected.', 'Shuffle范围');
+      toast(alreadySelected ? 'This is the only favorite in this group, and it is already selected. Favorite other outfits to shuffle among them.' : 'This is the only favorite in this group, so it has been selected.', 'Shuffle Scope');
       activity(true);
       return;
     }
