@@ -2701,19 +2701,19 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "affection": [
         {
           "id": "sit-loop-03-L01",
-          "text": "我想试试牵着你的手，再把你拉过来亲一下。"
+          "text": "I want to try holding your hand, then pulling you close for a kiss."
         },
         {
           "id": "sit-loop-03-L02",
-          "text": "（带点笑意）你要是被我亲得愣住了，我大概会偷偷高兴好久。"
+          "text": "(With a hint of a smile) If my kiss leaves you speechless, I’ll probably be secretly happy for ages."
         },
         {
           "id": "sit-loop-03-L03",
-          "text": "想让你抱着我的时候，我可能不会先开口。会先朝你张开手。"
+          "text": "When I want you to hold me, I might not ask out loud. I’ll just open my arms to you."
         },
         {
           "id": "sit-loop-03-L04",
-          "text": "哪天一起见朋友，我想大大方方地说，这是我喜欢的人。"
+          "text": "When we meet friends together someday, I want to proudly say, “This is the person I like.”"
         }
       ]
     },
@@ -2757,52 +2757,52 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "continuous": [
         {
           "id": "sit-loop-10-C01",
-          "text": "有点想让你摸摸头……不过轻一点，耳朵还戴着呢。",
+          "text": "I kind of want you to pat my head… but gently, please. I’m still wearing the ears.",
           "topic": "touch"
         },
         {
           "id": "sit-loop-10-C02",
-          "text": "我喜欢你，可没答应什么都让着你呀。",
+          "text": "I like you, but that doesn’t mean I promised to let you win at everything.",
           "topic": "play"
         },
         {
           "id": "sit-loop-10-C03",
-          "text": "想听你给我起个亲近一点的小称呼。",
+          "text": "I want you to give me a more affectionate nickname.",
           "topic": "affection"
         },
         {
           "id": "sit-loop-10-C04",
-          "text": "如果你喜欢我今天这样，我应该会偷偷高兴很久的。",
+          "text": "If you like how I look today, I’ll probably be secretly happy for a long time.",
           "topic": "shyness"
         },
         {
           "id": "sit-loop-10-C05",
-          "text": "要是你偷偷准备惊喜，我会忍不住一直猜的。",
+          "text": "If you secretly prepare a surprise for me, I won’t be able to stop guessing what it is.",
           "topic": "gift"
         },
         {
           "id": "sit-loop-10-C06",
-          "text": "下次一起玩游戏吧，我想跟你一队。",
+          "text": "Let’s play a game together next time. I want to be on your team.",
           "topic": "play"
         },
         {
           "id": "sit-loop-10-C07",
-          "text": "你有什么不太好意思讲的小心思，也可以悄悄告诉我呀。",
+          "text": "If you have any little secrets you’re shy about sharing, you can whisper them to me.",
           "topic": "thought"
         },
         {
           "id": "sit-loop-10-C08",
-          "text": "戴着这对耳朵，就有点想往你身边靠了。",
+          "text": "Wearing these ears makes me want to snuggle closer to you.",
           "topic": "touch"
         },
         {
           "id": "sit-loop-10-C09",
-          "text": "想你了……这句是认真的。",
+          "text": "I missed you… and I mean that.",
           "topic": "affection"
         },
         {
           "id": "sit-loop-10-C10",
-          "text": "要是你认真说一句喜欢，我可能就没那么会接话了……",
+          "text": "If you sincerely tell me you like me, I might not know what to say back…",
           "topic": "shyness"
         }
       ],
@@ -2841,19 +2841,19 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "affection": [
         {
           "id": "sit-loop-10-L01",
-          "text": "想跟你牵着手，手指也轻轻扣在一起……"
+          "text": "I want to hold your hand, with our fingers gently intertwined…"
         },
         {
           "id": "sit-loop-10-L02",
-          "text": "想在你脸颊上轻轻亲一下，亲完再听你叫我一声……"
+          "text": "I want to give your cheek a gentle kiss, then hear you call my name…"
         },
         {
           "id": "sit-loop-10-L03",
-          "text": "今天想多要一点你的偏心，好不好？"
+          "text": "Can I have a little more of your special attention today?"
         },
         {
           "id": "sit-loop-10-L04",
-          "text": "想让你抱紧一点，今天可以多黏你一会儿吗？"
+          "text": "I want you to hold me tighter. Can I cling to you a little longer today?"
         }
       ]
     },
@@ -2897,52 +2897,52 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "continuous": [
         {
           "id": "sit-loop-11-C01",
-          "text": "跟我说说你的事吧，我想听。",
+          "text": "Tell me about yourself. I want to listen.",
           "topic": "story"
         },
         {
           "id": "sit-loop-11-C02",
-          "text": "我也想有人问问今天过得好不好。轮到我说，可能还有点不好意思。",
+          "text": "I want someone to ask how my day went, too. When it’s my turn to talk, I might feel a little shy.",
           "topic": "shyness"
         },
         {
           "id": "sit-loop-11-C03",
-          "text": "拿不定主意的话，我陪你想想。",
+          "text": "If you can’t decide, I’ll help you think it through.",
           "topic": "care"
         },
         {
           "id": "sit-loop-11-C04",
-          "text": "这袖口这么宽，有点想把你的手也藏进去。",
+          "text": "These sleeves are so wide, I kind of want to hide your hands in them, too.",
           "topic": "touch"
         },
         {
           "id": "sit-loop-11-C05",
-          "text": "我挺好奇，你第一次见我的时候在想什么。",
+          "text": "I’m curious what you thought the first time you saw me.",
           "topic": "memory"
         },
         {
           "id": "sit-loop-11-C06",
-          "text": "我偶尔也会闹点小脾气，你可别把我想得太乖。",
+          "text": "I can be a little moody sometimes, so don’t think I’m always perfectly well-behaved.",
           "topic": "play"
         },
         {
           "id": "sit-loop-11-C07",
-          "text": "你小时候是什么样的？特别想看看你那时候的照片。",
+          "text": "What were you like as a child? I’d really love to see pictures of you back then.",
           "topic": "story"
         },
         {
           "id": "sit-loop-11-C08",
-          "text": "想我了就直说嘛。你不说，我哪好意思一直问呀……",
+          "text": "If you miss me, just say so. If you don’t, how can I keep asking…",
           "topic": "affection"
         },
         {
           "id": "sit-loop-11-C09",
-          "text": "想跟你并排走一段路，走到哪儿算哪儿。",
+          "text": "I want to walk beside you for a while, wherever the road takes us.",
           "topic": "outing"
         },
         {
           "id": "sit-loop-11-C10",
-          "text": "在你面前，好像没那么容易觉得自己说错话了。",
+          "text": "When I’m with you, I don’t worry as much about saying the wrong thing.",
           "topic": "shyness"
         }
       ],
@@ -2981,19 +2981,19 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "affection": [
         {
           "id": "sit-loop-11-L01",
-          "text": "想用两只手握着你的手，有点舍不得松开呢。"
+          "text": "I want to hold your hand in both of mine. I might not want to let go."
         },
         {
           "id": "sit-loop-11-L02",
-          "text": "想和你靠得近一点，近到一句很普通的话，也可以轻轻说。"
+          "text": "I want to be close enough to you that even an ordinary sentence can be whispered."
         },
         {
           "id": "sit-loop-11-L03",
-          "text": "你也可以来找我要抱抱呀。"
+          "text": "You can come ask me for a hug, too."
         },
         {
           "id": "sit-loop-11-L04",
-          "text": "今天能不能换你说舍不得我？"
+          "text": "Could you be the one to say you don’t want me to leave today?"
         }
       ]
     },
@@ -3037,52 +3037,52 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "continuous": [
         {
           "id": "sit-loop-12-C01",
-          "text": "是我自己想来陪你的呀，不用担心我会无聊。",
+          "text": "I came because I wanted to keep you company. Don’t worry that I’ll be bored.",
           "topic": "together"
         },
         {
           "id": "sit-loop-12-C02",
-          "text": "这身黑裙子还真有点舍不得换，难得这么喜欢今天的自己呢。",
+          "text": "I’m a little reluctant to change out of this black dress. It’s rare for me to like how I look today this much.",
           "topic": "clothing"
         },
         {
           "id": "sit-loop-12-C03",
-          "text": "今天不想凑热闹，想跟你单独待着。",
+          "text": "I don’t feel like being in a crowd today. I want to be alone with you.",
           "topic": "together"
         },
         {
           "id": "sit-loop-12-C04",
-          "text": "有些事不想讲就先放着，咱们聊点别的。",
+          "text": "If there are things you don’t want to talk about, we can leave them for now and chat about something else.",
           "topic": "care"
         },
         {
           "id": "sit-loop-12-C05",
-          "text": "下次换我约你，好不好？",
+          "text": "Let me ask you out next time, okay?",
           "topic": "outing"
         },
         {
           "id": "sit-loop-12-C06",
-          "text": "不用一直找话题，这样也挺舒服的。",
+          "text": "We don’t have to keep finding topics. This is comfortable, too.",
           "topic": "quiet"
         },
         {
           "id": "sit-loop-12-C07",
-          "text": "想跟你随便走走。挑条没走过的路，迷路了再一起想办法。",
+          "text": "I want to take a casual walk with you. Let’s choose a road we haven’t tried; if we get lost, we’ll figure it out together.",
           "topic": "outing"
         },
         {
           "id": "sit-loop-12-C08",
-          "text": "还想再陪你一会儿呢。",
+          "text": "I want to keep you company a little longer.",
           "topic": "together"
         },
         {
           "id": "sit-loop-12-C09",
-          "text": "我想见你就会来找你，这点胆子还是有的。",
+          "text": "When I want to see you, I’ll come find you. I have at least that much courage.",
           "topic": "confidence"
         },
         {
           "id": "sit-loop-12-C10",
-          "text": "有事想找人的时候，也想想我呀。",
+          "text": "When you need someone, remember you can come to me, too.",
           "topic": "care"
         }
       ],
@@ -3121,19 +3121,19 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "affection": [
         {
           "id": "sit-loop-12-L01",
-          "text": "如果现在能见到你，我想先抱你。话可以抱着再说。"
+          "text": "If I could see you right now, I’d hug you first. We can talk while we’re holding each other."
         },
         {
           "id": "sit-loop-12-L02",
-          "text": "想亲你这件事，我今天不打算绕着说了。"
+          "text": "I’m not going to beat around the bush about wanting to kiss you today."
         },
         {
           "id": "sit-loop-12-L03",
-          "text": "你累的时候，也想来我这儿靠一靠就好了。"
+          "text": "When you’re tired, I want you to come lean on me for a while."
         },
         {
           "id": "sit-loop-12-L04",
-          "text": "真想把你拉到身边，亲口跟你说一句喜欢你……"
+          "text": "I really want to pull you close and tell you to your face that I like you…"
         }
       ]
     },
@@ -3177,52 +3177,52 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "continuous": [
         {
           "id": "sit-loop-17-C01",
-          "text": "这身粉色，我越看越喜欢。",
+          "text": "The more I look at this pink outfit, the more I like it.",
           "topic": "clothing"
         },
         {
           "id": "sit-loop-17-C02",
-          "text": "今天要是夸我，我可就不谦虚了。",
+          "text": "If you compliment me today, I won’t be modest about it.",
           "topic": "confidence"
         },
         {
           "id": "sit-loop-17-C03",
-          "text": "下次约会让我挑地方吧。",
+          "text": "Let me choose the place for our next date.",
           "topic": "outing"
         },
         {
           "id": "sit-loop-17-C04",
-          "text": "最近有没有偷偷得意的事？也跟我显摆一下嘛。",
+          "text": "Have you secretly been proud of anything lately? Come show off to me a little.",
           "topic": "story"
         },
         {
           "id": "sit-loop-17-C05",
-          "text": "你也可以理直气壮地说想我呀。",
+          "text": "You can confidently tell me you miss me, too.",
           "topic": "affection"
         },
         {
           "id": "sit-loop-17-C06",
-          "text": "想试试挽着你出门，看看自己会不会脸红。",
+          "text": "I want to try going out arm-in-arm with you and see if I blush.",
           "topic": "outing"
         },
         {
           "id": "sit-loop-17-C07",
-          "text": "要是你喜欢我挑的礼物，我大概比你还高兴。",
+          "text": "If you like the gift I chose, I’ll probably be happier than you are.",
           "topic": "gift"
         },
         {
           "id": "sit-loop-17-C08",
-          "text": "你喜欢的电影我也想看看，挑一部给我吧。",
+          "text": "I want to watch a movie you like, too. Pick one for me.",
           "topic": "play"
         },
         {
           "id": "sit-loop-17-C09",
-          "text": "今天心情好，有一半都是因为你呢。",
+          "text": "Half of my good mood today is because of you.",
           "topic": "affection"
         },
         {
           "id": "sit-loop-17-C10",
-          "text": "有时候也想听你撒个娇。就对着我，试一下嘛。",
+          "text": "Sometimes I want to hear you be a little clingy, too. Try it with me.",
           "topic": "affection"
         }
       ],
@@ -3261,19 +3261,19 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "affection": [
         {
           "id": "sit-loop-17-L01",
-          "text": "想亲你一下，又想让你先来。"
+          "text": "I want to kiss you, but I also want you to make the first move."
         },
         {
           "id": "sit-loop-17-L02",
-          "text": "想抱你的时候，也想被你紧紧抱回来。"
+          "text": "When I hug you, I want you to hug me tightly in return."
         },
         {
           "id": "sit-loop-17-L03",
-          "text": "你要是认真说喜欢我，我想好好听着，不躲了……"
+          "text": "If you sincerely tell me you like me, I want to listen properly instead of hiding…"
         },
         {
           "id": "sit-loop-17-L04",
-          "text": "想听你叫一声亲爱的。"
+          "text": "I want to hear you call me darling."
         }
       ]
     },
@@ -3317,52 +3317,52 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "continuous": [
         {
           "id": "sit-loop-20-C01",
-          "text": "两个人出门都说随便，最后会走到哪儿呀？我觉得八成会先饿。",
+          "text": "If two people both say “anywhere is fine” when they go out, where will they end up? I bet they’ll get hungry first.",
           "topic": "outing"
         },
         {
           "id": "sit-loop-20-C02",
-          "text": "想跟你去一次夜市，买两种不一样的。这样就有理由尝你那份了。",
+          "text": "I want to go to a night market with you and buy two different things. Then I’ll have an excuse to try yours.",
           "topic": "outing"
         },
         {
           "id": "sit-loop-20-C03",
-          "text": "有时候挑了半天衣服，还是换回最开始那套。今天这条牛仔裤就是。",
+          "text": "Sometimes I spend ages choosing clothes, only to go back to the first outfit. These jeans are an example.",
           "topic": "clothing"
         },
         {
           "id": "sit-loop-20-C04",
-          "text": "下次给你发消息，我想试试只发一句“想见你”。不先问你在干嘛了。",
+          "text": "Next time I message you, I want to try sending only “I want to see you,” without first asking what you’re doing.",
           "topic": "affection"
         },
         {
           "id": "sit-loop-20-C05",
-          "text": "想听你讲件自己的糗事。我的也可以讲，不过你笑的时候稍微收着点呀。",
+          "text": "I want to hear an embarrassing story about you. I can share one of mine, too, but go easy on the laughter.",
           "topic": "story"
         },
         {
           "id": "sit-loop-20-C06",
-          "text": "下次拍合照，别总让我一个人找角度呀。你也往我这边挤一点。",
+          "text": "Next time we take a photo together, don’t make me find the angle alone. Scoot closer to me, too.",
           "topic": "touch"
         },
         {
           "id": "sit-loop-20-C07",
-          "text": "我偶尔也会想耍赖的。比如猜拳输了，还想拉着你再来一次。",
+          "text": "Sometimes I want to be a sore loser. Like losing rock-paper-scissors and insisting we play again.",
           "topic": "play"
         },
         {
           "id": "sit-loop-20-C08",
-          "text": "我未必懂你的爱好，可你讲得起劲的时候，我还挺想继续听的。",
+          "text": "I may not understand your hobbies, but when you talk about them enthusiastically, I want to keep listening.",
           "topic": "care"
         },
         {
           "id": "sit-loop-20-C09",
-          "text": "突然想和你比比手掌大小。我的手看着也不小，不知道放在你手里会怎样。",
+          "text": "I suddenly want to compare hand sizes with you. My hands don’t look small, but I wonder how they’d feel in yours.",
           "topic": "touch"
         },
         {
           "id": "sit-loop-20-C10",
-          "text": "约会我会偷偷早到一点，再假装自己也刚来。免得你太得意。",
+          "text": "I’ll secretly arrive a little early for our date, then pretend I just got here, so you don’t get too pleased with yourself.",
           "topic": "outing"
         }
       ],
@@ -3401,19 +3401,19 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "affection": [
         {
           "id": "sit-loop-20-L01",
-          "text": "想把手伸进你外套口袋里，跟你的手藏在一起。这样走路应该会很暖吧。"
+          "text": "I want to slip my hand into your coat pocket and hide it with yours. Walking like that must be warm."
         },
         {
           "id": "sit-loop-20-L02",
-          "text": "要是你坐在旁边，我想先亲一下你的下巴。然后就靠着你，不说话了。"
+          "text": "If you were sitting beside me, I’d kiss your chin first. Then I’d lean against you without saying anything."
         },
         {
           "id": "sit-loop-20-L03",
-          "text": "想试试从背后抱住你，把脸贴在你背上。先不让你转过来。"
+          "text": "I want to hug you from behind and rest my face against your back. I won’t let you turn around just yet."
         },
         {
           "id": "sit-loop-20-L04",
-          "text": "下次见面，让我先抱你好不好？我想知道自己会不会舍不得放手。"
+          "text": "Next time we meet, can I hug you first? I want to see if I’ll be reluctant to let go."
         }
       ]
     },
@@ -3457,52 +3457,52 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "continuous": [
         {
           "id": "sit-loop-27-C01",
-          "text": "我想跟你一起挑一对杯子，长得不一样也行。放在一起，就知道是我们的。",
+          "text": "I want to choose a pair of cups with you. They don’t have to match; together, we’ll know they’re ours.",
           "topic": "home"
         },
         {
           "id": "sit-loop-27-C02",
-          "text": "以后一起做饭，你切得慢我不会催。只是偷吃的时候，记得也给我留一口呀。",
+          "text": "When we cook together, I won’t rush you if you chop slowly. Just save me a bite when you sneak a taste.",
           "topic": "food"
         },
         {
           "id": "sit-loop-27-C03",
-          "text": "今天有点想把计划往后挪挪。真空下来，反而舍不得随便花掉了。",
+          "text": "I feel like pushing my plans back today. Now that I have free time, I don’t want to waste it carelessly.",
           "topic": "quiet"
         },
         {
           "id": "sit-loop-27-C04",
-          "text": "我想跟你挤在同一条毯子里。卷走太多的话，你就把我也一起拉回来嘛。",
+          "text": "I want to squeeze under the same blanket with you. If I roll too much of it away, just pull me back with it.",
           "topic": "touch"
         },
         {
           "id": "sit-loop-27-C05",
-          "text": "你在家会不会哼歌呀？我想听那种只记得半句，还要自己乱接下去的。",
+          "text": "Do you hum songs at home? I want to hear the kind where you only remember half a line and make up the rest.",
           "topic": "music"
         },
         {
           "id": "sit-loop-27-C06",
-          "text": "这件开衫我想多留几年，旧一点也没关系。喜欢的衣服穿久了，就更舍不得了。",
+          "text": "I want to keep this cardigan for a few more years. It’s fine if it gets worn; the longer I wear clothes I love, the harder they are to part with.",
           "topic": "clothing"
         },
         {
           "id": "sit-loop-27-C07",
-          "text": "要是一起看悬疑片，我猜错的时候你先别揭穿。让我再信誓旦旦一会儿嘛。",
+          "text": "If we watch a mystery together, don’t reveal it when I guess wrong. Let me be confidently mistaken a little longer.",
           "topic": "play"
         },
         {
           "id": "sit-loop-27-C08",
-          "text": "有时我说想吃什么，也是在问你要不要陪我。你别只顾着给我找店呀。",
+          "text": "Sometimes when I say what I want to eat, I’m also asking if you’ll come with me. Don’t just focus on finding a restaurant.",
           "topic": "food"
         },
         {
           "id": "sit-loop-27-C09",
-          "text": "周末醒得早的话，我想先去买早餐。回来再决定，要不要叫醒你……",
+          "text": "If I wake up early on the weekend, I want to go buy breakfast first. I’ll decide whether to wake you when I get back…",
           "topic": "food"
         },
         {
           "id": "sit-loop-27-C10",
-          "text": "真在一起住的话，听见你开门，我应该就会想喊你一声。也没什么事，喊着高兴。",
+          "text": "If we really lived together, I’d probably call out to you when I heard the door open. No reason in particular; it would just make me happy.",
           "topic": "home"
         }
       ],
@@ -3541,19 +3541,19 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "affection": [
         {
           "id": "sit-loop-27-L01",
-          "text": "想把脸埋在你肩上，偷偷笑一会儿。你先别问我为什么呀。"
+          "text": "I want to bury my face in your shoulder and secretly smile for a while. Don’t ask me why just yet."
         },
         {
           "id": "sit-loop-27-L02",
-          "text": "你要是肯抱我，我就想连这件开衫一起裹进你怀里。应该会很舒服吧。"
+          "text": "If you’ll hug me, I want to wrap this cardigan around myself and curl up in your arms. That sounds so cozy."
         },
         {
           "id": "sit-loop-27-L03",
-          "text": "想让你亲一下我的头发。那种很随意、又知道你在疼我的感觉……"
+          "text": "I want you to kiss my hair. That casual feeling of knowing you care for me…"
         },
         {
           "id": "sit-loop-27-L04",
-          "text": "要是能枕在你腿上，我想跟你聊些有的没的。聊着聊着睡着了，你就轻一点叫我。"
+          "text": "If I could rest my head on your lap, I’d chat with you about all sorts of things. If I fell asleep while talking, wake me gently."
         }
       ]
     }
