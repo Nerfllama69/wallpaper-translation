@@ -3,8 +3,8 @@
 window.PURPLE_LOOKS = Object.freeze([
   {
     "id": "01",
-    "name": "夜色红底",
-    "short": "夜色红底",
+    "name": "Red After Dark",
+    "short": "Red After Dark",
     "english": "A SECRET IN RED",
     "freeze": 10.5,
     "duration": 12.033333,
@@ -12,37 +12,37 @@ window.PURPLE_LOOKS = Object.freeze([
     "locked": false,
     "dialogue": {
       "enter": [
-        "今天这条黑裙，是有一点小心思的。你慢慢看。",
-        "本来只想试试这条黑裙……后来，连鞋也认真挑了。",
-        "（语气里藏着期待）这双鞋平时不太舍得穿，今天倒是没犹豫。",
-        "（将碎发轻轻拢到耳后）换上这条黑裙，忽然想试试大方一点的样子。"
+        "There’s a little something behind choosing this black dress today. Take your time and have a look.",
+        "I only meant to try on this black dress… then I found myself carefully choosing the shoes, too.",
+        "(A hint of anticipation in her voice) I usually save these shoes for special occasions, but today I didn’t hesitate.",
+        "(Gently tucking a loose strand behind her ear) After putting on this black dress, I suddenly felt like trying a bolder look."
       ],
       "held": [
-        "想让你多看一会儿，也想在你这儿多待一会儿。",
-        "都打扮好了，只见你一个人也挺值得的。",
-        "（轻轻一笑）裙子是新搭的。你喜欢的话，下次还这样穿。",
-        "（目光稍稍移开，又望回来）裙摆是短了些……不过，我喜欢这样来见你。"
+        "I want you to look a little longer… and I want to stay here with you a little longer, too.",
+        "Getting all dressed up just to see you feels worth it, even if you’re the only one I see.",
+        "(Smiles softly) This is a new outfit combination. If you like it, I’ll wear it this way again next time.",
+        "(Her gaze slips away, then returns) The skirt is a little short… but I like coming to see you dressed like this."
       ],
       "restored": [
-        "今天这身有点认真。陪你嘛，就随意一点。"
+        "I put a little extra thought into today’s outfit. But when I’m with you, I can just relax."
       ],
       "random": [
-        "原来你也会选这种风格，我还担心太惹眼。",
-        "这一套……我本来就想穿给你看的。",
-        "看来，今天可以稍微大胆一点。",
-        "先别急着再选，让我走近一点。",
-        "穿成这样还装作随意，我自己都不信。",
-        "（微微一怔，随后笑了）啊，是这套。那我藏着的小心思，要露馅了。",
-        "（含笑，语气笃定）这次，我想你会喜欢的。",
-        "（笑意停在唇边）本来想留个惊喜……看来就是现在了。",
-        "（把碎发拢好，抬起眼）嗯，偶尔也想让你舍不得移开目光。"
+        "So you like this style too. I was worried it might be a little attention-grabbing.",
+        "This outfit… I was hoping to wear it for you.",
+        "Looks like I can be a little bolder today.",
+        "Don’t pick another one just yet. Let me come a little closer.",
+        "Dressing up like this and pretending it’s no big deal… even I don’t believe that.",
+        "(She pauses, then smiles) Oh, this one. I guess my little secret is about to be found out.",
+        "(Smiling, with quiet confidence) I think you’ll like this one.",
+        "(Her smile lingers) I wanted to save this as a surprise… I guess the time is now.",
+        "(She tidies her hair and looks up) Mm, sometimes I want to make it hard for you to look away."
       ]
     }
   },
   {
     "id": "02",
-    "name": "奶油假日",
-    "short": "奶油假日",
+    "name": "Creamy Holiday",
+    "short": "Creamy Holiday",
     "english": "A DAY TO LINGER",
     "freeze": 11.41,
     "duration": 12.033333,
@@ -50,36 +50,36 @@ window.PURPLE_LOOKS = Object.freeze([
     "locked": false,
     "dialogue": {
       "enter": [
-        "这件上衣的颜色，越看越像奶油蛋糕。",
-        "本来穿短裤就够了，见你，还是想配双好看的鞋。",
-        "（放松地舒了口气）换了件软软的上衣，今天不想安排太多事。",
-        "（声音透着懒意）穿上这一身，连出门买东西都想改天再说了。"
+        "The more I look at this top, the more it reminds me of cream cake.",
+        "Shorts would’ve been enough, but since I’m seeing you, I wanted to wear pretty shoes too.",
+        "(She lets out a relaxed sigh) I changed into a soft top. I don’t want to plan too much today.",
+        "(Her voice sounds sleepy) Wearing this makes me want to put off even a quick shopping trip until another day."
       ],
       "held": [
-        "有点想吃甜的了。要是分你一半，你会陪我吃吗？",
-        "舒服归舒服，也还是想被你说一句好看。",
-        "（声音懒懒的）穿得这么舒服，连我都想跟着偷会儿懒了。",
-        "（舒了口气）这身软乎乎的，适合待着，也适合发呆。你随意就好。"
+        "I’m craving something sweet. If I shared half with you, would you eat it with me?",
+        "Comfortable as this is, I’d still like to hear you say I look pretty.",
+        "(Her voice is languid) I’m dressed so comfortably that even I feel like being lazy for a while.",
+        "(She sighs contentedly) These soft clothes are perfect for lounging and daydreaming. Just make yourself comfortable."
       ],
       "restored": [
-        "今天想穿得舒服些，和你慢慢待着。"
+        "I wanted to dress comfortably today and spend some unhurried time with you."
       ],
       "random": [
-        "想聊点没什么用的小事，想到哪儿就说到哪儿。",
-        "这次不用安排什么，坐在一起就好了。",
-        "唔，是可以赖一会儿的心情。",
-        "如果忍不住打了个哈欠，你就当没看见哦。",
-        "要不要把这一小会儿，当成我们的假日？",
-        "（轻舒一口气）太好了，可以舒舒服服地待着了。",
-        "（尾音软软的）我正想偷懒呢，你可别催我。",
-        "（轻轻应了一声）随意一点也好，见你又不用事事准备周全。",
-        "（懒懒地笑）只想安安静静待着的话，选得正好。"
+        "Let’s talk about little things that don’t matter much. We can just see where the conversation goes.",
+        "We don’t need to plan anything this time. Just sitting together is enough.",
+        "Mm, I’m in the mood to laze around a little longer.",
+        "If I can’t help yawning, just pretend you didn’t see it, okay?",
+        "Shall we treat this little while as our own holiday?",
+        "(She breathes out softly) Ah, good. Now I can just relax.",
+        "(Her voice trails off softly) I was just about to laze around, so don’t rush me.",
+        "(She gives a soft little reply) It’s nice to be casual. I don’t have to prepare everything perfectly just to see you.",
+        "(She smiles lazily) If you just want to spend some quiet time together, you picked the perfect outfit."
       ]
     }
   },
   {
     "id": "03",
-    "name": "绯红小恶魔",
+    "name": "Crimson Little Devil",
     "short": "绯红小角",
     "english": "A LITTLE MISCHIEF",
     "freeze": 11.2,
@@ -88,37 +88,37 @@ window.PURPLE_LOOKS = Object.freeze([
     "locked": false,
     "dialogue": {
       "enter": [
-        "这个小角，我戴上又摘了好几次。",
-        "这身红黑色，比我平时穿的要大胆一点。",
-        "（微微扬起下巴）戴上这个以后，是不是就能理直气壮地捣乱了？",
-        "（故意放低声音）小角已经戴好了。现在开始，要稍微提防我哦。"
+        "I put these little horns on and took them off several times.",
+        "This red-and-black outfit is a little bolder than what I usually wear.",
+        "(She lifts her chin slightly) Now that I’ve put these on, can I get away with causing a little trouble?",
+        "(She deliberately lowers her voice) My little horns are on. You’d better watch out for me now."
       ],
       "held": [
-        "既然你看见了，那就让我再大胆一小会儿。",
-        "穿得大胆一点，靠近你时还是会紧张。",
-        "（佯装思考，忍不住笑）先从什么开始呢……让你舍不得换掉我？",
-        "（没忍住，先笑了）果然，戴着小角也吓不到你呀。"
+        "Since you’ve seen me like this, let me be a little bolder for a bit.",
+        "Even dressed boldly, I still get nervous when I come close to you.",
+        "(She pretends to think, then can’t help smiling) Where should I start… by making you reluctant to switch away from me?",
+        "(She laughs before she can stop herself) Just as I thought, even with these little horns, I can’t scare you."
       ],
       "restored": [
-        "小角都戴好了，今天想试着逗你一下。"
+        "I’ve got my little horns on. Today, I want to try teasing you a bit."
       ],
       "random": [
-        "这次……你可要稍微有点准备。",
-        "被你抽到了，那就不藏了。",
-        "今天乖一点，还是……算了，先不告诉你。",
-        "偶尔，也想让你拿我没办法。",
-        "先说好，不许笑我不熟练。",
-        "（歪了歪头，忍着笑）选好了？现在反悔，我可要笑你的。",
-        "（轻轻扬眉）平时都说我乖，偶尔也该换个说法了。",
-        "（嘴角悄悄扬起）这次不许只夸可爱，我还有别的本事呢。",
-        "（故作神秘）嗯？怎么偏偏选中了我最想试的那套。"
+        "This time… you’d better be a little prepared.",
+        "You picked me, so I won’t hide it anymore.",
+        "Should I behave today, or… never mind. I won’t tell you yet.",
+        "Sometimes, I want to leave you at a loss for what to do with me.",
+        "Just so we’re clear, don’t laugh if I’m not very good at this.",
+        "(She tilts her head, holding back a laugh) Made your choice? If you change your mind now, I’ll laugh at you.",
+        "(She raises an eyebrow) You’re always calling me well-behaved. It’s time for a change once in a while.",
+        "(The corners of her mouth curl up) You can’t just call me cute this time. I have other talents, you know.",
+        "(She puts on a mysterious air) Hmm? How did you pick the very outfit I wanted to try most?"
       ]
     }
   },
   {
     "id": "04",
-    "name": "蓝结心事",
-    "short": "蓝结心事",
+    "name": "Blue Bow, Secret Thoughts",
+    "short": "Blue Bow, Secret Thoughts",
     "english": "TIED WITH CARE",
     "freeze": 10.5,
     "duration": 12.033333,
@@ -126,16 +126,16 @@ window.PURPLE_LOOKS = Object.freeze([
     "locked": false,
     "dialogue": {
       "enter": [
-        "领口这一点蓝，让我想起天气很好的早晨。",
-        "白上衣配这条短裙，好像又轻快了一点。",
-        "（有些不好意思地垂下眼）这个结好像系得太认真了……又不是第一次见你。",
-        "（低头看了看领结）选了这个蓝色，觉得你看着也会心情好些。"
+        "The blue at the collar reminds me of a bright, beautiful morning.",
+        "The white top with this short skirt makes the whole outfit feel a little lighter.",
+        "(She lowers her eyes, a little embarrassed) I tied this bow a little too carefully… it’s not as if this is the first time we’ve met.",
+        "(She looks down at her bow) I chose this shade of blue because I thought it might brighten your mood too."
       ],
       "held": [
-        "想穿得清清爽爽的，和你待上一会儿。",
-        "今天不赶时间，让我慢慢陪你。",
-        "（抬眼，声音轻而认真）不过，特意打扮一下再见面，我很喜欢。",
-        "（手指轻碰领结，声音柔和）这个颜色看久了也舒服，就这样陪你吧。"
+        "I wanted to dress fresh and simple and spend a little time with you.",
+        "There’s no rush today. Let me keep you company at my own pace.",
+        "(She looks up, her voice gentle but sincere) Still, I like taking the time to dress up specially to see you.",
+        "(Her fingers brush the bow, her voice soft) This color is easy on the eyes, even after a while. Let me stay with you like this."
       ],
       "restored": [
         "蓝色结系好了。今天也想好好见你。"
