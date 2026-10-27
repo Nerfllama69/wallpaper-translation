@@ -1065,7 +1065,7 @@
       else primeLoop();
     }
     if (speak && !LOOKS[current].silent) {
-      const words = {freeze: '好，就把喜欢的这一刻留下。', companion: '就在这儿，慢慢陪着你。', single: '这么喜欢这一套呀……那就再陪你看一会儿。', all: '那就慢慢看，我一套一套换给你。', favorites: '你点过心的，我都记得。慢慢穿给你看。', 'global-all': 'EnabledCycle All Wardrobes，In Order播放三个衣橱的开放穿搭。', 'global-favorites': 'EnabledFavorites Across All Wardrobes，In Order播放三个衣橱的收藏。'};
+      const words = {freeze: 'All right, let’s keep this moment you love.', companion: 'I’m right here, keeping you company.', single: 'You like this one that much… then let’s stay with it a little longer.', all: 'Take your time. I’ll show you each outfit, one by one.', favorites: 'I remember every outfit you’ve liked. I’ll show them to you slowly.', 'global-all': 'EnabledCycle All Wardrobes，In Order播放三个衣橱的开放穿搭。', 'global-favorites': 'EnabledFavorites Across All Wardrobes，In Order播放三个衣橱的收藏。'};
       const wordsForMode = shuffleCarousel() ? `Enabled${playbackModeLabel()}，No repeats within a round。` : fixedLine(mode, words[mode]);
       toast(wordsForMode, globalMode() || shuffleCarousel() ? 'Playback Mode' : 'She Says');
       if (mode !== 'freeze') setStatus('STAY A LITTLE.', wordsForMode);
@@ -1282,7 +1282,7 @@
       // Retain the last visible frame and a usable play button on decode failure.
       phase = 'paused'; video.pause(); stopWatcher(); clearLoadingHint();
       body.classList.remove('is-playing'); readyControls(false);
-      toast('循环衔接暂时中断，点播放继续。', 'Playback Notice');
+      toast('Loop transition interrupted. Press Play to continue.', 'Playback Notice');
     };
     try {
       const target = companionStart();
@@ -1413,7 +1413,7 @@
       // The old deck is still intact. Keep it usable if the chosen file fails.
       releaseSpare();
       prefs.quality = previousQuality; persist();
-      if (error.name !== 'AbortError') toast('这档画质暂时无法加载，已保留原画质。', 'Playback Notice');
+      if (error.name !== 'AbortError') toast('This quality setting could not load, so the original quality has been kept.', 'Playback Notice');
     }
     if (task.id !== operation) return;
     phase = previousPhase;
@@ -1858,8 +1858,8 @@
       phase = 'paused';
       body.classList.remove('is-playing');
       renderTransport();
-      setStatus('READY WHEN YOU ARE.', fixedLine('ready', '点一下播放，等你。'));
-      if (!isAutomaticOperation() && error.name !== 'NotAllowedError') toast('播放暂时中断，点播放继续。', 'Playback Notice');
+      setStatus('READY WHEN YOU ARE.', fixedLine('ready', 'Press Play whenever you’re ready.'));
+      if (!isAutomaticOperation() && error.name !== 'NotAllowedError') toast('Playback paused unexpectedly. Press Play to continue.', 'Playback Notice');
     }
   }
   function loadFailure(index, error, id) {
@@ -1876,7 +1876,7 @@
     $('loading').hidden = true;
     clearTimeout(loadingTimer);
     body.classList.remove('is-playing');
-    setStatus('A LITTLE PAUSE.', '视频暂时无法播放，点击下方「重试」。');
+    setStatus('A LITTLE PAUSE.', 'The video can’t play right now. Click “Retry” below.');
     readyControls(false);
     if (isAutomaticOperation()) scheduleIdleHide();
     else { toast('视频暂时无法播放，可以点「重试」或Change Outfit。', 'Playback Notice'); activity(true); }
