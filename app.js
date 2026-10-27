@@ -12,13 +12,13 @@
   const WARDROBES = [
   {
     "id": "classic",
-    "name": "咫尺偏爱",
+    "name": "Close to the Heart",
     "english": "CLOSER, TOGETHER",
     "defaultLook": "04",
     "empty": "empty.jpg",
     "chapters": [
       {
-        "name": "日常靠近",
+        "name": "Everyday Closeness",
         "looks": [
           "01",
           "02",
@@ -27,7 +27,7 @@
         ]
       },
       {
-        "name": "慢慢心动",
+        "name": "Falling, Slowly",
         "looks": [
           "03",
           "05",
@@ -36,7 +36,7 @@
         ]
       },
       {
-        "name": "心意新章",
+        "name": "A New Chapter of Us",
         "looks": [
           "09",
           "classic-20",
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "name": "没说完的话",
+        "name": "Words Left Unsaid",
         "looks": [
           "10",
           "11",
@@ -55,13 +55,13 @@
   },
   {
     "id": "sit",
-    "name": "片刻倾心",
+    "name": "A Moment to Adore",
     "english": "A SEAT IN PURPLE",
     "defaultLook": "sit-02",
     "empty": "empty-purple.jpg",
     "chapters": [
       {
-        "name": "坐叙 · 日常",
+        "name": "Sitting Together · Everyday",
         "looks": [
           "sit-02",
           "sit-04",
@@ -70,7 +70,7 @@
         ]
       },
       {
-        "name": "坐叙 · 余闲",
+        "name": "Sitting Together · Leisure",
         "looks": [
           "sit-07",
           "sit-12",
@@ -79,7 +79,7 @@
         ]
       },
       {
-        "name": "坐叙 · 私语",
+        "name": "Sitting Together · Whispers",
         "looks": [
           "sit-13",
           "sit-01",
@@ -87,7 +87,7 @@
         ]
       },
       {
-        "name": "坐叙 · 待续",
+        "name": "Sitting Together · To Be Continued",
         "looks": [
           "sit-loop-01",
           "sit-loop-02",
@@ -95,7 +95,7 @@
         ]
       },
       {
-        "name": "坐叙 · 轻语",
+        "name": "Sitting Together · Soft Words",
         "looks": [
           "sit-loop-10",
           "sit-loop-11",
@@ -103,13 +103,13 @@
         ]
       },
       {
-        "name": "坐叙 · 晚安",
+        "name": "Sitting Together · Goodnight",
         "looks": [
           "sit-loop-17"
         ]
       },
       {
-        "name": "坐叙 · 新意",
+        "name": "Sitting Together · Something New",
         "looks": [
           "sit-loop-20",
           "sit-loop-27"
@@ -119,13 +119,13 @@
   },
   {
     "id": "recline",
-    "name": "慵懒依偎",
+    "name": "Lazy Cuddles",
     "english": "SLOW AFTERNOONS",
     "defaultLook": "recline-01",
     "empty": "empty-purple.jpg",
     "chapters": [
       {
-        "name": "小憩 · 轻柔",
+        "name": "A Little Rest · Gentle",
         "looks": [
           "recline-01",
           "recline-02",
@@ -134,7 +134,7 @@
         ]
       },
       {
-        "name": "小憩 · 随心",
+        "name": "A Little Rest · At Ease",
         "looks": [
           "recline-05",
           "recline-06",
