@@ -1868,208 +1868,208 @@ window.PURPLE_REPLIES = Object.freeze({
     "Want a change of mood, or should we stay like this?",
     "You don’t need to find something to say. Just being together is enough.",
     "(She tilts her head slightly) Hmm? Do you want me to change outfits?",
-    "（声音软软的）在呢，你慢慢挑。",
-    "（含笑，语气好奇）今天又给我带来什么主意了？",
-    "（抬眼，语气亲近）来啦。这次想从哪一件看起？",
-    "（轻声商量）拿不定主意的话，交给运气试试？",
-    "（笑着招呼）来，一起看看还有什么没试过。"
+    "(Her voice is soft) I’m here. Take your time choosing.",
+    "(Smiling, curious) What idea have you brought me today?",
+    "(She looks up warmly) You’re here. Which outfit would you like to start with?",
+    "(She suggests softly) If you can’t decide, shall we leave it to luck?",
+    "(She greets you with a smile) Come on, let’s see what else we haven’t tried."
   ]
 });
 window.PURPLE_AFFECTION = Object.freeze({
   "shared": {
     "favorite": [
-      "（抿唇一笑）这份偏爱，我就不跟你客气了。",
-      "（嘴角先扬起来，才轻声开口）好，这份喜欢，我就当你亲口说了。"
+      "(She smiles with pursed lips) I won’t turn down this special affection.",
+      "(A smile comes to her lips before she speaks softly) All right, I’ll take this as you saying you like me."
     ],
     "replay": [
-      "（犹豫着开口）其实……（声音放轻，却没有再躲闪）你不点，我也想再来见你一次。",
-      "（轻轻歪头）原来还没看够呀。（笑着垂眼）听起来，我也不太想拒绝。"
+      "(She hesitates) Actually… (Her voice softens, but she doesn’t look away) Even if you hadn’t chosen me, I would have wanted to come see you again.",
+      "(She tilts her head) So you haven’t had enough of looking yet? (She lowers her eyes with a smile) I don’t think I want to say no."
     ],
     "saved": [
-      "（有些害羞地轻笑）要一直留着呀？那我得慢慢习惯被你看着。",
-      "（声音里藏着羞意）以后每次见到这一刻，都分一点心思给我，好不好？"
+      "(She laughs shyly) You want to keep it forever? Then I’ll have to get used to you looking at me.",
+      "(Her voice holds a hint of shyness) Whenever you see this moment again, will you spare a little thought for me?"
     ],
     "wake": [
-      "（轻声询问，目光带着期待）没急事的话，这次陪我待一会儿，好吗？",
-      "（指尖轻轻绕着发尾）今天可以换我撒个娇吗？想听你说点好听的。"
+      "(She asks softly, eyes full of hope) If you’re not busy, would you stay with me for a while?",
+      "(She twirls a strand of hair around her finger) Can I be the affectionate one today? I want to hear you say something sweet."
     ]
   },
   "looks": {
     "01": {
       "held": [
-        "（语气软下来，带点撒娇）为了配这条裙子挑了好久，多陪我一会儿吧。",
-        "（低头看了一眼裙摆，轻笑）穿得这么漂亮，想听你亲口夸一句。"
+        "(Her voice softens, turning a little coaxing) I spent ages choosing things to match this skirt. Stay with me a little longer.",
+        "(She glances at her hem and chuckles) I dressed up so nicely. I want to hear you compliment me yourself."
       ]
     },
     "06": {
       "held": [
-        "（温柔地笑着，语气却很肯定）穿得这么像约会，我可不打算只坐一小会儿。",
-        "（轻轻拨开耳边的头发）穿着这件来约会，我也想表现得大方些。（声音放轻）可心跳不太听话。"
+        "(She smiles warmly, but speaks firmly) Dressed like we’re on a date, I don’t plan to sit here for just a little while.",
+        "(She brushes her hair back) I want to be more composed on our date in this outfit. (Her voice softens) But my heart won’t cooperate."
       ]
     },
     "09": {
       "held": [
-        "（眼神柔和，声音放轻）裙子可以下次再穿。今天，想多陪陪你。",
-        "（轻拢裙摆，含笑望过来）穿这条裙子的时候，总想把见面拖得长一点。"
+        "(Her gaze softens and her voice quiets) I can wear the skirt another time. Today, I want to spend more time with you.",
+        "(She gathers her skirt and looks over with a smile) Whenever I wear this skirt, I want to make our time together last longer."
       ]
     },
     "classic-20": {
       "scenes": [
         {
-          "enter": "（声音很轻）你哪天想歇歇，也可以靠着我。",
-          "held": "换我抱着你，多久都行。"
+          "enter": "(Very softly) If you ever need a rest, you can lean on me.",
+          "held": "Let me hold you for a change, for as long as you like."
         }
       ]
     },
     "classic-24": {
       "scenes": [
         {
-          "enter": "有时候走着走着，就想挽住你的胳膊。",
-          "held": "也不是走累了，就是想跟你贴近一点。"
+          "enter": "Sometimes, while we’re walking, I just want to link arms with you.",
+          "held": "It’s not that I’m tired of walking. I just want to be a little closer to you."
         }
       ]
     },
     "recline-01": {
       "scenes": [
         {
-          "enter": "（声音轻了些）其实我刚才在想，要是能亲到你就好了。",
-          "held": "就轻轻一下，然后再抱抱你。"
+          "enter": "(Her voice softens) Actually, I was just thinking how nice it would be to kiss you.",
+          "held": "Just a little kiss, and then another hug."
         }
       ]
     },
     "recline-02": {
       "scenes": [
         {
-          "enter": "你要是抱我，我可能会把手藏在你外套里。",
-          "held": "先说好啊，暖和了也不一定马上拿出来。"
+          "enter": "If you hug me, I might hide my hands inside your coat.",
+          "held": "Just so you know, I might not take them out right away, even once they’re warm."
         }
       ]
     },
     "recline-03": {
       "scenes": [
         {
-          "enter": "能不能叫我一声？就像平时哄我的那样。",
-          "held": "（自己先笑了）还没听见呢，我就有点想抱你了。"
+          "enter": "Could you call my name? The way you usually comfort me.",
+          "held": "(She laughs to herself) I haven’t even heard you yet, and I already want to hug you."
         }
       ]
     },
     "recline-04": {
       "scenes": [
         {
-          "enter": "（声音有点低）我好像越来越习惯往你身上靠了。",
-          "held": "有时候想坐直一点，没过一会儿又贴过去了。"
+          "enter": "(Her voice is a little low) I think I’m getting more and more used to leaning on you.",
+          "held": "Sometimes I try to sit up straight, but before long I’m leaning against you again."
         }
       ]
     },
     "recline-05": {
       "scenes": [
         {
-          "enter": "今天想听你叫我一声宝贝。",
-          "held": "我可能会不好意思，可我想听。"
+          "enter": "I want to hear you call me sweetheart today.",
+          "held": "I might get embarrassed, but I want to hear it."
         }
       ]
     },
     "recline-06": {
       "scenes": [
         {
-          "enter": "我有时候会羡慕，能很自然说出想你的人。",
-          "held": "（声音轻下来）我也想你。就是……说得慢了一点。"
+          "enter": "Sometimes I envy people who can say they miss someone so naturally.",
+          "held": "(Her voice softens) I miss you, too. I just… take a little longer to say it."
         }
       ]
     },
     "recline-07": {
       "scenes": [
         {
-          "enter": "亲一下，好不好？",
-          "held": "我有点等不及了……想听你说好。"
+          "enter": "Can I have a kiss?",
+          "held": "I’m getting a little impatient… I want to hear you say yes."
         }
       ]
     },
     "sit-01": {
       "scenes": [
         {
-          "enter": "今天想先抱抱你。",
-          "held": "（声音轻下来）抱着再亲一下，行不行？"
+          "enter": "I want to hug you first today.",
+          "held": "(Her voice softens) Can we kiss after we hug?"
         }
       ]
     },
     "sit-02": {
       "scenes": [
         {
-          "enter": "有时候挺想先抱你的，手都想伸出来了。",
-          "held": "（有点不好意思）到你面前又慢半拍……你等等我呀。"
+          "enter": "Sometimes I really want to hug you first; I’m already reaching out.",
+          "held": "(A little embarrassed) But when I get in front of you, I hesitate… wait for me, okay?"
         }
       ]
     },
     "sit-04": {
       "scenes": [
         {
-          "enter": "今天有点想赖在你身上。",
-          "held": "（声音软软的）你要是肯抱着我，我可能就不想起来了。"
+          "enter": "I feel like clinging to you today.",
+          "held": "(Her voice is soft) If you hold me, I might not want to get up again."
         }
       ]
     },
     "sit-05": {
       "scenes": [
         {
-          "enter": "平时挺会拿主意的，见你却不太一样。",
-          "held": "（声音轻了些）想让你抱抱我，还要在心里练一遍。"
+          "enter": "I’m usually good at making decisions, but I’m different when I see you.",
+          "held": "(Her voice softens) I have to rehearse in my head just to ask you to hug me."
         }
       ]
     },
     "sit-06": {
       "scenes": [
         {
-          "enter": "想抱你的时候，我有时候会忍住。",
-          "held": "（小声）今天不太想忍了……你把手张开好不好？"
+          "enter": "Sometimes, when I want to hug you, I hold myself back.",
+          "held": "(Quietly) I don’t really want to hold back today… will you open your arms for me?"
         }
       ]
     },
     "sit-07": {
       "scenes": [
         {
-          "enter": "今天有点想撒娇，不知道你吃不吃这一套。",
-          "held": "（声音轻下来）这么可爱，能不能要一个亲亲？"
+          "enter": "I feel like being a little clingy today. I wonder if you’ll indulge me.",
+          "held": "(Her voice softens) Since I’m being this cute, can I have a little kiss?"
         }
       ]
     },
     "sit-09": {
       "scenes": [
         {
-          "enter": "刚才在想，穿这身被你抱着会是什么样。",
-          "held": "（声音很轻）应该会很开心……也可能先红了脸。"
+          "enter": "I was just wondering what it would feel like to be hugged by you while wearing this.",
+          "held": "(Very softly) I’d probably be really happy… and maybe blush first."
         }
       ]
     },
     "sit-12": {
       "scenes": [
         {
-          "enter": "平时总想着别麻烦你，今天想改一下。",
-          "held": "（声音软下来）能不能让我靠一会儿？就靠在你肩上。"
+          "enter": "I’m always trying not to trouble you, but today I want to change that.",
+          "held": "(Her voice softens) Can I lean on you for a while? Just against your shoulder."
         }
       ]
     },
     "sit-13": {
       "scenes": [
         {
-          "enter": "这身穿着去约会，走路都想慢一点。",
-          "held": "（声音轻下来）想挽着你，多走一小段。"
+          "enter": "Wearing this on a date makes me want to walk more slowly.",
+          "held": "(Her voice softens) I want to link arms with you and walk a little farther."
         }
       ]
     },
     "sit-14": {
       "scenes": [
         {
-          "enter": "有时候想你了，又不好意思直接说。",
-          "held": "（声音轻轻的）下次我说想抱一下，你就知道啦。"
+          "enter": "Sometimes I miss you but feel too shy to say it directly.",
+          "held": "(Softly) Next time I say I want a hug, you’ll know what I mean."
         }
       ]
     },
     "sit-16": {
       "scenes": [
         {
-          "enter": "下次你送我回去的时候，能不能先别急着走？",
-          "held": "（声音轻下来）我想亲你一下，再跟你说晚安。"
+          "enter": "Next time you walk me home, could you wait a little before leaving?",
+          "held": "(Her voice softens) I want to kiss you and then say goodnight."
         }
       ]
     }
@@ -2080,123 +2080,123 @@ window.PURPLE_WARDROBE_DIALOGUES = Object.freeze({
   "recline": {
     "replies": {
       "favorite": [
-        "（有点开心）这套你喜欢呀，那我也记一下。",
-        "被你特地留下来了，还挺高兴的。",
-        "好，下次还这么穿给你看。"
+        "(A little happy) You like this outfit? I’ll remember that, too.",
+        "I’m pretty happy you chose to keep me here.",
+        "All right, I’ll wear it like this for you again next time."
       ],
       "unfavorite": [
-        "想换换口味啦？好呀。",
-        "没事，衣服本来就可以慢慢挑。",
-        "那就看看别的，我也想换着穿。"
+        "Feel like trying something different? Sure.",
+        "It’s fine. Choosing clothes is something we can take our time with.",
+        "Let’s look at something else, then. I want to switch things up, too."
       ],
       "replay": [
-        "（带点笑）还想再看一遍呀，好。",
-        "那我再来一次，这回也认真给你看。",
-        "又想看这段啦？我陪你。"
+        "(She smiles a little) You want to see it again? All right.",
+        "I’ll do it again, and make sure you get a good look this time, too.",
+        "Want to watch this part again? I’ll stay with you."
       ],
       "pause": [
-        "好，先停一会儿。",
-        "慢慢看，不着急。",
-        "（声音轻下来）就停在这里，也挺好的。"
+        "All right, let’s pause for a moment.",
+        "Take your time. There’s no rush.",
+        "(Her voice softens) It’s nice to pause right here, too."
       ],
       "resume": [
-        "嗯，那我们继续。",
-        "看够这一小会儿啦？那我接着来。",
-        "好，后面还有呢。"
+        "Mm, let’s continue.",
+        "Had enough of this moment? Then I’ll carry on.",
+        "All right, there’s more coming."
       ],
       "edit": [
-        "慢慢挑，挑个你看着喜欢的。",
-        "（带点笑）这回让你选，我也想看看你的眼光。",
-        "前后都看看，不用急着定。"
+        "Take your time and choose the one you like looking at.",
+        "(She smiles a little) I’ll let you choose this time. I want to see your taste.",
+        "Look at the whole thing; there’s no need to decide right away."
       ],
       "saved": [
-        "原来你喜欢这一刻呀，我记住了。",
-        "（轻轻笑了）好，就留这儿。",
-        "你挑的这一刻，我也想多看两眼。"
+        "So this is the moment you like. I’ll remember it.",
+        "(She smiles softly) All right, let’s keep this one.",
+        "I want to take another look at the moment you chose, too."
       ],
       "cancel": [
-        "那就先用原来的，不急着换。",
-        "先不改也好，原来那一刻我也喜欢。",
-        "好，刚才选的先不留。"
+        "Let’s keep the original for now. No need to change it yet.",
+        "It’s fine not to change it. I liked the original moment, too.",
+        "All right, let’s not keep the one we chose just now."
       ],
       "reset": [
-        "嗯，还是先看看原来那一刻。",
-        "回到原来这里啦，你再看看喜不喜欢。",
-        "（轻轻笑了）这儿我也挺喜欢的，你再看看。"
+        "Mm, let’s look at the original moment again first.",
+        "We’re back at the original spot. Take another look and see if you like it.",
+        "(She smiles softly) I like this part, too. Take another look."
       ],
       "wake": [
-        "嗯，我在呢。",
-        "（声音轻轻的）想听我说点什么？",
-        "要不要聊两句？我正好想跟你说说话。"
+        "Mm, I’m here.",
+        "(Softly) Would you like me to say something?",
+        "Want to chat for a bit? I was just hoping to talk to you."
       ]
     },
     "fixed": {
-      "freeze": "就留在你喜欢的这一刻吧，慢慢看。",
-      "single": "这一套还想再看呀，那就再来一遍。",
-      "all": "那我一套一套换给你看，你慢慢挑。",
-      "favorites": "那就看你点过心的，慢慢来。",
-      "ready": "点一下播放吧，我等你。"
+      "freeze": "Let’s stay on the moment you like. Take your time.",
+      "single": "Want to see this outfit again? Then let’s play it one more time.",
+      "all": "I’ll show you each outfit one by one. Take your time choosing.",
+      "favorites": "Let’s look at the ones you’ve marked as favorites. No rush.",
+      "ready": "Press play when you’re ready. I’ll wait."
     }
   },
   "sit": {
     "replies": {
       "favorite": [
-        "（有点开心）这套你喜欢呀，那我也记一下。",
-        "被你特地留下来了，还挺高兴的。",
-        "好，下次还这么穿给你看。"
+        "(A little happy) You like this outfit? I’ll remember that, too.",
+        "I’m pretty happy you chose to keep me here.",
+        "All right, I’ll wear it like this for you again next time."
       ],
       "unfavorite": [
-        "想换换口味啦？好呀。",
-        "没事，衣服本来就可以慢慢挑。",
-        "那就看看别的，我也想换着穿。"
+        "Feel like trying something different? Sure.",
+        "It’s fine. Choosing clothes is something we can take our time with.",
+        "Let’s look at something else, then. I want to switch things up, too."
       ],
       "replay": [
-        "（带点笑）还想再看一遍呀，好。",
-        "那我再来一次，这回也认真给你看。",
-        "又想看这段啦？我陪你。"
+        "(She smiles a little) You want to see it again? All right.",
+        "I’ll do it again, and make sure you get a good look this time, too.",
+        "Want to watch this part again? I’ll stay with you."
       ],
       "pause": [
-        "好，先停一会儿。",
-        "慢慢看，不着急。",
-        "（声音轻下来）就停在这里，也挺好的。"
+        "All right, let’s pause for a moment.",
+        "Take your time. There’s no rush.",
+        "(Her voice softens) It’s nice to pause right here, too."
       ],
       "resume": [
-        "嗯，那我们继续。",
-        "看够这一小会儿啦？那我接着来。",
-        "好，后面还有呢。"
+        "Mm, let’s continue.",
+        "Had enough of this moment? Then I’ll carry on.",
+        "All right, there’s more coming."
       ],
       "edit": [
-        "慢慢挑，挑个你看着喜欢的。",
-        "（带点笑）这回让你选，我也想看看你的眼光。",
-        "前后都看看，不用急着定。"
+        "Take your time and choose the one you like looking at.",
+        "(She smiles a little) I’ll let you choose this time. I want to see your taste.",
+        "Look at the whole thing; there’s no need to decide right away."
       ],
       "saved": [
-        "原来你喜欢这一刻呀，我记住了。",
-        "（轻轻笑了）好，就留这儿。",
-        "你挑的这一刻，我也想多看两眼。"
+        "So this is the moment you like. I’ll remember it.",
+        "(She smiles softly) All right, let’s keep this one.",
+        "I want to take another look at the moment you chose, too."
       ],
       "cancel": [
-        "那就先用原来的，不急着换。",
-        "先不改也好，原来那一刻我也喜欢。",
-        "好，刚才选的先不留。"
+        "Let’s keep the original for now. No need to change it yet.",
+        "It’s fine not to change it. I liked the original moment, too.",
+        "All right, let’s not keep the one we chose just now."
       ],
       "reset": [
-        "嗯，还是先看看原来那一刻。",
-        "回到原来这里啦，你再看看喜不喜欢。",
-        "（轻轻笑了）这儿我也挺喜欢的，你再看看。"
+        "Mm, let’s look at the original moment again first.",
+        "We’re back at the original spot. Take another look and see if you like it.",
+        "(She smiles softly) I like this part, too. Take another look."
       ],
       "wake": [
-        "嗯，我在呢。",
-        "（声音轻轻的）想听我说点什么？",
-        "要不要聊两句？我正好想跟你说说话。"
+        "Mm, I’m here.",
+        "(Softly) Would you like me to say something?",
+        "Want to chat for a bit? I was just hoping to talk to you."
       ]
     },
     "fixed": {
-      "freeze": "就留在你喜欢的这一刻吧，慢慢看。",
-      "single": "这一套还想再看呀，那就再来一遍。",
-      "all": "那我一套一套换给你看，你慢慢挑。",
-      "favorites": "那就看你点过心的，慢慢来。",
-      "ready": "点一下播放吧，我等你。"
+      "freeze": "Let’s stay on the moment you like. Take your time.",
+      "single": "Want to see this outfit again? Then let’s play it one more time.",
+      "all": "I’ll show you each outfit one by one. Take your time choosing.",
+      "favorites": "Let’s look at the ones you’ve marked as favorites. No rush.",
+      "ready": "Press play when you’re ready. I’ll wait."
     }
   }
 });
