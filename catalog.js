@@ -80,7 +80,7 @@ window.PURPLE_LOOKS = Object.freeze([
   {
     "id": "03",
     "name": "Crimson Little Devil",
-    "short": "绯红小角",
+    "short": "Crimson Little Horns",
     "english": "A LITTLE MISCHIEF",
     "freeze": 11.2,
     "duration": 12.028005,
@@ -138,25 +138,25 @@ window.PURPLE_LOOKS = Object.freeze([
         "(Her fingers brush the bow, her voice soft) This color is easy on the eyes, even after a while. Let me stay with you like this."
       ],
       "restored": [
-        "蓝色结系好了。今天也想好好见你。"
+        "The blue bow is tied. I wanted to make a proper effort to see you today."
       ],
       "random": [
-        "一眼就认出来了吗？好像很容易被你记住呢。",
-        "这次没藏什么小心思。想见你，算吗？",
-        "好像一下子，连心情也轻了些。",
-        "悄悄告诉你，出门前我练过怎么跟你打招呼。",
-        "今天想让你看见，我很认真地来陪你了。",
-        "（抿唇笑了笑）嗯……我刚才也在想这一套。",
-        "（语气轻快而认真）等我一下，很快就来见你。",
-        "（笑得有些腼腆）只是来见你，怎么还像在赴一个很重要的约。",
-        "（语气轻快起来）啊，这样就好。是我喜欢的清清爽爽。"
+        "You recognized me at a glance? I must be easy to remember.",
+        "No secret motive this time. Does simply wanting to see you count?",
+        "Somehow, even my mood feels lighter all of a sudden.",
+        "A little secret: I practiced how to greet you before I left.",
+        "I wanted you to see that I made a real effort to spend time with you today.",
+        "(She presses her lips together with a smile) Mm… I was thinking about this outfit just now, too.",
+        "(Her voice is bright but sincere) Wait just a moment. I’ll be right there to see you.",
+        "(She smiles shyly) I’m only here to see you, so why does it feel like such an important date?",
+        "(Her voice brightens) Ah, that’s just right. Fresh and simple, the way I like it."
       ]
     }
   },
   {
     "id": "05",
-    "name": "黑衫偷闲",
-    "short": "黑衫偷闲",
+    "name": "Black Shirt, Easy Day",
+    "short": "Black Shirt, Easy Day",
     "english": "OFF THE CLOCK",
     "freeze": 10.56,
     "duration": 12.033333,
@@ -164,37 +164,37 @@ window.PURPLE_LOOKS = Object.freeze([
     "locked": false,
     "dialogue": {
       "enter": [
-        "黑上衣配牛仔短裤，看着随意，其实我也照过镜子。",
-        "翻出这条短裤，才发现它已经陪我过了好几个夏天。",
-        "（坦然地笑了笑）今天就短裤和黑上衣。嗯，是有点偷懒。",
-        "（随意地理了理衣摆）换来换去，还是这件黑上衣穿着最自在。"
+        "A black top and denim shorts look casual, but I did check myself in the mirror.",
+        "When I dug out these shorts, I realized they’ve been with me for several summers.",
+        "(She smiles candidly) Just shorts and a black top today. Yeah, I’m being a little lazy.",
+        "(She casually smooths her hem) After trying different things, this black top still feels the most comfortable."
       ],
       "held": [
-        "能穿得这么随意来见你，我其实很安心。",
-        "不必一直找话说，这样待着也很好。",
-        "（语气软下来）偶尔也让我这样吧，穿得随便些，陪你久些。",
-        "（笑得很放松）短裤也不用总惦记着裙摆，今天省心多了。"
+        "It’s comforting to be able to see you dressed this casually.",
+        "We don’t have to keep finding things to talk about. Just being here together is nice.",
+        "(Her voice softens) Let me be like this sometimes—dress casually and stay with you a little longer.",
+        "(She smiles with relief) With shorts, I don’t have to keep worrying about a skirt hem. Today’s much easier."
       ],
       "restored": [
-        "今天穿得随意一点，陪你也自在一点。"
+        "I dressed a little more casually today, so we can relax together, too."
       ],
       "random": [
-        "这下不用担心穿得太隆重，把你也弄得拘谨了。",
-        "这次就随意一点吧，我也想松口气。",
-        "是你见过也没关系，还想这样陪你。",
-        "今天没有特别安排。和你待着就算一个。",
-        "连打扮都想偷懒，可还是想来见你。",
-        "（有些好笑地摇头）正好，省得我再站在衣橱前犹豫了。",
-        "（自在地笑了）随便穿穿的样子，也给你看看。",
-        "（随口打趣）不用琢磨怎么搭配，我都轻松了。",
-        "（自然地点头）好呀，就当是平常在家见面。"
+        "Now I don’t have to worry about dressing so formally that you feel awkward, too.",
+        "Let’s keep it casual this time. I want to relax a little, too.",
+        "It’s okay if you’ve seen me like this before. I still want to spend time with you this way.",
+        "I haven’t made any special plans today. Spending time with you is a plan in itself.",
+        "I was even tempted to slack off on getting dressed, but I still wanted to see you.",
+        "(She shakes her head, amused) Perfect. Now I won’t have to stand in front of the closet debating what to wear.",
+        "(She smiles comfortably) I’ll let you see me dressed down, too.",
+        "(She teases casually) I don’t have to puzzle over matching things, so I can relax, too.",
+        "(She nods naturally) Sure. Let’s treat it like an ordinary day together at home."
       ]
     }
   },
   {
     "id": "06",
-    "name": "酒红赴约",
-    "short": "酒红赴约",
+    "name": "Burgundy Date Night",
+    "short": "Burgundy Date Night",
     "english": "WORTH DRESSING FOR",
     "freeze": 11.7,
     "duration": 12.033333,
@@ -202,37 +202,37 @@ window.PURPLE_LOOKS = Object.freeze([
     "locked": false,
     "dialogue": {
       "enter": [
-        "这件酒红色，我试过以后就没舍得换。",
-        "短裤还是平时那条，上衣想换得认真一点。",
-        "（含笑，像说一件早就想好的事）这件颜色比我平时穿的深，约会的时候倒正好。",
-        "（有些好笑地垂眼）穿这件酒红色前，连头发该怎么整理都想了好久。"
+        "Once I tried this burgundy piece on, I couldn’t bring myself to change out of it.",
+        "I kept my usual shorts, but wanted to put more thought into the top.",
+        "(She smiles as if sharing a long-settled decision) This color is darker than I usually wear, which makes it just right for a date.",
+        "(She looks down with an amused smile) Before putting on this burgundy outfit, I spent ages deciding how to do my hair."
       ],
       "held": [
-        "不是有什么安排，只是想好好见你。",
-        "认真打扮过的约会，也想听你讲些琐碎的小事。",
-        "（微微歪头，等着你的回答）衣服都换好了，今天算一次约会，好不好？",
-        "（语气里有藏不住的期待）打扮得比平时认真，就想听你多说两句。"
+        "I don’t have anything planned. I just wanted to see you properly.",
+        "Even on a date where I’ve dressed up, I want to hear you talk about little everyday things.",
+        "(She tilts her head slightly, waiting for your answer) I’ve changed and everything. Can we call today a date?",
+        "(Her voice can’t hide its anticipation) I put more effort into dressing up than usual, so I’m hoping you’ll talk to me a little more."
       ],
       "restored": [
-        "换上这点酒红色，平常见面也有了约会的心情。"
+        "A touch of burgundy makes even an ordinary visit feel like a date."
       ],
       "random": [
-        "忽然有点想知道，你会怎么介绍今天的我。",
-        "没有订餐厅。在这里，也可以的。",
-        "这次有一点认真，你应该看得出来吧。",
-        "嗯，这份心情刚好被你选中了。",
-        "本来想等你开口……那今天我先来。",
-        "（眼里浮起一点惊喜）原来今天还有约会呀。",
-        "（坦率地笑着）这一套，我其实等着穿很久了。",
-        "（微微睁大眼，随后笑了）我还没开口邀请，你就先答应了呀。",
-        "（语气认真了些）既然选好了，这次见面我可要好好准备。"
+        "I suddenly wonder how you’d describe the way I look today.",
+        "We haven’t booked a restaurant. Being here together is fine, too.",
+        "I put in a little extra effort this time. You can tell, right?",
+        "Mm, you picked just the right mood for me.",
+        "I was going to wait for you to say something… but I’ll make the first move today.",
+        "(A hint of delight appears in her eyes) So we have a date today after all.",
+        "(She smiles openly) I’ve actually been waiting a long time for a chance to wear this.",
+        "(Her eyes widen a little, then she smiles) I hadn’t even invited you yet, and you’ve already said yes.",
+        "(Her voice grows more serious) Now that you’ve chosen this, I’m going to prepare properly for our time together."
       ]
     }
   },
   {
     "id": "07",
-    "name": "雾灰银光",
-    "short": "雾灰银光",
+    "name": "Misty Gray, Silver Glow",
+    "short": "Misty Gray, Silver Glow",
     "english": "A QUIET GLEAM",
     "freeze": 11.41,
     "duration": 12.028005,
@@ -240,37 +240,37 @@ window.PURPLE_LOOKS = Object.freeze([
     "locked": false,
     "dialogue": {
       "enter": [
-        "这双银色的鞋，我在家里试着走过好几回。",
-        "裙子上的小圆点，我看着就觉得心情不错。",
-        "（嘴角浮起一点笑意）本来想配得低调些，最后还是选了这双银色的。",
-        "（稍稍偏头）灰色配银色，会不会显得成熟些？我想试试看。"
+        "I tried walking around in these silver shoes several times at home.",
+        "The little dots on the skirt put me in a good mood whenever I look at them.",
+        "(A smile touches her lips) I planned to keep things understated, but in the end I chose these silver shoes.",
+        "(She tilts her head slightly) Does gray with silver look a little more mature? I wanted to try it."
       ],
       "held": [
-        "练习时明明很从容，一来见你，又有点在意自己的样子。",
-        "想把这点好心情，也分给你一点。",
-        "（声音放轻，带点小得意）总得有一处，让你多看一眼呀。",
-        "（抬眼，笑容从容了一点）嗯，这身还挺适合我。偶尔换我照顾你吧。"
+        "I felt perfectly composed while practicing, but now that I’m seeing you, I’m self-conscious about how I look.",
+        "I wanted to share a little of this good mood with you.",
+        "(Her voice softens, with a hint of pride) There has to be one detail that makes you look twice.",
+        "(She looks up, smiling more confidently) Mm, this outfit suits me pretty well. Let me take care of you for a change."
       ],
       "restored": [
-        "一身安静的灰，留了一点银色给你慢慢发现。"
+        "A quiet gray outfit, with a touch of silver for you to discover in your own time."
       ],
       "random": [
-        "这次，慢慢看也许更好。",
-        "不是最显眼的那一套……我却很喜欢。",
-        "嗯，刚好想安安静静地靠近你。",
-        "这回想听一句具体的夸奖，不能只说都好看哦。",
-        "今天想少说一点，让你多看一会儿。",
-        "（满意地点点头）嗯，这次的运气，我很满意。",
-        "（压低声音，带着笑意）有个小地方，等你自己发现。",
-        "（轻声笑）眼光不错。这一套，我还藏了点小得意。",
-        "（抬眼，语气从容）那就看看，稍微不一样的我吧。"
+        "Maybe it’s better to take your time looking this time.",
+        "It’s not the most eye-catching outfit… but I like it a lot.",
+        "Mm, I just felt like quietly drawing a little closer to you.",
+        "This time, I want a specific compliment. You can’t just say everything looks good.",
+        "I feel like talking a little less today, so you can look a little longer.",
+        "(She nods with satisfaction) Mm, I’m very happy with how things turned out this time.",
+        "(She lowers her voice with a smile) There’s one little detail I’ll let you discover for yourself.",
+        "(She laughs softly) Good eye. I’m secretly rather proud of this outfit.",
+        "(She looks up, composed) Then take a look at a slightly different side of me."
       ]
     }
   },
   {
     "id": "08",
-    "name": "开衫午后",
-    "short": "开衫午后",
+    "name": "Cardigan Afternoon",
+    "short": "Cardigan Afternoon",
     "english": "STAY A LITTLE LONGER",
     "freeze": 10.53,
     "duration": 12.028005,
@@ -278,30 +278,30 @@ window.PURPLE_LOOKS = Object.freeze([
     "locked": false,
     "dialogue": {
       "enter": [
-        "裙子外面随手披了件开衫，就这样过来了。",
-        "这件开衫刚洗好，穿着还有一点淡淡的皂香。",
-        "（随口说着家常）把开衫也带来了，免得一坐下就不想去拿。",
-        "（低头拢了拢开衫）这件总舍不得收起来，随手披上就很安心。"
+        "I casually threw a cardigan over my dress and came right over.",
+        "This cardigan was just washed, and it still has a faint soapy scent.",
+        "(She chats about everyday things) I brought my cardigan along, so I won’t have to fetch it once I’ve settled in.",
+        "(She gathers the cardigan around herself) I can never quite put this one away. Just throwing it on makes me feel at ease."
       ],
       "held": [
-        "在你面前，好像越来越不想拘着自己了。",
-        "小时候总觉得晒过的衣服最好闻。现在还是。",
-        "（满足地轻叹一声）好了，这下可以安心赖在这里了。",
-        "（声音慢下来）开衫穿着暖暖的，连话都想慢慢说了。"
+        "When I’m with you, I seem less and less inclined to hold back or be formal.",
+        "As a child, I always thought sun-dried clothes smelled the best. I still do.",
+        "(She sighs contentedly) There, now I can settle in here without a care.",
+        "(Her voice slows) This cardigan is so warm that even my words want to take their time."
       ],
       "restored": [
-        "开衫就这样披着，今天想待得随意一点。"
+        "I’ll leave the cardigan draped like this. I want to take it easy today."
       ],
       "random": [
-        "还以为要再挑一会儿，那我就这样过来啦。",
-        "想说什么就说，今天连跑题都没关系。",
-        "是我有一点想偷懒的样子。",
-        "今天，好像不太想坐得端端正正。",
-        "不用招呼我，我想在你旁边待一会儿。",
-        "（语气松快下来）那我就不客气，准备赖一会儿了。",
-        "（轻声商量）这次不用那么正式，好吗？",
-        "（轻轻舒展肩膀）连我都想跟着慢下来了。",
-        "（带笑商量）这次见面，发一会儿呆也算数吧？"
+        "I thought you’d be choosing for a while longer, so I came over like this.",
+        "Say whatever comes to mind. Today, even getting sidetracked is fine.",
+        "This is me looking like I want to slack off a little.",
+        "I don’t really feel like sitting up straight and proper today.",
+        "Don’t fuss over me. I just want to sit beside you for a while.",
+        "(Her tone relaxes) Then I won’t be shy about it. I’m planning to stay a while.",
+        "(She asks gently) We don’t have to be so formal this time, okay?",
+        "(She stretches her shoulders gently) Even I feel like slowing down.",
+        "(She asks with a smile) It still counts as spending time together if we just daydream for a while, right?"
       ]
     }
   },
