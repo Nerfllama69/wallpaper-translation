@@ -169,7 +169,7 @@
     const open = group.baseOrder.filter(isPlayable);
     const ordered = [...(reversed ? open.reverse() : open), ...group.baseOrder.filter(i => !isPlayable(i))];
     group.chapters = Array.from({length: Math.ceil(ordered.length / 4)}, (_, page) => ({
-      name: reversed ? '随心翻阅' : group.chapterNames[page], looks: ordered.slice(page * 4, page * 4 + 4)
+      name: reversed ? 'Browse Freely' : group.chapterNames[page], looks: ordered.slice(page * 4, page * 4 + 4)
     }));
   }
   const $ = id => document.getElementById(id);
@@ -362,7 +362,7 @@
       else dialogue.discardReply(text);
     });
   }
-  function toast(text, speaker = '她说') {
+  function toast(text, speaker = 'She Says') {
     if (!text) return;
     companionReplyUntil = performance.now() + 6500;
     $('toastSpeaker').textContent = speaker;
@@ -388,7 +388,7 @@
   function respond(index, event, label = 'HERE, WITH YOU.', central = true) {
     if (LOOKS[index].silent) return '';
     const words = line(index, event);
-    if (central) toast(words, !isPlayable(index) ? '她说 · 衣橱手记' : '她说 · ' + LOOKS[index].short);
+    if (central) toast(words, !isPlayable(index) ? 'She Says · Wardrobe Notes' : 'She Says · ' + LOOKS[index].short);
     if (index === current || !isPlayable(index)) {
       clearTimeout(replyTimer);
       writeStatus(label, words);
@@ -406,7 +406,7 @@
     if (now - lastPrivateReply < 1500) return;
     lastPrivateReply = now;
     if (LOOKS[index].silent) {
-      toast('暂未开放', LOOKS[index].name);
+      toast('Not Yet Available', LOOKS[index].name);
     } else {
       privateVisits++;
       const aside = privateVisits >= 4 && now - lastPrivateAside >= 90000;
@@ -427,7 +427,7 @@
   function randomFavoritesOnly(group = wardrobe) { return prefs.wardrobeRandomScopes[group.id] === 'favorites' && (companionMode() || orderFor(group).some(i => isPlayable(i) && prefs.favorites.includes(i))); }
   function randomPool(group = wardrobe) { return orderFor(group).filter(i => isPlayable(i) && (!randomFavoritesOnly(group) || prefs.favorites.includes(i))); }
   function closeWelcome() { clearTimeout(welcomeTimer); $('firstUseHint').hidden = true; }
-  function showWelcome(title = '从这里开始') {
+  function showWelcome(title = 'Start Here') {
     closeWelcome();
     $('firstUseHint').querySelector('strong').textContent = title;
     $('firstUseHint').hidden = false;
@@ -435,7 +435,7 @@
     const tick = () => {
       const remaining = deadline - performance.now();
       if (remaining <= 0) { closeWelcome(); return; }
-      $('closeFirstUse').textContent = `知道了（${Math.ceil(remaining / 1000)}s）`;
+      $('closeFirstUse').textContent = `Got It（${Math.ceil(remaining / 1000)}s）`;
       welcomeTimer = setTimeout(tick, Math.min(1000, remaining));
     };
     tick();
@@ -481,15 +481,15 @@
   function renderCards(animate = false) {
     const reversed = prefs.wardrobeOrders[wardrobe.id] === 'reverse';
     $('wardrobeOrder').setAttribute('aria-pressed', String(reversed));
-    $('wardrobeOrder').setAttribute('aria-label', `${wardrobe.name}排列：${reversed ? '倒序' : '正序'}，点击切换为${reversed ? '正序' : '倒序'}`);
-    $('wardrobeOrder').title = `${reversed ? '倒序' : '正序'}排列 · 点击切换，未开放始终置底`;
-    $('wardrobeOrderLabel').textContent = reversed ? '倒序' : '正序';
+    $('wardrobeOrder').setAttribute('aria-label', `${wardrobe.name}排列：${reversed ? 'Reverse' : 'Forward'}，Click to switch to ${reversed ? 'Forward' : 'Reverse'}`);
+    $('wardrobeOrder').title = `${reversed ? 'Reverse' : 'Forward'}排列 · 点击切换，Unavailable始终置底`;
+    $('wardrobeOrderLabel').textContent = reversed ? 'Reverse' : 'Forward';
     $('looks').innerHTML = CHAPTERS[page].looks.map(i => {
       const look = LOOKS[i];
       const locked = !isPlayable(i);
       const thumb = `thumb-${look.id}`;
-      const companionCover = !locked && look.companion ? '<span class="companion-art" aria-hidden="true"><span class="companion-seal"><svg viewBox="0 0 24 12"><path d="M12 6C9 1 6 1 4 2S1 5 2 8s5 3 8-1l4-3c3-4 7-3 8 0s-1 6-4 6-5-3-6-4Z"/></svg></span><span class="companion-sign">动态陪伴</span></span>' : '';
-      return `<div class="look-card${companionCover ? ' companion-card' : ''}${locked ? ' is-locked' + (look.blurLocked ? ' blur-cover' : '') : ''}" data-look="${i}"><button class="look-select" data-select="${i}" ${companionCover ? 'aria-description="点击后自动开启动态陪伴"' : ''} aria-label="${locked ? look.name + '，私藏，未开放' : '选择' + look.name + '，播放入场'}" ${locked ? 'aria-disabled="true"' : 'aria-pressed="false"'}><div class="look-image"><img src="images/${thumb}.jpg" alt="${look.name}${locked ? '模糊封面' : '穿搭封面'}" draggable="false"><span class="look-index">${displayNumber(i)}</span>${locked ? '<span class="lock-veil"><svg><use href="#i-lock"/></svg><span>' + '未开放' + '</span></span>' : '<span class="look-check"><svg><use href="#i-check"/></svg></span>'}${companionCover}</div></button><div class="look-bottom"><span class="look-short">${look.short}</span>${locked ? '' : '<button class="favorite-button" data-favorite="' + i + '" aria-label="偏爱' + look.name + '" aria-pressed="false"><svg><use href="#i-heart"/></svg></button>'}</div></div>`;
+      const companionCover = !locked && look.companion ? '<span class="companion-art" aria-hidden="true"><span class="companion-seal"><svg viewBox="0 0 24 12"><path d="M12 6C9 1 6 1 4 2S1 5 2 8s5 3 8-1l4-3c3-4 7-3 8 0s-1 6-4 6-5-3-6-4Z"/></svg></span><span class="companion-sign">Moving Companion</span></span>' : '';
+      return `<div class="look-card${companionCover ? ' companion-card' : ''}${locked ? ' is-locked' + (look.blurLocked ? ' blur-cover' : '') : ''}" data-look="${i}"><button class="look-select" data-select="${i}" ${companionCover ? 'aria-description="点击后自动开启Moving Companion"' : ''} aria-label="${locked ? look.name + '，Private，Unavailable' : 'Select ' + look.name + '，play entrance'}" ${locked ? 'aria-disabled="true"' : 'aria-pressed="false"'}><div class="look-image"><img src="images/${thumb}.jpg" alt="${look.name}${locked ? 'blurred cover' : 'outfit cover'}" draggable="false"><span class="look-index">${displayNumber(i)}</span>${locked ? '<span class="lock-veil"><svg><use href="#i-lock"/></svg><span>' + 'Unavailable' + '</span></span>' : '<span class="look-check"><svg><use href="#i-check"/></svg></span>'}${companionCover}</div></button><div class="look-bottom"><span class="look-short">${look.short}</span>${locked ? '' : '<button class="favorite-button" data-favorite="' + i + '" aria-label="Favorite' + look.name + '" aria-pressed="false"><svg><use href="#i-heart"/></svg></button>'}</div></div>`;
     }).join('');
     $('chapterName').textContent = CHAPTERS[page].name;
     $('pageTabs').innerHTML = CHAPTERS.map((chapter, i) => `<button data-page="${i}" aria-label="第 ${i + 1} 页，${chapter.name}">${String(i + 1).padStart(2, '0')}</button>`).join('');
@@ -535,24 +535,24 @@
       card.classList.toggle('active', i === current);
       card.querySelector('.look-select').setAttribute('aria-pressed', String(i === current));
       card.querySelector('.favorite-button').setAttribute('aria-pressed', String(prefs.favorites.includes(i)));
-      card.querySelector('.favorite-button').setAttribute('aria-label', `${prefs.favorites.includes(i) ? '取消偏爱' : '偏爱'}${LOOKS[i].name}`);
+      card.querySelector('.favorite-button').setAttribute('aria-label', `${prefs.favorites.includes(i) ? 'Remove Favorite' : 'Favorite'}${LOOKS[i].name}`);
     });
     $('lookName').textContent = LOOKS[current].name;
     $('lookEnglish').textContent = ['sit', 'recline'].includes(LOOKS[current].group) ? wardrobeFor(current).english : LOOKS[current].english;
     $('lookNumber').textContent = displayNumber(current);
     const away = wardrobe !== wardrobeFor(current) || page !== pageFor(current);
     $('showCurrent').hidden = !away;
-    $('selectionState').textContent = phase === 'held' ? '当前定格' : '当前穿搭';
+    $('selectionState').textContent = phase === 'held' ? 'Current Still' : 'Current Outfit';
     updateRandomLabel();
     renderPlaybackMode();
   }
   function updateRandomLabel() {
     const count = activeFavorites().length;
     const favoritesOnly = randomFavoritesOnly();
-    if (!spinning) $('randomText').textContent = favoritesOnly ? '从偏爱中选' : '交给心动';
-    $('randomHint').textContent = favoritesOnly && count === 1 ? '仅 1 套' : '随机一套';
-    $('randomButton').setAttribute('aria-label', favoritesOnly ? count === 1 ? '本组仅有一套偏爱：' + LOOKS[activeFavorites()[0]].name : `从本组 ${count} 套偏爱中随机选择` : '从当前衣橱全部开放穿搭中随机选择一套');
-    $('randomScope').textContent = favoritesOnly ? count === 1 ? '本组仅 1 套偏爱 · 点亮爱心可加入更多' : `仅本组 ${count} 套偏爱 · 不连续重复` : `${wardrobe.name} · ${activeAvailable().length} 套穿搭 · 不连续重复`;
+    if (!spinning) $('randomText').textContent = favoritesOnly ? 'Choose a Favorite' : 'Surprise Me';
+    $('randomHint').textContent = favoritesOnly && count === 1 ? 'Only 1 outfit' : 'Random Outfit';
+    $('randomButton').setAttribute('aria-label', favoritesOnly ? count === 1 ? '本组仅有一套Favorite：' + LOOKS[activeFavorites()[0]].name : `从本组 ${count} 套Favorite中ShuffleSelect ` : '从当前衣橱全部开放穿搭中ShuffleSelect 一套');
+    $('randomScope').textContent = favoritesOnly ? count === 1 ? '本组Only 1 outfitFavorite · 点亮爱心可加入更多' : `仅本组 ${count} 套Favorite · 不连续重复` : `${wardrobe.name} · ${activeAvailable().length} 套穿搭 · 不连续重复`;
     $('randomFavoriteCount').textContent = count;
     document.querySelectorAll('[data-random-scope]').forEach(button => {
       const favorites = button.dataset.randomScope === 'favorites';
@@ -577,13 +577,13 @@
     spare.muted = true;
     renderPlaybackMode();
     icon($('soundButton'), prefs.sound ? 'volume' : 'mute');
-    $('soundButton').setAttribute('aria-label', prefs.sound ? '关闭声音' : '开启声音');
-    $('soundButton').title = prefs.sound ? '关闭声音' : '开启声音';
+    $('soundButton').setAttribute('aria-label', prefs.sound ? 'Turn Sound Off' : 'Turn Sound On');
+    $('soundButton').title = prefs.sound ? 'Turn Sound Off' : 'Turn Sound On';
     $('soundButton').setAttribute('aria-pressed', String(prefs.sound));
     $('soundToggle').checked = prefs.sound;
     $('soundToggle').setAttribute('aria-expanded', String(prefs.sound));
     $('soundVolume').hidden = !prefs.sound;
-    $('soundState').textContent = !prefs.sound ? '已静音' : prefs.volume === 0 ? '声音已开启 · 当前音量为 0' : '声音已开启';
+    $('soundState').textContent = !prefs.sound ? 'Muted' : prefs.volume === 0 ? 'Sound on · Volume is currently 0' : 'Sound On';
     scheduleIdleHide();
   }
   function activity(force = false) {
@@ -705,11 +705,11 @@
     $('loading').hidden = true;
     clearTimeout(loadingTimer);
     updateProgress(freezeTime());
-    $('timelineState').textContent = '定格';
-    $('selectionState').textContent = '当前定格';
+    $('timelineState').textContent = 'Still';
+    $('selectionState').textContent = 'Current Still';
     icon($('playButton'), 'repeat');
-    $('playButton').setAttribute('aria-label', '再看一次入场');
-    $('playButton').title = '再看一次入场';
+    $('playButton').setAttribute('aria-label', 'Replay Entrance');
+    $('playButton').title = 'Replay Entrance';
     setStatus('MOMENT, KEPT.', line(current, 'held'));
     readyControls(false);
     if (isAutomaticOperation()) scheduleIdleHide();
@@ -945,8 +945,8 @@
     return order.find(i => loopOrder().indexOf(i) > position) ?? order[0];
   }
   function playbackModeLabel(includeOrder = true) {
-    const labels = {freeze: '定格模式', companion: '动态陪伴', single: '单套循环', all: '本组轮播', favorites: '本组收藏', 'global-all': '全部轮播', 'global-favorites': '全部收藏'};
-    return labels[prefs.playbackMode] + (includeOrder && carouselMode() ? prefs.playbackOrder === 'shuffle' ? ' · 随机' : ' · 顺序' : '');
+    const labels = {freeze: 'Still Mode', companion: 'Moving Companion', single: 'Loop One Outfit', all: 'Cycle This Wardrobe', favorites: 'Favorites in This Wardrobe', 'global-all': 'Cycle All Wardrobes', 'global-favorites': 'Favorites Across All Wardrobes'};
+    return labels[prefs.playbackMode] + (includeOrder && carouselMode() ? prefs.playbackOrder === 'shuffle' ? ' · Shuffle' : ' · In Order' : '');
   }
   function setPlaybackOrder(order) {
     if (!['sequence', 'shuffle'].includes(order) || order === prefs.playbackOrder || phase === 'editing') return;
@@ -958,26 +958,26 @@
   }
   function renderPlaybackMode() {
     const label = playbackModeLabel(), shuffled = prefs.playbackOrder === 'shuffle';
-    const orderText = shuffled ? '随机' : '依次';
+    const orderText = shuffled ? 'Shuffle' : 'In Order';
     body.dataset.playbackMode = prefs.playbackMode;
-    $('modeButton').setAttribute('aria-label', '播放方式：' + label);
-    $('modeButton').title = label + ' · 切换播放方式';
+    $('modeButton').setAttribute('aria-label', 'Playback mode: ' + label);
+    $('modeButton').title = label + ' · Change playback mode';
     $('modeLabel').textContent = label;
     $('modeButton').disabled = phase === 'editing';
     document.querySelectorAll('[data-playback-order]').forEach(button => {
       button.setAttribute('aria-checked', String(button.dataset.playbackOrder === prefs.playbackOrder));
       button.disabled = phase === 'editing';
     });
-    document.querySelectorAll('.mode-order-suffix').forEach(suffix => { suffix.textContent = shuffled ? ' · 随机' : ' · 顺序'; });
-    $('playbackOrderHint').textContent = !carouselMode() ? '用于下方的轮播与收藏播放'
-      : shuffled ? '一轮不重复，从下一套开始' : '按衣橱排列，从下一套开始';
+    document.querySelectorAll('.mode-order-suffix').forEach(suffix => { suffix.textContent = shuffled ? ' · Shuffle' : ' · In Order'; });
+    $('playbackOrderHint').textContent = !carouselMode() ? 'Used for cycling and favorites playback below'
+      : shuffled ? 'No repeats within a round; starts with the next outfit' : 'Follows wardrobe order; starts with the next outfit';
     const localCount = orderFor(wardrobeFor(current)).filter(i => prefs.favorites.includes(i)).length;
     $('favoriteCount').textContent = localCount;
-    $('favoriteModeHint').textContent = localCount ? `${wardrobeFor(current).name} · ${orderText}播放收藏` : '先点亮正在播放衣橱的穿搭';
+    $('favoriteModeHint').textContent = localCount ? `${wardrobeFor(current).name} · ${orderText}播放收藏` : 'Favorite an outfit in the currently playing wardrobe first';
     $('globalFavoriteCount').textContent = prefs.favorites.length;
-    $('globalFavoriteModeHint').textContent = prefs.favorites.length ? `跨越三个衣橱，${orderText}播放收藏` : '先点亮任意衣橱中喜欢的穿搭';
+    $('globalFavoriteModeHint').textContent = prefs.favorites.length ? `跨越三个衣橱，${orderText}播放收藏` : 'Favorite an outfit in any wardrobe first';
     $('globalAllModeHint').textContent = `跨越三个衣橱，${orderText}播放开放穿搭`;
-    $('companionModeHint').textContent = companionClip() ? '入场后，持续循环待机动作' : '这套暂未提供循环片段';
+    $('companionModeHint').textContent = companionClip() ? 'Loops the idle animation after the entrance' : 'No looping clip is available for this outfit';
     $('allModeHint').textContent = `${wardrobeFor(current).name} · ${orderText}完整播放`;
     document.querySelectorAll('[data-playback]').forEach(option => {
       option.setAttribute('aria-checked', String(option.dataset.playback === prefs.playbackMode));
@@ -993,22 +993,22 @@
     // Automatic held frames and host suspension must not brighten the wardrobe.
     const userPaused = phase === 'paused' || (phase === 'transition' && Boolean(transition?.userPaused));
     if (body.classList.contains('is-user-paused') !== userPaused) body.classList.toggle('is-user-paused', userPaused);
-    let action = '再看一次入场', symbol = 'repeat', state = '定格';
+    let action = 'Replay Entrance', symbol = 'repeat', state = 'Still';
     if (phase === 'error') {
-      action = '重试播放'; state = '播放失败';
+      action = 'Retry Playback'; state = 'Playback Failed';
     } else if (phase === 'loading') {
-      action = '正在准备播放'; state = '准备';
+      action = 'Preparing Playback'; state = 'Ready';
     } else if (phase === 'editing') {
-      action = '正在挑选定格'; state = '选帧';
+      action = 'Finding a Still'; state = 'Selecting Frame';
     } else if (phase === 'transition') {
       const paused = transition?.userPaused;
-      action = transition?.automatic ? paused ? '继续换装' : '暂停换装' : paused ? '继续循环播放' : '暂停循环播放'; symbol = paused ? 'play' : 'pause';
-      state = paused ? '暂停' : transition?.automatic ? '轻轻换一套' : nextLoopIndex() === current ? '再看一遍' : '轻轻换一套';
+      action = transition?.automatic ? paused ? 'Resume Outfit Changes' : 'Pause Outfit Changes' : paused ? 'Resume Loop' : 'Pause Loop'; symbol = paused ? 'play' : 'pause';
+      state = paused ? 'Paused' : transition?.automatic ? 'Gently Change Outfit' : nextLoopIndex() === current ? 'Watch Again' : 'Gently Change Outfit';
     } else if (phase === 'playing' || phase === 'paused') {
       const paused = phase === 'paused';
-      action = cycling() ? paused ? '继续循环播放' : '暂停循环播放' : paused ? '继续播放入场' : '暂停入场';
+      action = cycling() ? paused ? 'Resume Loop' : 'Pause Loop' : paused ? 'Resume Entrance' : 'Pause Entrance';
       symbol = paused ? 'play' : 'pause';
-      state = paused ? '暂停' : cycling() ? playbackModeLabel(false) : '入场';
+      state = paused ? 'Paused' : cycling() ? playbackModeLabel(false) : 'Entrance';
     }
     icon($('playButton'), symbol);
     $('playButton').setAttribute('aria-label', action); $('playButton').title = action;
@@ -1065,9 +1065,9 @@
       else primeLoop();
     }
     if (speak && !LOOKS[current].silent) {
-      const words = {freeze: '好，就把喜欢的这一刻留下。', companion: '就在这儿，慢慢陪着你。', single: '这么喜欢这一套呀……那就再陪你看一会儿。', all: '那就慢慢看，我一套一套换给你。', favorites: '你点过心的，我都记得。慢慢穿给你看。', 'global-all': '已开启全部轮播，依次播放三个衣橱的开放穿搭。', 'global-favorites': '已开启全部收藏，依次播放三个衣橱的收藏。'};
-      const wordsForMode = shuffleCarousel() ? `已开启${playbackModeLabel()}，一轮内不重复播放。` : fixedLine(mode, words[mode]);
-      toast(wordsForMode, globalMode() || shuffleCarousel() ? '播放方式' : '她说');
+      const words = {freeze: '好，就把喜欢的这一刻留下。', companion: '就在这儿，慢慢陪着你。', single: '这么喜欢这一套呀……那就再陪你看一会儿。', all: '那就慢慢看，我一套一套换给你。', favorites: '你点过心的，我都记得。慢慢穿给你看。', 'global-all': 'EnabledCycle All Wardrobes，In Order播放三个衣橱的开放穿搭。', 'global-favorites': 'EnabledFavorites Across All Wardrobes，In Order播放三个衣橱的收藏。'};
+      const wordsForMode = shuffleCarousel() ? `Enabled${playbackModeLabel()}，No repeats within a round。` : fixedLine(mode, words[mode]);
+      toast(wordsForMode, globalMode() || shuffleCarousel() ? 'Playback Mode' : 'She Says');
       if (mode !== 'freeze') setStatus('STAY A LITTLE.', wordsForMode);
       unlockAudio(); chime(660, .12);
     }
@@ -1217,7 +1217,7 @@
       $('curtain').style.backgroundImage = `url("images/${wardrobeFor(current).empty}")`;
       video.muted = !prefs.sound; video.volume = prefs.volume / 100;
       $('still').src = `images/look-${LOOKS[next].id}.jpg`;
-      $('still').alt = LOOKS[next].name + '穿搭推荐定格';
+      $('still').alt = LOOKS[next].name + '穿搭推荐Still';
       document.querySelector('.ambient').style.backgroundImage = `url("images/look-${LOOKS[next].id}.jpg")`;
       // Playback updates the selection, never the page a person is browsing.
       updateCards();
@@ -1282,7 +1282,7 @@
       // Retain the last visible frame and a usable play button on decode failure.
       phase = 'paused'; video.pause(); stopWatcher(); clearLoadingHint();
       body.classList.remove('is-playing'); readyControls(false);
-      toast('循环衔接暂时中断，点播放继续。', '播放提示');
+      toast('循环衔接暂时中断，点播放继续。', 'Playback Notice');
     };
     try {
       const target = companionStart();
@@ -1413,7 +1413,7 @@
       // The old deck is still intact. Keep it usable if the chosen file fails.
       releaseSpare();
       prefs.quality = previousQuality; persist();
-      if (error.name !== 'AbortError') toast('这档画质暂时无法加载，已保留原画质。', '播放提示');
+      if (error.name !== 'AbortError') toast('这档画质暂时无法加载，已保留原画质。', 'Playback Notice');
     }
     if (task.id !== operation) return;
     phase = previousPhase;
@@ -1549,7 +1549,7 @@
   function isPresetInterval(minutes) { return [0, .25, 5, 15].includes(minutes); }
   function intervalUnit(minutes) { return Math.round(minutes * 60) % 60 ? 'seconds' : 'minutes'; }
   function formatAutoInterval(minutes) {
-    if (!minutes) return '关闭';
+    if (!minutes) return 'Off';
     const seconds = Math.round(minutes * 60);
     return seconds % 60 ? `每隔 ${seconds} 秒` : `每隔 ${seconds / 60} 分钟`;
   }
@@ -1561,7 +1561,7 @@
       Number.isInteger(value) && value >= 1 && value <= max &&
       draftIntervalUnit === prefs.customIntervalUnit && seconds === Math.round(prefs.interval * 60);
     const button = $('applyCustomInterval');
-    button.textContent = applied ? '已应用' : '应用';
+    button.textContent = applied ? 'Applied' : 'Apply';
     button.dataset.applied = String(applied);
     button.disabled = autoSwitchDisabled() || applied;
   }
@@ -1591,11 +1591,11 @@
     $('autoLoopNote').hidden = !disabled;
     const pool = companionMode() ? companionAutoPool() : [];
     $('autoTimingNote').textContent = companionMode()
-      ? !pool.length ? '当前范围没有动态陪伴穿搭，定时换装暂停。可点亮动态款的爱心，或改选「本组全部」。'
-      : pool.length === 1 && pool[0] === current ? '当前范围只有这一套动态陪伴，保持当前穿搭。'
-      : '仅在本组动态陪伴穿搭中换装。入场后计时，到点等本轮结束再换；暂停或操作面板时暂停计时。'
-      : hasHeldDeparture() ? '从定格开始计时，停留满所选时长后，先播放离场再换装。'
-      : '从定格开始计时，停留满所选时长再换装。';
+      ? !pool.length ? '当前范围没有Moving Companion穿搭，定时换装Paused。可点亮动态款的爱心，或改选「本组全部」。'
+      : pool.length === 1 && pool[0] === current ? '当前范围只有这一套Moving Companion，保持Current Outfit。'
+      : '仅在本组Moving Companion穿搭中换装。Entrance后计时，到点等本轮结束再换；Paused或操作面板时Paused计时。'
+      : hasHeldDeparture() ? '从Still开始计时，停留满所选时长后，先播放离场再换装。'
+      : '从Still开始计时，停留满所选时长再换装。';
     renderCustomIntervalAction();
   }
   function closeCustomInterval() {
@@ -1649,7 +1649,7 @@
     const input = $('customInterval'), value = Number(input.value), max = draftIntervalUnit === 'seconds' ? 3600 : 60;
     if (!Number.isInteger(value) || value < 1 || value > max) {
       input.setAttribute('aria-invalid', 'true');
-      $('autoCustomFeedback').textContent = `请输入 1–${max} 的整数${draftIntervalUnit === 'seconds' ? '秒' : '分钟'}。`;
+      $('autoCustomFeedback').textContent = `请输入 1–${max}  integer${draftIntervalUnit === 'seconds' ? '秒' : '分钟'}。`;
       $('autoCustomFeedback').hidden = false; input.focus(); return;
     }
     setAutoInterval(draftIntervalUnit === 'seconds' ? value / 60 : value, 'custom', draftIntervalUnit);
@@ -1732,7 +1732,7 @@
       $('curtain').style.backgroundImage = `url("images/${wardrobeFor(current).empty}")`;
       video.muted = !prefs.sound; video.volume = prefs.volume / 100;
       $('still').src = `images/look-${LOOKS[next].id}.jpg`;
-      $('still').alt = LOOKS[next].name + '穿搭推荐定格';
+      $('still').alt = LOOKS[next].name + '穿搭推荐Still';
       document.querySelector('.ambient').style.backgroundImage = `url("images/look-${LOOKS[next].id}.jpg")`;
       releaseSpare();
       updateCards(); persist(); updateProgress(0);
@@ -1859,7 +1859,7 @@
       body.classList.remove('is-playing');
       renderTransport();
       setStatus('READY WHEN YOU ARE.', fixedLine('ready', '点一下播放，等你。'));
-      if (!isAutomaticOperation() && error.name !== 'NotAllowedError') toast('播放暂时中断，点播放继续。', '播放提示');
+      if (!isAutomaticOperation() && error.name !== 'NotAllowedError') toast('播放暂时中断，点播放继续。', 'Playback Notice');
     }
   }
   function loadFailure(index, error, id) {
@@ -1871,7 +1871,7 @@
     phase = 'error';
     video.pause(); video.classList.remove('visible');
     $('still').src = `images/look-${LOOKS[index].id}.jpg`;
-    $('still').alt = LOOKS[index].name + '穿搭推荐定格';
+    $('still').alt = LOOKS[index].name + '穿搭推荐Still';
     $('curtain').classList.remove('closed');
     $('loading').hidden = true;
     clearTimeout(loadingTimer);
@@ -1879,7 +1879,7 @@
     setStatus('A LITTLE PAUSE.', '视频暂时无法播放，点击下方「重试」。');
     readyControls(false);
     if (isAutomaticOperation()) scheduleIdleHide();
-    else { toast('视频暂时无法播放，可以点「重试」或换一套。', '播放提示'); activity(true); }
+    else { toast('视频暂时无法播放，可以点「重试」或Change Outfit。', 'Playback Notice'); activity(true); }
   }
   async function selectLook(index, { restore = false, entry = 'enter', allowAffection = true, preserveRandom = false, quiet = false, automatic = false, directChoice = false } = {}) {
     if (!isPlayable(index)) { lockedTap(index); return; }
@@ -1916,9 +1916,9 @@
       setStatus(wardrobe.english, LOOKS[index].silent ? '' : companionClip(index) ? LOOKS[index].name : line(index, 'held'));
     }
     if (!globalMode() && changedWardrobe && prefs.wardrobeModes[wardrobe.id] === 'favorites' && !activeFavorites().length) {
-      toast('这个衣橱还没有偏爱，暂用定格模式。其他衣橱的播放方式已保留。', '播放方式');
+      toast('这个衣橱还没有Favorite，暂用Still Mode。其他衣橱的Playback Mode已保留。', 'Playback Mode');
     }
-    if (leftGlobalFavorites) toast('这套尚未收藏，已切换到定格模式。', '播放方式');
+    if (leftGlobalFavorites) toast('这套尚未收藏，已Switch to Still Mode。', 'Playback Mode');
     if (page !== pageFor(index)) setPage(pageFor(index), false, !automatic);
     phase = 'loading';
     readyControls(true);
@@ -1927,7 +1927,7 @@
     if (!quiet) activity(true);
     // Keep the current line during the short transition; speak once entry starts.
     clearTimeout(replyTimer);
-    $('timelineState').textContent = '准备';
+    $('timelineState').textContent = 'Ready';
     $('curtain').classList.add('closed');
     if (!automatic) loadingTimer = setTimeout(() => { if (task.id === operation && canShowLoadingHint()) $('loading').hidden = false; }, 900);
     try {
@@ -1939,7 +1939,7 @@
       commitPreparedDeck(incoming, index, task.id);
       releaseSpare();
       $('still').src = `images/look-${LOOKS[index].id}.jpg`;
-      $('still').alt = LOOKS[index].name + '穿搭推荐定格';
+      $('still').alt = LOOKS[index].name + '穿搭推荐Still';
       document.querySelector('.ambient').style.backgroundImage = `url("images/look-${LOOKS[index].id}.jpg")`;
       await delay(40);
       if (task.id !== operation) return;
@@ -1971,12 +1971,12 @@
       blockCompanionSpeech();
       phase = 'paused'; cancelCompanionSwap(); video.pause(); stopWatcher(); body.classList.remove('is-playing');
       clearLoadingHint();
-      icon($('playButton'), 'play'); $('playButton').setAttribute('aria-label', '继续播放入场');
-      $('timelineState').textContent = '暂停'; setStatus('TAKE YOUR TIME.', line(current, 'pause'));
+      icon($('playButton'), 'play'); $('playButton').setAttribute('aria-label', 'Resume Entrance');
+      $('timelineState').textContent = 'Paused'; setStatus('TAKE YOUR TIME.', line(current, 'pause'));
     } else if (phase === 'paused') {
       phase = 'playing'; body.classList.add('is-playing');
-      icon($('playButton'), 'pause'); $('playButton').setAttribute('aria-label', '暂停入场');
-      $('timelineState').textContent = '入场'; setStatus('HERE, WITH YOU.', line(current, 'resume'));
+      icon($('playButton'), 'pause'); $('playButton').setAttribute('aria-label', 'Pause Entrance');
+      $('timelineState').textContent = 'Entrance'; setStatus('HERE, WITH YOU.', line(current, 'resume'));
       if (cycling() && video.ended) advanceLoop(); else playSafely(operation);
     } else selectLook(current, { entry: 'replay' });
     renderTransport();
@@ -2000,13 +2000,13 @@
     closeWelcome();
     unlockAudio();
     const pool = randomPool();
-    if (!pool.length) { toast('本组还没有偏爱，点亮穿搭旁的爱心后再来选吧。', '随机范围'); return; }
+    if (!pool.length) { toast('本组还没有Favorite，点亮穿搭旁的爱心后再来选吧。', 'Shuffle范围'); return; }
     if (pool.length === 1) {
       const selected = pool[0];
       const alreadySelected = selected === current;
       if (!alreadySelected) selectLook(selected, {quiet: true});
       lastChange = Date.now();
-      toast(alreadySelected ? '本组只有这一套偏爱，已经在这里了。点亮其他穿搭的心，就能一起随机。' : '本组只有这一套偏爱，已为你选中。', '随机范围');
+      toast(alreadySelected ? '本组只有这一套Favorite，已经在这里了。点亮其他穿搭的心，就能一起Shuffle。' : '本组只有这一套Favorite，已为你选中。', 'Shuffle范围');
       activity(true);
       return;
     }
@@ -2039,7 +2039,7 @@
     chime(880, .3);
     dialogue.cancelPending();
     const response = LOOKS[selected].silent ? {text: '', rare: false} : dialogue.reply(selected, 'random');
-    toast(response.text, '她说 · ' + LOOKS[selected].short);
+    toast(response.text, 'She Says · ' + LOOKS[selected].short);
     selectLook(selected, {allowAffection: !response.rare, preserveRandom: true});
   }
 
@@ -2080,8 +2080,8 @@
     $('backToSettings').hidden = !open;
     $('openHelp').setAttribute('aria-expanded', String(open));
     $('settingsPanel').classList.toggle('is-help-view', open);
-    $('settingsPanel').setAttribute('aria-label', open ? '使用方法' : '氛围设置');
-    $('closeSettings').setAttribute('aria-label', open ? '关闭使用方法' : '关闭设置');
+    $('settingsPanel').setAttribute('aria-label', open ? 'How to Use' : 'Atmosphere Settings');
+    $('closeSettings').setAttribute('aria-label', open ? 'Close Help' : 'Close Settings');
     if (!open && wasOpen) $('settingsBody').scrollTop = settingsScrollBeforeHelp;
   }
   function openHelp() {
@@ -2118,7 +2118,7 @@
     $('momentLook').textContent = LOOKS[current].name;
     const words = line(current, 'edit');
     setStatus('FIND YOUR MOMENT.', words);
-    $('momentHint').textContent = '点击时间轴定位，用 −／＋ 逐帧微调。';
+    $('momentHint').textContent = 'Click the timeline to seek, then use −/+ to fine-tune frame by frame.';
     try {
       await ensureLoaded(current, task.signal);
       await seek(editorOriginal.time, task.signal);
@@ -2155,15 +2155,15 @@
         phase = 'playing'; body.classList.add('is-playing');
         setStatus(original.status.label, original.status.text);
         icon($('playButton'), 'pause');
-        $('playButton').setAttribute('aria-label', '暂停入场');
-        $('timelineState').textContent = '入场';
+        $('playButton').setAttribute('aria-label', 'Pause Entrance');
+        $('timelineState').textContent = 'Entrance';
         readyControls(false); updateProgress(video.currentTime); renderPlaybackMode();
         await playSafely(task.id);
         if (task.id !== operation) return;
       } else {
         phase = 'paused'; icon($('playButton'), 'play');
-        $('playButton').setAttribute('aria-label', '继续播放入场');
-        $('timelineState').textContent = '暂停'; setStatus('TAKE YOUR TIME.', line(current, 'pause'));
+        $('playButton').setAttribute('aria-label', 'Resume Entrance');
+        $('timelineState').textContent = 'Paused'; setStatus('TAKE YOUR TIME.', line(current, 'pause'));
         readyControls(false); updateProgress(video.currentTime); renderPlaybackMode();
       }
       respond(current, 'cancel', 'TAKE YOUR TIME.', false);
@@ -2282,7 +2282,7 @@
         if (!written.includes(key)) continue;
         try { if (value === null) localStorage.removeItem(key); else localStorage.setItem(key, value); } catch (_) {}
       }
-      $('resetFeedback').textContent = '暂时无法保存重置结果，请稍后重试。';
+      $('resetFeedback').textContent = 'Couldn’t save the reset. Please try again later.';
       $('resetFeedback').hidden = false;
       return;
     }
@@ -2307,10 +2307,10 @@
     // These modules update their in-memory state without writing additional keys.
     window.dispatchEvent(new Event('purple:reset-settings'));
     showRememberedStill();
-    $('timelineState').textContent = '定格'; icon($('playButton'), 'repeat');
-    $('playButton').title = '再看一次入场'; $('playButton').setAttribute('aria-label', '再看一次入场');
+    $('timelineState').textContent = 'Still'; icon($('playButton'), 'repeat');
+    $('playButton').title = 'Replay Entrance'; $('playButton').setAttribute('aria-label', 'Replay Entrance');
     readyControls(false);
-    showWelcome('已恢复初始状态');
+    showWelcome('Restored Defaults');
   });
 
 
@@ -2328,7 +2328,7 @@
         startOperation(); phase = 'playing'; advanceLoop(paused);
       } else primeLoop();
       respond(i, exists ? 'unfavorite' : 'favorite', 'A LITTLE PREFERENCE.');
-      if (emptied) toast(wasGlobal ? '已没有收藏，已回到定格模式。' : '本组已没有偏爱，已回到定格模式。', '播放方式');
+      if (emptied) toast(wasGlobal ? '已没有收藏，已回到Still Mode。' : '本组已没有Favorite，已回到Still Mode。', 'Playback Mode');
   }
   $('looks').addEventListener('click', event => {
     const select = event.target.closest('[data-select]');
@@ -2431,7 +2431,7 @@
   });
   function setSound(enabled) {
     prefs.sound = enabled; applyPrefs(); persist(); unlockAudio(); chime(660, .17);
-    toast(prefs.sound ? (prefs.volume ? '声音已开启。' : '声音已开启，当前音量为 0。') : '声音已关闭。', '声音设置');
+    toast(prefs.sound ? (prefs.volume ? 'Sound On。' : 'Sound On，当前音量为 0。') : '声音已Off。', 'Sound Settings');
   }
   $('soundButton').addEventListener('click', () => setSound(!prefs.sound));
   $('soundToggle').addEventListener('change', event => setSound(event.target.checked));
@@ -2506,7 +2506,7 @@
   function showRememberedStill() {
     adoptWardrobe(current);
     $('still').src = `images/look-${LOOKS[current].id}.jpg`;
-    $('still').alt = LOOKS[current].name + '穿搭推荐定格';
+    $('still').alt = LOOKS[current].name + '穿搭推荐Still';
     document.querySelector('.ambient').style.backgroundImage = `url("images/look-${LOOKS[current].id}.jpg")`;
     renderCards(); updateProgress(freezeTime()); applyPrefs();
     setStatus('MOMENT, KEPT.', companionMode() ? LOOKS[current].name : line(current, 'held'));
@@ -2551,7 +2551,7 @@
     const value = record.offsetRatio;
     if (Number.isFinite(value)) savedRatio = Math.max(-.25, Math.min(.25, value));
   } catch (_) {}
-  const label = pixels => Math.abs(pixels) < 1 ? '默认位置' : `${pixels > 0 ? '右移' : '左移'} ${Math.abs(pixels)} px`;
+  const label = pixels => Math.abs(pixels) < 1 ? 'Default position' : `${pixels > 0 ? 'Move right' : 'Move left'} ${Math.abs(pixels)} px`;
   function bounds() {
     const width = root.clientWidth;
     const card = wardrobe.getBoundingClientRect();
@@ -2568,7 +2568,7 @@
     }
     return {min:Math.min(0, Math.ceil(16 - baseLeft)), max:Math.max(0, Math.floor(max))};
   }
-  const verticalLabel = pixels => Math.abs(pixels) < 1 ? '默认位置' : `${pixels > 0 ? '下移' : '上移'} ${Math.abs(pixels)} px`;
+  const verticalLabel = pixels => Math.abs(pixels) < 1 ? 'Default position' : `${pixels > 0 ? 'Move down' : 'Move up'} ${Math.abs(pixels)} px`;
   function syncGuides() {
     const visible = !settings.hidden && !$('settingsBody').hidden && $('resetConfirm').hidden && $('personalizationOptions').open;
     guide.hidden = !visible;
@@ -2618,8 +2618,8 @@
     $('layoutLeft').disabled = offset <= min;
     $('layoutRight').disabled = offset >= max;
     $('layoutNote').textContent = max - min < 40
-      ? '当前屏幕的留白较窄，可移动范围已收拢。'
-      : '左侧整列一起移动，为桌面图标留出空位。';
+      ? 'There is less empty space on this screen, so the available movement range has been reduced.'
+      : 'Move the entire left column together to make room for desktop icons.';
   }
   function finish(save, focus = true) {
     if (!editing) { syncGuides(); return; }
@@ -2830,17 +2830,17 @@
     if (html) node.innerHTML = html;
     return node;
   };
-  const toggle = element('button', 'layout-switch text-button', `${svg('frame')}<span>精简布局</span>`);
+  const toggle = element('button', 'layout-switch text-button', `${svg('frame')}<span>Compact Layout</span>`);
   toggle.id = 'layoutSwitch'; toggle.type = 'button';
-  toggle.title = '切换布局，保留当前播放';
+  toggle.title = 'Switch layout while keeping current playback';
   document.querySelector('.top-right').prepend(toggle);
-  const header = element('div', 'island-drawer-heading', '<span class="island-drawer-title">她的衣橱</span><div class="island-drawer-actions"></div>');
+  const header = element('div', 'island-drawer-heading', '<span class="island-drawer-title">Her Wardrobe</span><div class="island-drawer-actions"></div>');
   const close = element('button', 'icon-button', svg('close'));
-  close.type = 'button'; close.setAttribute('aria-label', '收起衣橱');
+  close.type = 'button'; close.setAttribute('aria-label', 'Collapse Wardrobe');
   header.querySelector('div').append(close);
   wardrobe.prepend(header); wardrobe.id = 'wardrobePanel';
   const bar = element('div', 'island-bar');
-  const opener = element('button', 'island-opener', `<img id="islandThumb" alt=""><span><strong id="islandName"></strong><small><span id="islandWardrobeHint">展开衣橱</span>${svg('chevron')}</small></span>`);
+  const opener = element('button', 'island-opener', `<img id="islandThumb" alt=""><span><strong id="islandName"></strong><small><span id="islandWardrobeHint">Expand Wardrobe</span>${svg('chevron')}</small></span>`);
   opener.type = 'button'; opener.id = 'islandWardrobe';
   opener.setAttribute('aria-controls', wardrobe.id); opener.setAttribute('aria-expanded', 'false');
   const actions = element('div', 'island-actions');
@@ -2852,14 +2852,14 @@
   const reply = element('p', 'island-reply'); reply.id = 'islandReply';
   reply.setAttribute('role', 'status'); reply.setAttribute('aria-live', 'polite');
   status.querySelector('div').append(reply);
-  const settingsLayout = element('section', 'layout-preference', '<div class="setting-line"><label>界面布局</label><output id="layoutValueLabel">精简布局</output></div><div class="setting-options" id="layoutChoices"><button type="button" data-interface="normal">经典布局</button><button type="button" data-interface="island">精简布局</button></div>');
+  const settingsLayout = element('section', 'layout-preference', '<div class="setting-line"><label>Interface Layout</label><output id="layoutValueLabel">Compact Layout</output></div><div class="setting-options" id="layoutChoices"><button type="button" data-interface="normal">Classic Layout</button><button type="button" data-interface="island">Compact Layout</button></div>');
   $('settingsBody').querySelector('.panel-subtitle').after(settingsLayout);
-  const positionNote = element('p', 'island-position-note', '精简布局固定在右下方，衣橱向上展开。切回经典布局后，可继续调整左列与播放栏的位置。');
+  const positionNote = element('p', 'island-position-note', 'Compact Layout固定在右下方，衣橱Up展开。切回Classic Layout后，可继续调整左列与播放栏的位置。');
   $('layoutControls').after(positionNote);
   // Wallpaper hosts may forward clicks but not wheel/drag gestures. Keep page
   // navigation outside the scrolling content so every setting stays reachable.
   function installPager(container, scrollers, prefix, hint, enabled = () => true) {
-    const pager = element('nav', 'overflow-pager', `<button id="${prefix}PageUp" type="button">${svg('chevron')}<span>向上</span></button><span id="${prefix}PageHint">${hint}</span><button id="${prefix}PageDown" type="button"><span>向下</span>${svg('chevron')}</button>`);
+    const pager = element('nav', 'overflow-pager', `<button id="${prefix}PageUp" type="button">${svg('chevron')}<span>Up</span></button><span id="${prefix}PageHint">${hint}</span><button id="${prefix}PageDown" type="button"><span>Down</span>${svg('chevron')}</button>`);
     pager.id = prefix + 'Pager'; pager.hidden = true;
     pager.setAttribute('aria-label', hint + '翻页'); container.append(pager);
     let frame = 0;
@@ -2875,7 +2875,7 @@
       const atStart = scroller.scrollTop <= 1, atEnd = scroller.scrollTop >= scroller.scrollHeight - scroller.clientHeight - 1;
       $(prefix + 'PageUp').disabled = atStart; $(prefix + 'PageDown').disabled = atEnd;
       for (const suffix of ['PageUp', 'PageDown']) $(prefix + suffix).setAttribute('aria-controls', scroller.id);
-      $(prefix + 'PageHint').textContent = atEnd ? '已到底部' : atStart ? (scroller.id === 'helpBody' ? '更多说明' : hint) : '点击翻页';
+      $(prefix + 'PageHint').textContent = atEnd ? 'End of list' : atStart ? (scroller.id === 'helpBody' ? 'More Help' : hint) : 'Click to turn page';
     }
     function queue() { cancelAnimationFrame(frame); frame = requestAnimationFrame(update); }
     for (const [suffix, direction] of [['PageUp', -1], ['PageDown', 1]]) {
@@ -2894,13 +2894,13 @@
     for (const event of ['purple:typography-change', 'purple:layout-change', 'resize']) window.addEventListener(event, queue);
     return queue;
   }
-  installPager($('settingsPanel'), [$('settingsBody'), $('helpBody')], 'settings', '更多设置');
+  installPager($('settingsPanel'), [$('settingsBody'), $('helpBody')], 'settings', 'More Settings');
   const wardrobeBody = document.querySelector('.wardrobe-content'); wardrobeBody.id = 'wardrobeBody';
-  installPager(wardrobe, [wardrobeBody], 'wardrobe', '更多选项', () => body.dataset.layout === 'island');
+  installPager(wardrobe, [wardrobeBody], 'wardrobe', 'More Options', () => body.dataset.layout === 'island');
   const modeMenu = $('modeMenu'), modeBody = element('div', 'mode-scroll'); modeBody.id = 'modeBody';
   for (const node of [...modeMenu.children]) if (!node.matches('.mode-heading, .mode-order')) modeBody.append(node);
   modeMenu.append(modeBody);
-  installPager(modeMenu, [modeBody], 'mode', '更多方式');
+  installPager(modeMenu, [modeBody], 'mode', 'More Modes');
   const homes = new Map();
   function move(node, parent, before = null) {
     if (!homes.has(node)) { const anchor = document.createComment('normal-layout'); node.before(anchor); homes.set(node, anchor); }
@@ -2909,8 +2909,8 @@
   function restore(node) { const anchor = homes.get(node); if (anchor) anchor.after(node); }
   let layout = 'normal', frame = 0, openAfterPanel = false;
   function updateOpener() {
-    const action = body.classList.contains('is-wardrobe-open') ? '收起衣橱' : '展开衣橱';
-    const hint = body.classList.contains('is-spinning') ? '正在挑选…' : action;
+    const action = body.classList.contains('is-wardrobe-open') ? 'Collapse Wardrobe' : 'Expand Wardrobe';
+    const hint = body.classList.contains('is-spinning') ? 'Choosing…' : action;
     if ($('islandWardrobeHint').textContent !== hint) $('islandWardrobeHint').textContent = hint;
     opener.setAttribute('aria-label', `${$('islandName').textContent}，${action}`);
   }
@@ -2945,7 +2945,7 @@
     if ($('islandThumb').getAttribute('src') !== src) $('islandThumb').src = src;
     updateOpener();
     favorite.setAttribute('aria-pressed', String(state.favorite));
-    favorite.setAttribute('aria-label', `${state.favorite ? '取消偏爱' : '偏爱'}${state.name}`);
+    favorite.setAttribute('aria-label', `${state.favorite ? 'Remove Favorite' : 'Favorite'}${state.name}`);
     favorite.title = favorite.getAttribute('aria-label');
     const hasPanel = body.classList.contains('has-panel');
     $('settingsButton').setAttribute('aria-expanded', String(!$('settingsPanel').hidden));
@@ -2954,12 +2954,12 @@
     opener.disabled = hasPanel;
     const choosing = body.classList.contains('is-spinning');
     shuffle.setAttribute('aria-busy', String(choosing));
-    shuffle.setAttribute('aria-label', choosing ? '正在挑选穿搭' : $('randomButton').getAttribute('aria-label'));
+    shuffle.setAttribute('aria-label', choosing ? 'Choosing an Outfit' : $('randomButton').getAttribute('aria-label'));
     shuffle.title = shuffle.getAttribute('aria-label') || '';
-    const showReply = layout === 'island' && $('toast').classList.contains('show') && $('toastSpeaker').textContent.startsWith('她说');
+    const showReply = layout === 'island' && $('toast').classList.contains('show') && $('toastSpeaker').textContent.startsWith('She Says');
     body.classList.toggle('is-island-reply', showReply);
     if (reply.textContent !== $('toastText').textContent) reply.textContent = $('toastText').textContent;
-    $('toast').classList.toggle('is-dialogue-toast', $('toastSpeaker').textContent.startsWith('她说'));
+    $('toast').classList.toggle('is-dialogue-toast', $('toastSpeaker').textContent.startsWith('She Says'));
     const editing = state.phase === 'editing';
     toggle.disabled = editing;
     $('layoutChoices').querySelectorAll('button').forEach(button => { button.disabled = editing; });
@@ -2982,9 +2982,9 @@
       restore(toggle);
       restore($('wardrobeOrder'));
     }
-    toggle.querySelector('span').textContent = next === 'island' ? '经典布局' : '精简布局';
-    toggle.setAttribute('aria-label', `切换到${next === 'island' ? '经典布局' : '精简布局'}`);
-    $('layoutValueLabel').textContent = next === 'island' ? '精简布局' : '经典布局';
+    toggle.querySelector('span').textContent = next === 'island' ? 'Classic Layout' : 'Compact Layout';
+    toggle.setAttribute('aria-label', `Switch to ${next === 'island' ? 'Classic Layout' : 'Compact Layout'}`);
+    $('layoutValueLabel').textContent = next === 'island' ? 'Compact Layout' : 'Classic Layout';
     $('layoutChoices').querySelectorAll('button').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.interface === next)));
     // Show the wardrobe when entering this layout, including from Settings.
     // An open settings panel takes priority; reveal the wardrobe when it closes.
@@ -3041,12 +3041,12 @@
   const tip = document.createElement('div');
   tip.id = 'interactionTip'; tip.className = 'interaction-tip'; tip.setAttribute('role', 'tooltip'); tip.hidden = true;
   document.body.append(tip);
-  document.getElementById('immerseButton').setAttribute('aria-label', '隐藏界面，进入沉浸模式');
+  document.getElementById('immerseButton').setAttribute('aria-label', 'Hide Interface and Enter Immersive Mode');
   let active = null, timer = 0;
   function label(button) {
-    if (button.id === 'islandShuffle') return '随机换一套';
-    if (button.id === 'immerseButton') return '隐藏界面，进入沉浸';
-    if (button.id === 'settingsButton') return button.getAttribute('aria-expanded') === 'true' ? '关闭设置' : '打开设置';
+    if (button.id === 'islandShuffle') return 'ShuffleChange Outfit';
+    if (button.id === 'immerseButton') return 'Hide Interface and Enter Immersive Mode';
+    if (button.id === 'settingsButton') return button.getAttribute('aria-expanded') === 'true' ? 'Close Settings' : 'Open Settings';
     return button.getAttribute('aria-label') || button.dataset.controlHint || '';
   }
   function suppressNativeTitle(button) {
