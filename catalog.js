@@ -2250,92 +2250,92 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "continuous": [
         {
           "id": "sit-loop-01-C13",
-          "text": "有些小狗走路会一蹦一蹦的，看着就觉得它今天过得不错。",
+          "text": "Some little dogs bounce as they walk. It makes them look like they’re having a good day.",
           "topic": "play"
         },
         {
           "id": "sit-loop-01-C40",
-          "text": "有些事还没做，我就已经替自己高兴上了。比如订好出去玩的日子。",
+          "text": "Sometimes I get excited about something before it even happens, like setting a date for a trip.",
           "topic": "outing"
         },
         {
           "id": "sit-loop-01-C22",
-          "text": "有机会想坐一趟慢车，带够零食再出发。",
+          "text": "Someday I want to take a slow train ride, with plenty of snacks packed for the journey.",
           "topic": "outing"
         },
         {
           "id": "sit-loop-01-C02",
-          "text": "剥橘子碰到一整条连着的皮，我总想再剥长一点。",
+          "text": "When I peel an orange and the skin comes off in one long strip, I always want to see how much longer I can make it.",
           "topic": "play"
         },
         {
           "id": "sit-loop-01-C42",
-          "text": "别人随口说下次一起，我有时候会当真的。连要穿什么都偷偷想过。",
+          "text": "Sometimes when someone casually says “let’s do this together next time,” I take it seriously. I even secretly think about what to wear.",
           "topic": "shyness"
         },
         {
           "id": "sit-loop-01-C26",
-          "text": "等有机会一起放风筝，我想负责拿线。跑得慢你可别笑我。",
+          "text": "If we ever fly a kite together, I want to hold the string. Don’t laugh if I run slowly.",
           "topic": "outing"
         },
         {
           "id": "sit-loop-01-C38",
-          "text": "有一次被人说笑起来很好看，回去照镜子的时候反而不会笑了。",
+          "text": "Someone once told me I had a lovely smile, and afterward I couldn’t smile naturally when I looked in the mirror.",
           "topic": "shyness"
         },
         {
           "id": "sit-loop-01-C06",
-          "text": "偶尔会想买一整块蛋糕，也不庆祝什么。就是想吃了。",
+          "text": "Sometimes I want to buy a whole cake for no special occasion. I just feel like eating one.",
           "topic": "food"
         },
         {
           "id": "sit-loop-01-C07",
-          "text": "我有次满屋找发圈，最后在自己手腕上找到了。",
+          "text": "Once I searched the whole room for a hair tie, only to find it on my own wrist.",
           "topic": "home"
         },
         {
           "id": "sit-loop-01-C08",
-          "text": "叠衣服最容易分心，叠着叠着就又搭出一身。",
+          "text": "Folding clothes is when I get distracted most easily. Before I know it, I’ve put together another outfit.",
           "topic": "home"
         },
         {
           "id": "sit-loop-01-C31",
-          "text": "有时特别想买点小东西，逛完一圈又觉得什么都不用买了。",
+          "text": "Sometimes I really want to buy a little something, but after browsing around, I realize I don’t need anything.",
           "topic": "home"
         },
         {
           "id": "sit-loop-01-C37",
-          "text": "买了小时候常吃的冰淇淋，咬第一口还在想……怎么没有记得的那么大了。",
+          "text": "I bought an ice cream I used to eat as a child, and after the first bite I wondered… why isn’t it as big as I remember?",
           "topic": "food"
         },
         {
           "id": "sit-loop-01-C25",
-          "text": "要是一起逛超市，我想偷偷往车里多放一包薯片。",
+          "text": "If we shop for groceries together, I want to sneak an extra bag of chips into the cart.",
           "topic": "food"
         },
         {
           "id": "sit-loop-01-C36",
-          "text": "偶尔也想被偏心一下，比如最后一块好吃的先问我要不要。",
+          "text": "Sometimes I want to be someone’s favorite, too—like being asked if I want the last tasty bite.",
           "topic": "food"
         },
         {
           "id": "sit-loop-01-C28",
-          "text": "你的外套要是忘在我这儿，我可能会先穿一下再还你。",
+          "text": "If you leave your jacket at my place, I might try it on before returning it.",
           "topic": "affection"
         },
         {
           "id": "sit-loop-01-C46",
-          "text": "有人夸你我会高兴，还会偷偷想……我早就知道了。",
+          "text": "When someone compliments you, I’m happy, and I secretly think… I already knew that.",
           "topic": "affection"
         },
         {
           "id": "sit-loop-01-C30",
-          "text": "我想跟你用同一款洗衣液，衣服晾干以后闻起来就一样了。",
+          "text": "I want to use the same laundry detergent as you, so our clothes smell alike when they dry.",
           "topic": "affection"
         },
         {
           "id": "sit-loop-01-C15",
-          "text": "路过烤红薯的小摊，我一般先走过去。走两步又回来。",
+          "text": "When I pass a stall selling roasted sweet potatoes, I usually walk past first, then turn around and come back.",
           "topic": "food"
         }
       ],
@@ -2370,19 +2370,19 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "affection": [
         {
           "id": "sit-loop-01-L01",
-          "text": "想被你亲一下额头，亲完再听你叫我的名字。"
+          "text": "I want you to kiss my forehead, then hear you say my name."
         },
         {
           "id": "sit-loop-01-L02",
-          "text": "（轻声）我想试试枕着你的胳膊躺一会儿，可能很快就睡着了。"
+          "text": "(Softly) I want to try lying with my head on your arm for a while. I might fall asleep quickly."
         },
         {
           "id": "sit-loop-01-L03",
-          "text": "有时候差点就叫你亲爱的了，话到嘴边又自己先不好意思。"
+          "text": "Sometimes I almost call you “darling,” but get embarrassed just as the words reach my lips."
         },
         {
           "id": "sit-loop-01-L04",
-          "text": "等抱到你的时候，我可能会蹭一蹭。先跟你说一声。"
+          "text": "When I get to hug you, I might nuzzle you a little. Just giving you a warning."
         }
       ]
     },
@@ -2426,57 +2426,57 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "continuous": [
         {
           "id": "sit-loop-02-C01",
-          "text": "这件纱薄薄的，搭在手臂上也没什么分量。",
+          "text": "This sheer fabric is so light that I can barely feel it resting on my arm.",
           "topic": "clothing"
         },
         {
           "id": "sit-loop-02-C02",
-          "text": "裙子有一点褶也没事，舒服地坐一会儿比较要紧。",
+          "text": "A few wrinkles in the skirt are fine. Being comfortable while we sit together matters more.",
           "topic": "clothing"
         },
         {
           "id": "sit-loop-02-C06",
-          "text": "头发刚吹干时总是蓬蓬的，要过一会儿才像我平时的样子。",
+          "text": "My hair is always fluffy right after I blow-dry it. It takes a while to settle into its usual shape.",
           "topic": "clothing"
         },
         {
           "id": "sit-loop-02-C44",
-          "text": "被问想要什么的时候，我以前总说都可以。现在也想试着把喜欢的那一个说出来。",
+          "text": "I used to say “anything is fine” when people asked what I wanted. Now I want to try saying which one I actually like.",
           "topic": "choice"
         },
         {
           "id": "sit-loop-02-C08",
-          "text": "下雨时我爱开一点窗，能听见雨又淋不着。",
+          "text": "When it rains, I like opening the window a little so I can hear it without getting wet.",
           "topic": "quiet"
         },
         {
           "id": "sit-loop-02-C39",
-          "text": "我挺想知道，别人记得的我是什么样子。可能跟我自己想的很不一样。",
+          "text": "I’m curious what kind of person other people remember me as. It might be very different from how I see myself.",
           "topic": "thought"
         },
         {
           "id": "sit-loop-02-C46",
-          "text": "听完好听的曲子，我不太想马上换下一首。就想先安静一会儿。",
+          "text": "After listening to a beautiful piece of music, I don’t want to play the next song right away. I just want to sit quietly for a while.",
           "topic": "music"
         },
         {
           "id": "sit-loop-02-C45",
-          "text": "（轻声）要是听见你说喜欢，我大概会想再确认一次。其实就是想多听一遍。",
+          "text": "(Softly) If I hear you say you like me, I’ll probably want to make sure I heard right. Really, I just want to hear it one more time.",
           "topic": "affection"
         },
         {
           "id": "sit-loop-02-C35",
-          "text": "要是一起听歌，不用每一首都跟着聊。有喜欢的再说给我听。",
+          "text": "If we listen to music together, we don’t have to talk about every song. Tell me when one catches your attention.",
           "topic": "music"
         },
         {
           "id": "sit-loop-02-C09",
-          "text": "房间里的灯不用都亮着，我喜欢留一盏离自己近的。",
+          "text": "Not every light in the room needs to be on. I like keeping one close to me lit.",
           "topic": "quiet"
         },
         {
           "id": "sit-loop-02-C36",
-          "text": "在你面前，我能把一句话说一半再慢慢想。不用怕你嫌我啰嗦。",
+          "text": "With you, I can stop halfway through a sentence and think for a while. I don’t have to worry you’ll think I’m rambling.",
           "topic": "affection"
         }
       ],
@@ -2515,19 +2515,19 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "affection": [
         {
           "id": "sit-loop-02-L01",
-          "text": "（轻声）我想就这样被你抱一下，肩上的纱不用管。"
+          "text": "(Softly) I want you to hug me just like this. Don’t worry about the sheer wrap on my shoulders."
         },
         {
           "id": "sit-loop-02-L02",
-          "text": "你亲我的时候，我也想用手轻轻碰着你的脸。"
+          "text": "When you kiss me, I want to gently touch your face, too."
         },
         {
           "id": "sit-loop-02-L03",
-          "text": "想和你试试额头碰着额头，什么都不说也不觉得奇怪。"
+          "text": "I want to try resting my forehead against yours. We wouldn’t have to say anything, and it wouldn’t feel strange."
         },
         {
           "id": "sit-loop-02-L04",
-          "text": "我想在你耳边说句喜欢你，声音小到只有你听见。"
+          "text": "I want to whisper “I like you” in your ear, so softly that only you can hear."
         }
       ]
     },
@@ -2571,102 +2571,102 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "continuous": [
         {
           "id": "sit-loop-03-C01",
-          "text": "有时候穿得认真一点，连出门买瓶水都觉得挺开心。",
+          "text": "Sometimes dressing up a little makes even a quick trip out to buy water feel exciting.",
           "topic": "clothing"
         },
         {
           "id": "sit-loop-03-C31",
-          "text": "有时嘴上说试试看，心里已经认真准备了好几天。",
+          "text": "Sometimes I say I’ll just give something a try, even though I’ve been preparing seriously for days.",
           "topic": "confidence"
         },
         {
           "id": "sit-loop-03-C37",
-          "text": "在陌生的地方买一份早餐，会忍不住想，要是我住在这里会是什么样。",
+          "text": "Buying breakfast somewhere unfamiliar makes me wonder what it would be like to live there.",
           "topic": "outing"
         },
         {
           "id": "sit-loop-03-C20",
-          "text": "要是去海边，我想赶一次退潮。看看石头底下都藏着什么。",
+          "text": "If we go to the seaside, I want to catch the tide going out and see what’s hiding beneath the rocks.",
           "topic": "outing"
         },
         {
           "id": "sit-loop-03-C24",
-          "text": "想去坐一次摩天轮，上去之前我可能说不怕。真到了最高处就不好说了。",
+          "text": "I want to ride a Ferris wheel. I might say I’m not scared before we get on, but I can’t promise I’ll feel that way at the top.",
           "topic": "outing"
         },
         {
           "id": "sit-loop-03-C43",
-          "text": "花了好久做的东西，要送人的时候会想再多看两眼。明明就是做给人家的。",
+          "text": "When I’ve spent ages making something for someone, I want to look at it a little longer before giving it away—even though I made it for them.",
           "topic": "gift"
         },
         {
           "id": "sit-loop-03-C39",
-          "text": "收到礼物时会忍不住猜，对方挑中它，是不是因为记得我说过什么。",
+          "text": "When I receive a gift, I can’t help wondering if they chose it because they remembered something I said.",
           "topic": "gift"
         },
         {
           "id": "sit-loop-03-C22",
-          "text": "要是一起逛书店，我们可以各挑一本给对方。不用提前商量。",
+          "text": "If we browse a bookstore together, we could each choose a book for the other without discussing it beforehand.",
           "topic": "gift"
         },
         {
           "id": "sit-loop-03-C21",
-          "text": "我想学个简单的魔术，学会以后先拿你试试。",
+          "text": "I want to learn a simple magic trick and try it on you first once I’ve mastered it.",
           "topic": "play"
         },
         {
           "id": "sit-loop-03-C29",
-          "text": "真要给你准备惊喜，我可能得提前少说两句。说多了容易漏。",
+          "text": "If I’m preparing a real surprise for you, I’ll have to talk a little less beforehand. I might accidentally give it away.",
           "topic": "play"
         },
         {
           "id": "sit-loop-03-C28",
-          "text": "我们可以挑个没什么意义的日子出去庆祝，比如终于有空了。",
+          "text": "We could celebrate a day that doesn’t mean anything special, like finally having some free time.",
           "topic": "outing"
         },
         {
           "id": "sit-loop-03-C27",
-          "text": "要是一起吃东西，我会记住你先夹哪道菜。下次点菜就有数了。",
+          "text": "When we eat together, I’ll remember which dish you reach for first. That’ll help me choose what to order next time.",
           "topic": "together"
         },
         {
           "id": "sit-loop-03-C26",
-          "text": "想让你教我一件你会的事，最好是学会了能在你面前显摆的。",
+          "text": "I want you to teach me something you know how to do—preferably something I can show off to you once I learn it.",
           "topic": "together"
         },
         {
           "id": "sit-loop-03-C25",
-          "text": "你以后给我拍照，可以偶尔不提醒我。我想看看自己没准备的时候。",
+          "text": "When you take pictures of me, sometimes don’t warn me first. I want to see what I look like unprepared.",
           "topic": "together"
         },
         {
           "id": "sit-loop-03-C47",
-          "text": "有人说我跟想象里不一样，我还挺高兴的。也没那么好猜嘛。",
+          "text": "I’m happy when someone says I’m different from what they imagined. I’m not so easy to figure out, after all.",
           "topic": "confidence"
         },
         {
           "id": "sit-loop-03-C44",
-          "text": "我想过把喜欢说得含蓄一点，可要是你真没听出来，我大概又会不甘心。",
+          "text": "I’ve thought about expressing my feelings more subtly, but if you really didn’t get it, I’d probably regret it.",
           "topic": "affection"
         },
         {
           "id": "sit-loop-03-C45",
-          "text": "有人问起你，我原本只想说一句挺好的。说着说着就没停下来。",
+          "text": "When someone asked me about you, I meant to say just one nice thing. Before I knew it, I couldn’t stop talking.",
           "topic": "affection"
         },
         {
           "id": "sit-loop-03-C48",
-          "text": "有次看见两个人在人群里一下就找到对方，那个笑容让我记了好久。",
+          "text": "Once I saw two people find each other instantly in a crowd. I remembered their smiles for a long time.",
           "topic": "affection"
         },
         {
           "id": "sit-loop-03-C46",
-          "text": "等很久以后再聊起现在，会不会觉得我们那时候还挺害羞的。",
+          "text": "When we talk about today years from now, do you think we’ll feel we were rather shy back then?",
           "topic": "affection"
         },
         {
           "id": "sit-loop-03-C36",
-          "text": "我想我们以后也能各有各的爱好，偶尔拉着对方去试一次。",
+          "text": "I hope we can keep our own hobbies in the future and occasionally invite each other to give them a try.",
           "topic": "together"
         }
       ],
