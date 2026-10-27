@@ -975,7 +975,7 @@
     $('favoriteCount').textContent = localCount;
     $('favoriteModeHint').textContent = localCount ? `${wardrobeFor(current).name} · ${orderText}play favorites` : 'Favorite an outfit in the currently playing wardrobe first';
     $('globalFavoriteCount').textContent = prefs.favorites.length;
-    $('globalFavoriteModeHint').textContent = prefs.favorites.length ? `跨越三个衣橱，${orderText}play favorites` : 'Favorite an outfit in any wardrobe first';
+    $('globalFavoriteModeHint').textContent = prefs.favorites.length ? `Across all three wardrobes, ${orderText}play favorites` : 'Favorite an outfit in any wardrobe first';
     $('globalAllModeHint').textContent = `Across all three wardrobes, play available outfits ${orderText}`;
     $('companionModeHint').textContent = companionClip() ? 'Loops the idle animation after the entrance' : 'No looping clip is available for this outfit';
     $('allModeHint').textContent = `${wardrobeFor(current).name} · play all outfits ${orderText}`;
@@ -2000,7 +2000,7 @@
     closeWelcome();
     unlockAudio();
     const pool = randomPool();
-    if (!pool.length) { toast('There are no favorites in this group yet. Tap an outfit’s heart to favorite it, then try again.', 'Shuffle范围'); return; }
+    if (!pool.length) { toast('There are no favorites in this group yet. Tap an outfit’s heart to favorite it, then try again.', 'Shuffle Scope'); return; }
     if (pool.length === 1) {
       const selected = pool[0];
       const alreadySelected = selected === current;
