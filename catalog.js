@@ -1245,8 +1245,8 @@ window.PURPLE_LOOKS = Object.freeze([
   },
   {
     "id": "sit-loop-03",
-    "name": "星夜微光",
-    "short": "星夜微光",
+    "name": "Starlight at Night",
+    "short": "Starlight at Night",
     "english": "SEATED / COMPANION",
     "group": "sit",
     "hostValue": 38,
@@ -1263,33 +1263,33 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "我还挺喜欢这么认真打扮，却没什么大事要做的时候。",
-        "这双鞋上的小铆钉，我一眼就看上了。",
-        "我忽然想到，下次约会不如换我来安排。",
-        "我给自己定了个小规矩，约会时不老看手机。"
+        "I rather like dressing up carefully even when I don’t have anything important to do.",
+        "I fell for the little studs on these shoes at first sight.",
+        "It just occurred to me that I should plan our next date.",
+        "I made a little rule for myself: don’t keep checking my phone on dates."
       ],
       "held": [
-        "不用出去也行，在你这儿我也想好看一点。",
-        "看着有点不好惹，其实我还挺好说话的。",
-        "去哪儿先不告诉你，反正会记得留时间吃饭。",
-        "有消息晚点回也行，跟你说到一半的话更要紧。"
+        "We don’t have to go out. I still want to look nice for you here.",
+        "I may look a little intimidating, but I’m actually easy to get along with.",
+        "I won’t tell you where we’re going yet, but I’ll make sure we leave time to eat.",
+        "Messages can wait. Finishing what I’m saying to you matters more."
       ],
       "restored": [
-        "嗯，正好。想跟你分享一点我自己的事。",
-        "我这会儿没打算急着走，想把这点空闲好好过完。",
-        "（带点笑意）现在要是夸我，我大概会很坦然地收下。"
+        "Mm, perfect. I want to share something about myself with you.",
+        "I’m not planning to leave in a hurry. I want to make the most of this free time.",
+        "(She smiles a little) If you compliment me now, I’ll probably accept it without a fuss."
       ],
       "random": [
-        "黑裙就配这双鞋吧，我喜欢它那一点亮亮的装饰。",
-        "这条裙子不用挑时候，想穿的那天就合适。",
-        "选到这身，我连约会的主意都多了几个。"
+        "I’ll pair the black dress with these shoes. I like their little sparkling details.",
+        "There’s no need to wait for an occasion to wear this dress. Any day I feel like it is right.",
+        "Choosing this outfit has given me even more ideas for dates."
       ]
     }
   },
   {
     "id": "sit-loop-10",
-    "name": "夜猫轻语",
-    "short": "夜猫轻语",
+    "name": "Night Owl’s Soft Words",
+    "short": "Night Owl’s Soft Words",
     "english": "SEATED / COMPANION",
     "group": "sit",
     "hostValue": 39,
@@ -1306,34 +1306,34 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "今天把这对耳朵也戴来了。",
-        "今天有点想让你多看我一会儿。",
-        "你要是有事忙，就先忙你的。",
-        "本来想装得若无其事一点的。"
+        "I brought these ears along today, too.",
+        "I kind of want you to look at me a little longer today.",
+        "If you have things to do, go ahead and take care of them first.",
+        "I was going to pretend nothing was on my mind."
       ],
       "held": [
-        "本来还在犹豫……还是想让你看看呀。",
-        "这一身，可是带着一点小心思挑的。",
-        "我也想这样安安静静地陪你一会儿。",
-        "可是有点想你，还是先说出来了……"
+        "I was still hesitating… but I wanted you to see me after all.",
+        "I chose this outfit with a little secret intention.",
+        "I want to quietly keep you company like this for a while, too.",
+        "But I missed you a little, so I said it anyway…"
       ],
       "restored": [
-        "嗯，想来陪我一会儿吗？",
-        "在呢，今天想听你随便聊聊。",
-        "正想找你说两句呢。"
+        "Mm, did you come to keep me company for a while?",
+        "I’m here. I’d like to hear you chat about whatever today.",
+        "I was just about to come find you for a chat."
       ],
       "random": [
-        "猫耳这套呀……我也有点想穿给你看了。",
-        "今天就让我稍微大胆一点吧。",
-        "这回想让你多留意我一点呢。",
-        "我还挺喜欢自己穿这身的，有点舍不得换呢。"
+        "The cat-ear outfit… I’ve been wanting to wear it for you, too.",
+        "Let me be a little bolder today.",
+        "This time, I want you to pay a little more attention to me.",
+        "I quite like myself in this outfit. I’m a little reluctant to change."
       ]
     }
   },
   {
     "id": "sit-loop-11",
-    "name": "月白蕾影",
-    "short": "月白蕾影",
+    "name": "Moonlit Lace",
+    "short": "Moonlit Lace",
     "english": "SEATED / COMPANION",
     "group": "sit",
     "hostValue": 40,
@@ -1350,34 +1350,34 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "今天穿得像是要出门见谁，对吧。",
-        "想来听你说说话了。",
-        "这袖口有点像小喇叭。",
-        "来之前想了一路跟你聊什么。"
+        "I look dressed up as if I’m going out to meet someone, don’t I?",
+        "I wanted to come hear you talk.",
+        "These cuffs look a little like tiny bells.",
+        "I spent the whole trip here thinking about what to talk to you about."
       ],
       "held": [
-        "也没错，就是来见你。",
-        "你想从哪儿讲都行。",
-        "刚试的时候还嫌有点夸张，现在又舍不得换了...",
-        "真到这儿了，好像什么都能聊。"
+        "That’s right. I came to see you.",
+        "You can start wherever you like.",
+        "When I first tried it on, I thought it was a bit much. Now I don’t want to change out of it…",
+        "Now that I’m here, it feels like we can talk about anything."
       ],
       "restored": [
-        "嗯，想说哪件就从哪件开始吧。",
-        "我在这儿，听你慢慢说。",
-        "想聊什么呀？我这会儿有空。"
+        "Mm, start with whatever you want to talk about.",
+        "I’m here. Take your time and tell me.",
+        "What would you like to talk about? I have time right now."
       ],
       "random": [
-        "就这身白蕾丝吧，看着清清爽爽的。",
-        "今天想认真一点来见你。",
-        "穿得这么整齐，也不耽误跟你说傻话。",
-        "嗯，很适合坐下来和你好好聊聊。"
+        "Let’s go with this white lace outfit. It looks fresh and clean.",
+        "I wanted to make a little extra effort to see you today.",
+        "Dressing up this neatly won’t stop me from saying silly things with you.",
+        "Mm, this is perfect for sitting down and having a proper chat with you."
       ]
     }
   },
   {
     "id": "sit-loop-12",
-    "name": "墨夜柔波",
-    "short": "墨夜柔波",
+    "name": "Soft Waves of Midnight",
+    "short": "Soft Waves of Midnight",
     "english": "SEATED / COMPANION",
     "group": "sit",
     "hostValue": 41,
@@ -1394,34 +1394,34 @@ window.PURPLE_LOOKS = Object.freeze([
     "silent": false,
     "dialogue": {
       "enter": [
-        "我来陪你一会儿。",
-        "这身黑色，我穿着还挺自在的。",
-        "今天不想把时间排得太满。",
-        "有点想把你约出来。"
+        "I came to keep you company for a while.",
+        "I feel quite comfortable in this black outfit.",
+        "I don’t want to fill up my schedule too much today.",
+        "I kind of want to ask you out."
       ],
       "held": [
-        "今天挺想见你的。",
-        "可别被黑裙子唬住了，我还是很好哄的。",
-        "想给你多留一点，别的事就晚点再说吧。",
-        "找个能坐很久的地方，就我们俩。"
+        "I really wanted to see you today.",
+        "Don’t let the black dress intimidate you. I’m still easy to please.",
+        "I want to save more time for you. Everything else can wait.",
+        "Let’s find somewhere we can sit for a long time, just the two of us."
       ],
       "restored": [
-        "嗯，我也还想陪你。",
-        "在这里。想聊什么，我陪你。",
-        "来聊聊吧。"
+        "Mm, I still want to keep you company, too.",
+        "I’m right here. Whatever you want to talk about, I’m here for you.",
+        "Come on, let’s talk."
       ],
       "random": [
-        "黑裙这套，我自己也很中意。",
-        "这回想大大方方地陪着你。",
-        "嗯，今天的心意可以少藏一点。",
-        "就这样吧，穿着舒服，我也挺喜欢的。"
+        "I’m quite fond of this black dress myself.",
+        "This time, I want to openly spend time with you.",
+        "Mm, I can hide my feelings a little less today.",
+        "This is fine. It’s comfortable, and I like it."
       ]
     }
   },
   {
     "id": "sit-loop-13",
-    "name": "香槟绮梦",
-    "short": "香槟绮梦",
+    "name": "Champagne Reverie",
+    "short": "Champagne Reverie",
     "english": "SEATED / COMPANION",
     "group": "sit",
     "hostValue": 42,
@@ -1451,8 +1451,8 @@ window.PURPLE_LOOKS = Object.freeze([
   },
   {
     "id": "sit-loop-14",
-    "name": "奶霜蝶结",
-    "short": "奶霜蝶结",
+    "name": "Cream Bow",
+    "short": "Cream Bow",
     "english": "SEATED / COMPANION",
     "group": "sit",
     "hostValue": 43,
@@ -1482,8 +1482,8 @@ window.PURPLE_LOOKS = Object.freeze([
   },
   {
     "id": "sit-loop-15",
-    "name": "柔雾微眠",
-    "short": "柔雾微眠",
+    "name": "Soft Mist, Drowsy Dream",
+    "short": "Soft Mist, Drowsy Dream",
     "english": "SEATED / COMPANION",
     "group": "sit",
     "hostValue": 44,
@@ -2532,39 +2532,39 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       ]
     },
     "sit-loop-03": {
-      "name": "星夜微光",
+      "name": "Starlight at Night",
       "settledAt": 8.0,
       "enter": [
         {
           "id": "sit-loop-03-E01",
-          "text": "我还挺喜欢这么认真打扮，却没什么大事要做的时候。",
+          "text": "I rather like dressing up carefully even when I don’t have anything important to do.",
           "follow": {
             "id": "sit-loop-03-F01",
-            "text": "不用出去也行，在你这儿我也想好看一点。"
+            "text": "We don’t have to go out. I still want to look nice for you here."
           }
         },
         {
           "id": "sit-loop-03-E02",
-          "text": "这双鞋上的小铆钉，我一眼就看上了。",
+          "text": "I fell for the little studs on these shoes at first sight.",
           "follow": {
             "id": "sit-loop-03-F02",
-            "text": "看着有点不好惹，其实我还挺好说话的。"
+            "text": "I may look a little intimidating, but I’m actually easy to get along with."
           }
         },
         {
           "id": "sit-loop-03-E03",
-          "text": "我忽然想到，下次约会不如换我来安排。",
+          "text": "It just occurred to me that I should plan our next date.",
           "follow": {
             "id": "sit-loop-03-F03",
-            "text": "去哪儿先不告诉你，反正会记得留时间吃饭。"
+            "text": "I won’t tell you where we’re going yet, but I’ll make sure we leave time to eat."
           }
         },
         {
           "id": "sit-loop-03-E04",
-          "text": "我给自己定了个小规矩，约会时不老看手机。",
+          "text": "I made a little rule for myself: don’t keep checking my phone on dates.",
           "follow": {
             "id": "sit-loop-03-F04",
-            "text": "有消息晚点回也行，跟你说到一半的话更要紧。"
+            "text": "Messages can wait. Finishing what I’m saying to you matters more."
           }
         }
       ],
@@ -2673,29 +2673,29 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "restored": [
         {
           "id": "sit-loop-03-S01",
-          "text": "嗯，正好。想跟你分享一点我自己的事。"
+          "text": "Mm, perfect. I want to share something about myself with you."
         },
         {
           "id": "sit-loop-03-S03",
-          "text": "我这会儿没打算急着走，想把这点空闲好好过完。"
+          "text": "I’m not planning to leave in a hurry. I want to make the most of this free time."
         },
         {
           "id": "sit-loop-03-S04",
-          "text": "（带点笑意）现在要是夸我，我大概会很坦然地收下。"
+          "text": "(She smiles a little) If you compliment me now, I’ll probably accept it without a fuss."
         }
       ],
       "random": [
         {
           "id": "sit-loop-03-R01",
-          "text": "黑裙就配这双鞋吧，我喜欢它那一点亮亮的装饰。"
+          "text": "I’ll pair the black dress with these shoes. I like their little sparkling details."
         },
         {
           "id": "sit-loop-03-R02",
-          "text": "这条裙子不用挑时候，想穿的那天就合适。"
+          "text": "There’s no need to wait for an occasion to wear this dress. Any day I feel like it is right."
         },
         {
           "id": "sit-loop-03-R03",
-          "text": "选到这身，我连约会的主意都多了几个。"
+          "text": "Choosing this outfit has given me even more ideas for dates."
         }
       ],
       "affection": [
@@ -2718,39 +2718,39 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       ]
     },
     "sit-loop-10": {
-      "name": "夜猫轻语",
+      "name": "Night Owl’s Soft Words",
       "settledAt": 9.0,
       "enter": [
         {
           "id": "sit-loop-10-E01",
-          "text": "今天把这对耳朵也戴来了。",
+          "text": "I brought these ears along today, too.",
           "follow": {
             "id": "sit-loop-10-F01",
-            "text": "本来还在犹豫……还是想让你看看呀。"
+            "text": "I was still hesitating… but I wanted you to see me after all."
           }
         },
         {
           "id": "sit-loop-10-E02",
-          "text": "今天有点想让你多看我一会儿。",
+          "text": "I kind of want you to look at me a little longer today.",
           "follow": {
             "id": "sit-loop-10-F02",
-            "text": "这一身，可是带着一点小心思挑的。"
+            "text": "I chose this outfit with a little secret intention."
           }
         },
         {
           "id": "sit-loop-10-E03",
-          "text": "你要是有事忙，就先忙你的。",
+          "text": "If you have things to do, go ahead and take care of them first.",
           "follow": {
             "id": "sit-loop-10-F03",
-            "text": "我也想这样安安静静地陪你一会儿。"
+            "text": "I want to quietly keep you company like this for a while, too."
           }
         },
         {
           "id": "sit-loop-10-E04",
-          "text": "本来想装得若无其事一点的。",
+          "text": "I was going to pretend nothing was on my mind.",
           "follow": {
             "id": "sit-loop-10-F04",
-            "text": "可是有点想你，还是先说出来了……"
+            "text": "But I missed you a little, so I said it anyway…"
           }
         }
       ],
@@ -2809,33 +2809,33 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "restored": [
         {
           "id": "sit-loop-10-S01",
-          "text": "嗯，想来陪我一会儿吗？"
+          "text": "Mm, did you come to keep me company for a while?"
         },
         {
           "id": "sit-loop-10-S02",
-          "text": "在呢，今天想听你随便聊聊。"
+          "text": "I’m here. I’d like to hear you chat about whatever today."
         },
         {
           "id": "sit-loop-10-S03",
-          "text": "正想找你说两句呢。"
+          "text": "I was just about to come find you for a chat."
         }
       ],
       "random": [
         {
           "id": "sit-loop-10-R01",
-          "text": "猫耳这套呀……我也有点想穿给你看了。"
+          "text": "The cat-ear outfit… I’ve been wanting to wear it for you, too."
         },
         {
           "id": "sit-loop-10-R02",
-          "text": "今天就让我稍微大胆一点吧。"
+          "text": "Let me be a little bolder today."
         },
         {
           "id": "sit-loop-10-R03",
-          "text": "这回想让你多留意我一点呢。"
+          "text": "This time, I want you to pay a little more attention to me."
         },
         {
           "id": "sit-loop-10-R04",
-          "text": "我还挺喜欢自己穿这身的，有点舍不得换呢。"
+          "text": "I quite like myself in this outfit. I’m a little reluctant to change."
         }
       ],
       "affection": [
@@ -2858,39 +2858,39 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       ]
     },
     "sit-loop-11": {
-      "name": "月白蕾影",
+      "name": "Moonlit Lace",
       "settledAt": 8.0,
       "enter": [
         {
           "id": "sit-loop-11-E01",
-          "text": "今天穿得像是要出门见谁，对吧。",
+          "text": "I look dressed up as if I’m going out to meet someone, don’t I?",
           "follow": {
             "id": "sit-loop-11-F01",
-            "text": "也没错，就是来见你。"
+            "text": "That’s right. I came to see you."
           }
         },
         {
           "id": "sit-loop-11-E02",
-          "text": "想来听你说说话了。",
+          "text": "I wanted to come hear you talk.",
           "follow": {
             "id": "sit-loop-11-F02",
-            "text": "你想从哪儿讲都行。"
+            "text": "You can start wherever you like."
           }
         },
         {
           "id": "sit-loop-11-E03",
-          "text": "这袖口有点像小喇叭。",
+          "text": "These cuffs look a little like tiny bells.",
           "follow": {
             "id": "sit-loop-11-F03",
-            "text": "刚试的时候还嫌有点夸张，现在又舍不得换了..."
+            "text": "When I first tried it on, I thought it was a bit much. Now I don’t want to change out of it…"
           }
         },
         {
           "id": "sit-loop-11-E04",
-          "text": "来之前想了一路跟你聊什么。",
+          "text": "I spent the whole trip here thinking about what to talk to you about.",
           "follow": {
             "id": "sit-loop-11-F04",
-            "text": "真到这儿了，好像什么都能聊。"
+            "text": "Now that I’m here, it feels like we can talk about anything."
           }
         }
       ],
@@ -2949,33 +2949,33 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "restored": [
         {
           "id": "sit-loop-11-S01",
-          "text": "嗯，想说哪件就从哪件开始吧。"
+          "text": "Mm, start with whatever you want to talk about."
         },
         {
           "id": "sit-loop-11-S02",
-          "text": "我在这儿，听你慢慢说。"
+          "text": "I’m here. Take your time and tell me."
         },
         {
           "id": "sit-loop-11-S03",
-          "text": "想聊什么呀？我这会儿有空。"
+          "text": "What would you like to talk about? I have time right now."
         }
       ],
       "random": [
         {
           "id": "sit-loop-11-R01",
-          "text": "就这身白蕾丝吧，看着清清爽爽的。"
+          "text": "Let’s go with this white lace outfit. It looks fresh and clean."
         },
         {
           "id": "sit-loop-11-R02",
-          "text": "今天想认真一点来见你。"
+          "text": "I wanted to make a little extra effort to see you today."
         },
         {
           "id": "sit-loop-11-R03",
-          "text": "穿得这么整齐，也不耽误跟你说傻话。"
+          "text": "Dressing up this neatly won’t stop me from saying silly things with you."
         },
         {
           "id": "sit-loop-11-R04",
-          "text": "嗯，很适合坐下来和你好好聊聊。"
+          "text": "Mm, this is perfect for sitting down and having a proper chat with you."
         }
       ],
       "affection": [
@@ -2998,39 +2998,39 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       ]
     },
     "sit-loop-12": {
-      "name": "墨夜柔波",
+      "name": "Soft Waves of Midnight",
       "settledAt": 8.0,
       "enter": [
         {
           "id": "sit-loop-12-E01",
-          "text": "我来陪你一会儿。",
+          "text": "I came to keep you company for a while.",
           "follow": {
             "id": "sit-loop-12-F01",
-            "text": "今天挺想见你的。"
+            "text": "I really wanted to see you today."
           }
         },
         {
           "id": "sit-loop-12-E02",
-          "text": "这身黑色，我穿着还挺自在的。",
+          "text": "I feel quite comfortable in this black outfit.",
           "follow": {
             "id": "sit-loop-12-F02",
-            "text": "可别被黑裙子唬住了，我还是很好哄的。"
+            "text": "Don’t let the black dress intimidate you. I’m still easy to please."
           }
         },
         {
           "id": "sit-loop-12-E03",
-          "text": "今天不想把时间排得太满。",
+          "text": "I don’t want to fill up my schedule too much today.",
           "follow": {
             "id": "sit-loop-12-F03",
-            "text": "想给你多留一点，别的事就晚点再说吧。"
+            "text": "I want to save more time for you. Everything else can wait."
           }
         },
         {
           "id": "sit-loop-12-E04",
-          "text": "有点想把你约出来。",
+          "text": "I kind of want to ask you out.",
           "follow": {
             "id": "sit-loop-12-F04",
-            "text": "找个能坐很久的地方，就我们俩。"
+            "text": "Let’s find somewhere we can sit for a long time, just the two of us."
           }
         }
       ],
@@ -3089,33 +3089,33 @@ window.PURPLE_COMPANION_DIALOGUES = Object.freeze({
       "restored": [
         {
           "id": "sit-loop-12-S01",
-          "text": "嗯，我也还想陪你。"
+          "text": "Mm, I still want to keep you company, too."
         },
         {
           "id": "sit-loop-12-S02",
-          "text": "在这里。想聊什么，我陪你。"
+          "text": "I’m right here. Whatever you want to talk about, I’m here for you."
         },
         {
           "id": "sit-loop-12-S03",
-          "text": "来聊聊吧。"
+          "text": "Come on, let’s talk."
         }
       ],
       "random": [
         {
           "id": "sit-loop-12-R01",
-          "text": "黑裙这套，我自己也很中意。"
+          "text": "I’m quite fond of this black dress myself."
         },
         {
           "id": "sit-loop-12-R02",
-          "text": "这回想大大方方地陪着你。"
+          "text": "This time, I want to openly spend time with you."
         },
         {
           "id": "sit-loop-12-R03",
-          "text": "嗯，今天的心意可以少藏一点。"
+          "text": "Mm, I can hide my feelings a little less today."
         },
         {
           "id": "sit-loop-12-R04",
-          "text": "就这样吧，穿着舒服，我也挺喜欢的。"
+          "text": "This is fine. It’s comfortable, and I like it."
         }
       ],
       "affection": [
