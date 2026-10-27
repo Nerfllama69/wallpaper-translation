@@ -1,50 +1,50 @@
-PURPLE · 片刻
-Wallpaper Engine 导入方法
+PURPLE · A Moment
+Wallpaper Engine Import Guide
 
-1. 完整解压 PURPLE_桌面互动壁纸_WallpaperEngine.zip，打开里面的 PURPLE_桌面互动壁纸 文件夹。
-2. 打开 Wallpaper Engine 的壁纸编辑器，将文件夹中的 index.html 拖入，创建 Web 壁纸项目。
-3. 如果提示导入同文件夹的其他文件，请全部导入。请保留 images、media 及其他配套文件，不要只复制 index.html。
-4. 保存项目，在 Wallpaper Engine 中选中这张壁纸并应用即可。
+1. Extract the entire PURPLE desktop interactive wallpaper ZIP archive, then open the PURPLE desktop wallpaper folder inside it.
+2. Open Wallpaper Engine's wallpaper editor and drag index.html from that folder into the editor to create a Web wallpaper project.
+3. If prompted to import other files from the same folder, import all of them. Keep the images, media, and other supporting files; do not copy only index.html.
+4. Save the project, select this wallpaper in Wallpaper Engine, and apply it.
 
-首次使用与恢复初始状态
+First Use and Resetting to Defaults
 
-- 声音默认开启，音量为 35；可通过喇叭按钮或设置关闭。
-- 默认显示经典布局并展开界面，不进入沉浸；之后会记住你选择的布局、声音和沉浸状态。
+- Sound is enabled by default at volume 35. Use the speaker button or Settings to turn it off.
+- The classic layout is shown and expanded by default; Immersive Mode is not enabled. Your selected layout, sound, and immersive state are remembered afterward.
 
-沉浸与界面恢复
+Immersive Mode and Restoring the Interface
 
-- 手动进入沉浸和打开衣橱的选择会自动记住。
-- 在 Wallpaper Engine 右侧壁纸设置中找到「启动时界面」，可选「记住上次状态」「默认沉浸」「默认显示」。首次默认记住上次状态。
-- 「默认沉浸／默认显示」在选择时生效，并用于以后重新加载；本次使用中仍可手动打开衣橱或进入沉浸，暂停恢复或重复同步设置不会覆盖这次操作。
-- 自动收起仍是 15 秒无操作隐藏、移动鼠标显示，不会被记成永久沉浸。
+- Your choices to enter Immersive Mode manually and open the wardrobe are remembered automatically.
+- In Wallpaper Engine's wallpaper settings on the right, find “Interface on Startup” and choose “Remember Last State,” “Start Immersed,” or “Show Interface.” The default on first use is “Remember Last State.”
+- “Start Immersed” and “Show Interface” take effect when selected and are used on future reloads. During the current session, you can still open the wardrobe or enter Immersive Mode manually. Resuming playback or syncing settings again will not override those actions.
+- Automatic hiding still hides the interface after 15 seconds of inactivity and shows it when you move the mouse; it is not saved as permanent Immersive Mode.
 
-动态陪伴
+Moving Companion
 
-- 在「片刻倾心」衣橱中点击带有动态陪伴标记的穿搭，会自动开启「动态陪伴」。
-- 本包包含 9 套动态陪伴，均有专属对白，包括「初雪绒绒」「雾紫轻纱」「星夜微光」和后续新增款。
-- 「夜猫轻语」「月白蕾影」「墨夜柔波」「杏纱柔光」「靛蓝晚风」「杏织暖意」各有 10 条持续陪伴对白，正常陪伴时每隔 30 秒轮换。
-- 连续看到 5 条普通持续对白后，下一次轮换会出现一条亲昵对白，不再额外等待时间冷却。
-- 首次播放入场，随后持续循环待机动作；「单套循环」则仍会重播完整入场。
-- 可在底部播放方式中手动改为定格或其他模式；自动换装和轮播经过这套穿搭时沿用原模式。
-- 没有动态陪伴标记的穿搭沿用各自的定格、单套循环或轮播方式。
+- In the “A Moment to Cherish” wardrobe, selecting an outfit marked as a Moving Companion automatically enables Moving Companion mode.
+- This package includes 9 Moving Companion outfits, each with its own dialogue, including “First Snow Fluff,” “Purple Mist Veil,” “Starlight at Night,” and later additions.
+- “Night Owl Whispers,” “Moonwhite Lace,” “Soft Waves in Ink Night,” “Apricot Gauze Glow,” “Indigo Evening Breeze,” and “Apricot Knit Warmth” each have 10 ongoing companion lines, which rotate every 30 seconds during normal companionship.
+- After 5 ordinary ongoing lines in a row, the next rotation shows an affectionate line; no extra cooldown is added.
+- The first playback uses the entrance animation, then continuously loops the idle motion. “Single Outfit Loop” replays the full entrance.
+- Use the playback menu at the bottom to switch manually to Still or another mode. Timed outfit changes and rotation retain the selected mode when they reach this outfit.
+- Outfits without the Moving Companion marker keep their own Still, Single Outfit Loop, or Rotation behavior.
 
-衣橱浏览与排列
+Wardrobe Browsing and Sorting
 
-- 点击三个衣橱标签只切换浏览列表，点击具体穿搭封面才会换装。
-- 衣橱右上方可切换「正序／倒序」，每个衣橱分别记住选择；未开放穿搭始终排在末尾，穿搭编号保持不变。
-- 浏览其他衣橱时，当前视频继续按原方式播放；「回到播放页」可以定位到正在陪伴你的穿搭。
+- Clicking one of the three wardrobe tabs only changes the list being browsed. Clicking an outfit cover changes the outfit.
+- Use the control at the upper-right of the wardrobe to switch between ascending and descending order. Each wardrobe remembers its own setting; unavailable outfits stay at the end, and outfit numbers do not change.
+- When browsing another wardrobe, the current video continues playing as before. “Return to Playback” takes you back to the outfit currently keeping you company.
 
-轮播顺序
+Rotation Order
 
-- 底部播放方式菜单顶部可选「顺序／随机」，适用于本组轮播、本组收藏、全部轮播和全部收藏。
-- 默认顺序播放，之后记住选择。随机每轮不重复，两轮交界避免连续同一套；范围内只有一套时继续循环该套。
-- 顺序轮播跟随各衣橱当前的正序／倒序排列。
-- 切换顺序保留当前视频；若已经开始换装，完成这次交接后生效。定格、单套循环、动态陪伴及「偶尔换一套」沿用各自原有规则。
+- Choose “In Order” or “Random” at the top of the playback menu. This applies to Rotate This Group, Favorites in This Group, Rotate All, and Favorites Across All.
+- Playback is in order by default, and your choice is remembered. Random playback avoids repeats within each round and avoids playing the same outfit consecutively between rounds. If only one outfit is available, it continues looping.
+- Ordered rotation follows the current ascending or descending order of each wardrobe.
+- Changing the order keeps the current video. If an outfit change has already started, the new order takes effect after the handoff finishes. Still, Single Outfit Loop, Moving Companion, and “Occasionally Change Outfit” keep their own rules.
 
-偶尔换一套
+Occasionally Change Outfit
 
-- 定格模式从定格开始计时；片刻倾心中有离场动画的普通款，到点先从当前定格接着播放至离场结束，再换下一套。入场和离场不计入定格停留时长，手动选款仍直接响应。
-- 动态陪伴下只选择本组支持动态陪伴的穿搭，换装后继续动态陪伴。
-- 沿用「本组全部／本组偏爱」范围，不连续重复；没有符合条件的动态款时暂停，只有当前一套时保持不变。
-- 入场后开始计时，到点等当前一轮结束再换；暂停或操作面板时暂停计时，恢复后不补换。自动收起与沉浸不影响静默换装。
-- 单套循环和轮播期间，定时换装继续暂停。
+- In Still mode, the timer starts from the still frame. For regular outfits in “A Moment to Cherish” that have an exit animation, the current outfit resumes playing at the end of the timer and changes only after the exit animation finishes. Entrance and exit animations do not count toward the still duration; manually selecting an outfit still responds immediately.
+- In Moving Companion mode, only outfits in the current group that support Moving Companion are selected, and the mode continues after changing outfits.
+- The “All in This Group” and “Favorites in This Group” scopes are retained, and outfits do not repeat consecutively. If no eligible moving outfit exists, the timer pauses; if only the current outfit qualifies, it stays selected.
+- The timer starts after the entrance animation and waits for the current cycle to finish before changing outfits. The timer pauses during playback pauses or while the control panel is open, and does not make up missed changes when resumed. Silent outfit changes still work while the interface is hidden or Immersive Mode is active.
+- Timed outfit changes remain paused during Single Outfit Loop and rotation.
